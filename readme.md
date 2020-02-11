@@ -1,18 +1,19 @@
 # MRA Alternatives for MiSTer FPGA
 
-Last Update: 2020-02-05 01:04
+Last Update: 2020-02-11 23:18
 
 MRA files made with Mame 0218 and HBMame 0217
 
 Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged. Depending of set used, its possible that you don't need all the files.
 
-## Alternative Arcade Games (432)
+## Alternative Arcade Games (435)
 
 |Game|core|Zip Needed|
 |-|-|-|
 |Abortman|pacman|/hbmame/puckman.zip|
 |Aerolitos (Spanish bootleg of Asteroids)|asteroids|asteroid.zip , aerolitos.zip|
 |Andromeda|galaxian|/hbmame/galnamco.zip|
+|Apocaljpse Now (bootleg of Rescue)|scramble|rescue.zip , aponow.zip|
 |Arkanoid (Game Corporation bootleg, set 1)|arkanoid|arkanoid.zip , arkangc.zip|
 |Arkanoid (Game Corporation bootleg, set 2)|arkanoid|arkanoid.zip , arkangc2.zip|
 |Arkanoid (Tayto bootleg, harder)|arkanoid|arkanoid.zip , arktayt2.zip|
@@ -363,6 +364,8 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Star Fighter|galaxian|galaxian.zip , starfght.zip|
 |Starfighter II|galaxian|/hbmame/pisces.zip|
 |Starslayer (hack of Asteroids (rev 2))|asteroids|/hbmame/asteroid.zip|
+|Strategy X (Stern Electronics)|scramble|stratgyx.zip , stratgys.zip|
+|Strong X|scramble|stratgyx.zip , strongx.zip|
 |Summertime Elton|pacman|/hbmame/puckman.zip|
 |Summertime Elton (old)|pacman|/hbmame/puckman.zip|
 |Super Bagman (Stern Electronics)|bagman|sbagman.zip , sbagmans.zip|
@@ -444,7 +447,7 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 2)|zigzag|zigzagb.zip , zigzagb2.zip|
 
 
-## Arcade Games (129) - Only for information/Not in this pack
+## Arcade Games (141) - Only for information/Not in this pack
 
 |Game|core|Zip Needed|
 |-|-|-|
@@ -472,11 +475,13 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Catacomb|galaxian|catacomb.zip|
 |Centipede|centipede|centiped.zip|
 |Colony 7|colony7|colony7.zip|
+|Computer Space|computerspace| |
 |Cosmic Avenger|cosmicavenger|cavenger.zip|
 |Crater Raider|mcr3scroll|crater.zip|
 |Crazy Climber|crazyclimber|cclimber.zip|
 |Crazy Kong Part II|crazykong|ckongpt2.zip|
 |Crush Roller|pacman|crush.zip , crush2.zip|
+|Dark Planet|scramble|darkplnt.zip|
 |Defender|defender|defender.zip|
 |Demolition Derby|mcr3mono|demoderb.zip , demoderm.zip|
 |Devil Fish|galaxian|devilfsh.zip , devilfsg.zip|
@@ -510,12 +515,16 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Lucky Today|galaxian|luctoday.zip|
 |Lunar Lander|lunarlander|llander.zip|
 |Mappy|druaga|mappy.zip|
+|Mars|scramble|mars.zip|
 |Max RPM|mcr3mono|maxrpm.zip|
 |Mayday|mayday|mayday.zip|
+|Mighty Monkey|scramble|mimonkey.zip|
+|Minefield|scramble|minefld.zip|
 |Moon Cresta|galaxian|mooncrst.zip , mooncrgx.zip|
 |Moon Patrol|moonpatrol|mpatrol.zip|
 |Moonwar|scramble|moonwar.zip|
 |Motos|druaga|motos.zip|
+|Mr. Do Nightmare|galaxian| |
 |Mr. Goemon|rshnatk|mrgoemon.zip|
 |Mr. TNT|pacman|mrtnt.zip|
 |Ms. Pac-Man|pacman|mspacman.zip|
@@ -523,19 +532,22 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Ninjakun Majou no Bouken|ninjakun|ninjakun.zip|
 |Omega|galaxian|theend.zip , omegab.zip|
 |Orbitron|galaxian|orbitron.zip|
+|Pacman|pacman|puckman.zip , puckmanb.zip|
 |Pacman Club|pacman|clubpacm.zip|
 |Pac-Man Plus|pacman|pacplus.zip|
+|Pacmanic Miner|pacman| |
 |Pengo|pengo|pengo.zip|
 |Phoenix|phoenix|phoenix.zip|
 |Pickin'|bagman|pickin.zip|
 |Pisces|galaxian|pisces.zip|
 |Pleiads|pleiads|pleiads.zip|
+|Pong|pong| |
 |Ponpoko|pacman|ponpoko.zip|
 |Pooyan|pooyan|pooyan.zip|
 |Power Drive|mcr3mono|powerdrv.zip|
-|Pacman|pacman|puckman.zip , puckmanb.zip|
 |Rally X|rallyx|rallyx.zip|
 |Rampage|mcr3mono|rampage.zip|
+|Rescue|scramble|rescue.zip|
 |River Patrol|riverpatrol|rpatrol.zip , rpatroln.zip|
 |Robotron 2084|robotron|robotron.zip|
 |Sarge|mcr3mono|sarge.zip|
@@ -551,7 +563,9 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Sprint 2|sprint2|sprint1.zip , sprint2.zip|
 |Spy Hunter|mcr3scroll|spyhunt.zip|
 |Squash|bagman|squaitsa.zip|
+|Star Guards|mcr3mono|stargrds.zip|
 |Stargate|stargate|stargate.zip|
+|Strategy X|scramble|stratgyx.zip|
 |Super Bagman|bagman|sbagman.zip|
 |Super Breakout|superbreakout|sbrkout.zip|
 |Super Cobra|scramble|scobra.zip|
@@ -567,6 +581,7 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Traverse USA|traverseusa|travrusa.zip|
 |Tron|mcr2|tron.zip|
 |Turbo Tag|mcr3scroll|turbotag.zip|
+|Turtles|scramble|turtles.zip|
 |Two Tigers|mcr2|twotiger.zip , twotigerc.zip|
 |Ultra Tank|ultratank|ultratnk.zip|
 |UniWar S|galaxian|uniwars.zip|
