@@ -1,12 +1,12 @@
 # MRA Alternatives for MiSTer FPGA
 
-Last Update: 2020-02-11 23:18
+Last Update: 2020-02-25 09:56
 
 MRA files made with Mame 0218 and HBMame 0217
 
 Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged. Depending of set used, its possible that you don't need all the files.
 
-## Alternative Arcade Games (435)
+## Alternative Arcade Games (439)
 
 |Game|core|Zip Needed|
 |-|-|-|
@@ -55,8 +55,8 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Bomb Jack (Translation Chinese)|bombjack|/hbmame/bombjack.zip|
 |Botanic (French)|bagman|botanic.zip , botanicf.zip|
 |Brakman|pacman|/hbmame/puckman.zip|
-|Bubbles (prototype version)|bubbles|bubbles.zip , bubblesp.zip|
-|Bubbles (Solid Red label)|bubbles|bubbles.zip , bubblesr.zip|
+|Bubbles (prototype version)|robotron|bubbles.zip , bubblesp.zip|
+|Bubbles (Solid Red label)|robotron|bubbles.zip , bubblesr.zip|
 |Bump 'n' Jump|burningrubber|brubber.zip , bnj.zip|
 |Bump 'n' Jump (Midway)|burningrubber|brubber.zip , bnjm.zip|
 |Bump 'n' Jump Reverse Mod|burningrubber|/hbmame/brubber.zip|
@@ -72,7 +72,7 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Centipede (revision 3)|centipede|centiped.zip , centiped3.zip|
 |Centipede Dux (hack)|centipede|centiped.zip , centipdd.zip|
 |Coccinelle (bootleg of Lady Bug, set 2)|ladybug|ladybug.zip , ladybugb2.zip|
-|Colony 7 (set 2)|colony7|colony7.zip , colony7a.zip|
+|Colony 7 (set 2)|defender|colony7.zip , colony7a.zip|
 |Crackhead|druaga|/hbmame/mappy.zip|
 |Crazy Climber (US set 2)|crazyclimber|cclimber.zip , cclimbera.zip|
 |Crazy Kong Part II (bootleg)|crazykong|ckongpt2.zip , ckongpt2b2.zip|
@@ -155,6 +155,8 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Gingateikoku no Gyakushu (bootleg set 1)|galaxian|uniwars.zip , gteikokub.zip|
 |Gingateikoku no Gyakushu (bootleg set 2)|galaxian|uniwars.zip , gteikokub2.zip|
 |Gingateikoku no Gyakushu (bootleg set 3)|galaxian|uniwars.zip , gteikokub3.zip|
+|Gravitar (version 1)|blackwidow||
+|Gravitar (version 2)|blackwidow||
 |Handi-Man in Cyberworld|mcr2|/hbmame/tron.zip|
 |Hangly Man [f]|pacman|/hbmame/puckman.zip|
 |Hangly Man 1000|pacman|/hbmame/puckman.zip|
@@ -172,11 +174,12 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Hyperspace (bootleg of Asteroids)|asteroids|asteroid.zip , hyperspc.zip|
 |Impacto (Billport S.A., Spanish bootleg of Scramble)|scramble|scramble.zip , scrambp.zip|
 |Jacman|pacman|/hbmame/puckman.zip|
-|Joust (Solid Red label)|joust|joust.zip , joustr.zip|
-|Joust (White/Red label)|joust|joust.zip , joustwr.zip|
+|Joust (Solid Red label)|robotron|joust.zip , joustr.zip|
+|Joust (White/Red label)|robotron|joust.zip , joustwr.zip|
 |Jump Shot Engineering Sample|pacman|jumpshot.zip , jumpshotp.zip|
 |Kamakazi III (superg hack)|galaxian|galaxian.zip , kamakazi3.zip|
 |Kamikaze (Euromatic S.A., Spanish bootleg of Scramble)|scramble|scramble.zip , kamikazesp.zip|
+|Kick (cocktail)|mcr1|kick.zip , kickc.zip|
 |Killipede|centipede|/hbmame/centiped.zip|
 |Lady Bug (bootleg set 1)|ladybug|ladybug.zip , ladybugb.zip|
 |Le Bagnard (Itisa, Spain)|bagman|bagman.zip , bagnardi.zip|
@@ -188,12 +191,13 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Mappy (Japan)|druaga|mappy.zip , mappyj.zip|
 |Mario Pacman|pacman|/hbmame/puckman.zip|
 |Marpy|druaga|/hbmame/mappy.zip|
-|Mayday (set 2)|mayday|mayday.zip , maydaya.zip|
-|Mayday (set 3)|mayday|mayday.zip , maydayb.zip|
+|Mayday (set 2)|defender|mayday.zip , maydaya.zip|
+|Mayday (set 3)|defender|mayday.zip , maydayb.zip|
 |Maze Man|pacman|/hbmame/puckman.zip|
 |Meteor (bootleg of Asteroids)|asteroids|asteroid.zip , meteorho.zip|
 |Meteorite (Proel bootleg of Asteroids)|asteroids|asteroid.zip , meteorite.zip|
 |Meteorites (VGG bootleg of Asteroids)|asteroids|asteroid.zip , meteorts.zip|
+|Mighty Monkey (bootleg on Scramble hardware)||mimonkey.zip , mimonscr.zip|
 |Mini Pacman|pacman|/hbmame/puckman.zip|
 |Mini Pacman 2|pacman|/hbmame/puckman.zip|
 |Moon Alien|galaxian|galaxian.zip , moonaln.zip|
@@ -347,8 +351,8 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Scramble (Centromatic S.A., Spanish bootleg)|scramble|scramble.zip , scramce.zip|
 |Scramble (Karateco, French bootleg)|scramble|scramble.zip , scramblebf.zip|
 |Scramble (Petaco S.A., Spanish bootleg)|scramble|scramble.zip , scrampt.zip|
-|Sinistar (prototype version)|sinistar|sinistar.zip , sinistar1.zip|
-|Sinistar (revision 2)|sinistar|sinistar.zip , sinistar2.zip|
+|Sinistar (prototype version)|robotron|sinistar.zip , sinistar1.zip|
+|Sinistar (revision 2)|robotron|sinistar.zip , sinistar2.zip|
 |Sky Raider (Uniwars bootleg)|galaxian|uniwars.zip , skyraidr.zip|
 |Snowy Day Pacman|pacman|/hbmame/puckman.zip|
 |Solomon no Kagi (Japan)|solomonskey|solomon.zip , solomonj.zip|
@@ -447,11 +451,12 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 2)|zigzag|zigzagb.zip , zigzagb2.zip|
 
 
-## Arcade Games (141) - Only for information/Not in this pack
+## Arcade Games (148) - Only for information/Not in this pack
 
 |Game|core|Zip Needed|
 |-|-|-|
 |Ali Baba and 40 Thieves|pacman|alibaba.zip|
+|Alien Arena|robotron|alienar.zip , alienaru.zip|
 |Amidar|scramble|amidar.zip , amidars.zip|
 |Anteater|scramble|anteater.zip|
 |Arkanoid|arkanoid|arkanoid.zip , arkatayt.zip|
@@ -460,21 +465,22 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Asteroids Deluxe|asteroidsdeluxe|astdelux.zip|
 |Azurian Attack|galaxian|azurian.zip|
 |Bagman|bagman|bagman.zip|
-|Battle of Atlantis|scramble|atlantis.zip , atlantis2.zip|
+|Battle of Atlantis||atlantis.zip|
 |Beastie Feastie|pacman|suprglob.zip , beastfp.zip|
 |Berzerk|berzerk|berzerk.zip|
 |Birdiy|pacman|birdiy.zip|
 |Black Hole|galaxian|blkhole.zip|
+|Black Widow|blackwidow|bwidow.zip|
 |Bomb Jack|bombjack|bombjack.zip|
 |Botanic|bagman|botanic.zip|
-|Bubbles|bubbles|bubbles.zip|
+|Bubbles|robotron|bubbles.zip|
 |Burger Time|burgertime|btime.zip|
 |Burnin' Rubber|burningrubber|brubber.zip|
 |Calipso|scramble|calipso.zip|
 |Canyon Bomber|canyonbomber|canyon.zip|
 |Catacomb|galaxian|catacomb.zip|
 |Centipede|centipede|centiped.zip|
-|Colony 7|colony7|colony7.zip|
+|Colony 7|defender|colony7.zip|
 |Computer Space|computerspace| |
 |Cosmic Avenger|cosmicavenger|cavenger.zip|
 |Crater Raider|mcr3scroll|crater.zip|
@@ -503,21 +509,25 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Galaxian|galaxian|galaxian.zip|
 |Gaplus|gaplus|gaplus.zip|
 |Gorkans|pacman|mrtnt.zip , gorkans.zip|
+|Gravitar (version 3)|blackwidow||
 |Green Beret|rshnatk|gberet.zip|
-|Jin|jin|jin.zip|
+|Jin|defender|jin.zip|
 |Journey|mcr3|journey.zip|
-|Joust|joust|joust.zip|
+|Joust|robotron|joust.zip|
 |Jump Shot|pacman|jumpshot.zip|
+|Kick|mcr1|kick.zip|
+|Kickman|mcr1|kick.zip , kickman.zip|
 |Kozmik Kroozr|mcr2|kroozr.zip|
 |Lady Bug|ladybug|ladybug.zip|
 |Lizard Wizard|pacman|lizwiz.zip|
 |Lost Tomb|scramble|losttomb.zip|
 |Lucky Today|galaxian|luctoday.zip|
+|Lunar Battle (prototype, later)|blackwidow||
 |Lunar Lander|lunarlander|llander.zip|
 |Mappy|druaga|mappy.zip|
 |Mars|scramble|mars.zip|
 |Max RPM|mcr3mono|maxrpm.zip|
-|Mayday|mayday|mayday.zip|
+|Mayday|defender|mayday.zip|
 |Mighty Monkey|scramble|mimonkey.zip|
 |Minefield|scramble|minefld.zip|
 |Moon Cresta|galaxian|mooncrst.zip , mooncrgx.zip|
@@ -554,17 +564,18 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Satan's Hollow|mcr2|shollow.zip|
 |Scramble|scramble|scramble.zip , scrambles.zip|
 |Silver Land|silverland|rpatrol.zip , silvland.zip|
-|Sinistar|sinistar|sinistar.zip|
+|Sinistar|robotron|sinistar.zip|
 |Snap Jack|snapjack|snapjack.zip|
+|Solar Fox|mcr1|solarfox.zip|
 |Solomon's Key|solomonskey|solomon.zip|
 |Speed Coin|scramble|spdcoin.zip|
-|Splat!|splat|splat.zip|
+|Splat!|robotron|splat.zip|
 |Sprint 1|sprint1|sprint1.zip|
 |Sprint 2|sprint2|sprint1.zip , sprint2.zip|
 |Spy Hunter|mcr3scroll|spyhunt.zip|
 |Squash|bagman|squaitsa.zip|
 |Star Guards|mcr3mono|stargrds.zip|
-|Stargate|stargate|stargate.zip|
+|Stargate|robotron|stargate.zip|
 |Strategy X|scramble|stratgyx.zip|
 |Super Bagman|bagman|sbagman.zip|
 |Super Breakout|superbreakout|sbrkout.zip|
