@@ -1,0 +1,19 @@
+<misterromdescription>
+	<name>Space Pilot</name>
+	<mameversion>0218</mameversion>
+	<setname>spaceplt</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Army / Dog-Fight</category>
+	<rbf>timepilot</rbf>
+	<rom index="0" zip="timeplt.zip|spaceplt.zip" md5="4537481f5bcaea03efa511e9d1bdf612">
+		<part crc="ac8ca3ae" name="sp1"/>
+		<part crc="1f0308ef" name="sp2"/>
+		<part crc="90aeca50" name="sp3"/>
+		<part crc="76caa8af" name="sp6"/>
+		<part crc="3781ce7a" name="sp4"/>
+		<part crc="e8ca87b9" name="tm5"/>
+		<part crc="d66da813" name="tm7"/>
+	</rom>
+</misterromdescription>

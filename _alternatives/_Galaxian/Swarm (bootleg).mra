@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Swarm (bootleg)</name>
+	<mameversion>0218</mameversion>
+	<setname>swarm</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>bootleg? (Subelectro)</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,04">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="7000,10000,12000,20000"/>
+		<dip bits="18" name="Lives" ids="2,3"/>
+	</switches>
+	<rom index="0" zip="galaxian.zip|swarm.zip" md5="ced9aaae89d05145389c75009b3ce075">
+		<part crc="21eba3d0" name="swarm1.bin"/>
+		<part crc="f3a436cd" name="swarm2.bin"/>
+		<part crc="2915e38b" name="swarm3.bin"/>
+		<part crc="8bbbf486" name="swarm4.bin"/>
+		<part crc="f1b1987e" name="swarm5.bin"/>
+		<part crc="f1b1987e" name="swarm5.bin"/>
+		<part crc="f1b1987e" name="swarm5.bin"/>
+		<part crc="f1b1987e" name="swarm5.bin"/>
+		<part crc="ef8657bb" name="swarma.bin"/>
+		<part crc="ef8657bb" name="swarma.bin"/>
+		<part crc="60c4bd31" name="swarmb.bin"/>
+		<part crc="60c4bd31" name="swarmb.bin"/>
+		<part crc="c3ac9467" name="6l.bpr"/>
+	</rom>
+</misterromdescription>

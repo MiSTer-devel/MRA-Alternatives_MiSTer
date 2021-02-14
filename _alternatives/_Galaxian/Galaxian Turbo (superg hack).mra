@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Galaxian Turbo (superg hack)</name>
+	<mameversion>0218</mameversion>
+	<setname>galturbo</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>hack</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,00">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="None,4000,5000,7000"/>
+		<dip bits="18" name="Lives" ids="3,5"/>
+	</switches>
+	<rom index="0" zip="galaxian.zip|galturbo.zip" md5="690d1fe33fa2a2cbe2cf9acf470a6896">
+		<part crc="e8f3aa67" name="galturbo.u"/>
+		<part crc="bc16064e" name="galx.v"/>
+		<part crc="ddeabdae" name="superg.w"/>
+		<part crc="a44f450f" name="galturbo.y"/>
+		<part crc="3247f3d4" name="galturbo.z"/>
+		<part crc="3247f3d4" name="galturbo.z"/>
+		<part crc="3247f3d4" name="galturbo.z"/>
+		<part crc="3247f3d4" name="galturbo.z"/>
+		<part crc="a713fd1a" name="galturbo.1h"/>
+		<part crc="a713fd1a" name="galturbo.1h"/>
+		<part crc="28511790" name="galturbo.1k"/>
+		<part crc="28511790" name="galturbo.1k"/>
+		<part crc="c3ac9467" name="6l.bpr"/>
+	</rom>
+</misterromdescription>

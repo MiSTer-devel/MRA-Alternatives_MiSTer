@@ -1,0 +1,24 @@
+<misterromdescription>
+	<name>Ave Fenix (Electrogame, Spanish bootleg of Phoenix)</name>
+	<mameversion>0218</mameversion>
+	<setname>avefenix</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1980</year>
+	<manufacturer>bootleg (Video Game)</manufacturer>
+	<category>Space / Shooter</category>
+	<rbf>phoenix</rbf>
+	<rom index="0" zip="phoenix.zip|avefenix.zip" md5="9b74d8028f075587a373275fe558355d">
+		<part crc="5bc2e2fe" name="4101-8516.rom"/>
+		<part crc="dcf2cc3e" name="4102-2716.rom"/>
+		<part crc="cbbb8839" name="4103-8516.rom"/>
+		<part crc="8380a581" name="4104-8516.rom"/>
+		<part crc="cfa8cb51" name="4105-8516.rom"/>
+		<part crc="ac5e9ec1" name="4106-8516.rom"/>
+		<part crc="2eab35b4" name="4107-8516.rom"/>
+		<part crc="f15c439d" name="4108-8516.rom"/>
+		<part crc="3c7e623f" name="41011-8516.rom"/>
+		<part crc="59916d3b" name="41012-8516.rom"/>
+		<part crc="53413e8f" name="4109-8516.rom"/>
+		<part crc="0be2ba91" name="41010-8516.rom"/>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Galaxian (Recreativos Franco S.A. Spanish bootleg)</name>
+	<mameversion>0218</mameversion>
+	<setname>galaxrf</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1980</year>
+	<manufacturer>bootleg (Recreativos Franco S.A.)</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,04">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="7000,10000,12000,20000"/>
+		<dip bits="18" name="Lives" ids="2,3"/>
+	</switches>
+	<rom index="0" zip="galaxian.zip|galaxrf.zip" md5="88645ba127aad3bf4910303d260b3fe7">
+		<part crc="3d5d9bae" name="princip1.u"/>
+		<part crc="a433067e" name="princip2.v"/>
+		<part crc="aaf038d4" name="princip3.w"/>
+		<part crc="d74bdd2a" name="princip4.y"/>
+		<part crc="7eeb9e63" name="princip5.z"/>
+		<part crc="7eeb9e63" name="princip5.z"/>
+		<part crc="7eeb9e63" name="princip5.z"/>
+		<part crc="7eeb9e63" name="princip5.z"/>
+		<part crc="39fb43a4" name="graphhj.j1"/>
+		<part crc="39fb43a4" name="graphhj.j1"/>
+		<part crc="7e3f56a2" name="graphkl.l1"/>
+		<part crc="7e3f56a2" name="graphkl.l1"/>
+		<part crc="c3ac9467" name="6l.bpr"/>
+	</rom>
+</misterromdescription>

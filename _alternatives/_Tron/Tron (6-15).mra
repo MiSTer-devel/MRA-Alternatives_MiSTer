@@ -1,0 +1,41 @@
+<misterromdescription>
+	<name>Tron (6-15)</name>
+	<mameversion>0218</mameversion>
+	<setname>tron4</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>Bally Midway</manufacturer>
+	<category>Maze</category>
+	<category>Maze / Tron</category>
+	<category>Movie / TV / Comic</category>
+	<category>Space / Cyber Tank</category>
+	<rbf>mcr2</rbf>
+	<switches default="F8,00">
+		<dip bits="0"    name="Coin Meters" ids="2,1"/>
+		<dip bits="1"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="2"    name="Allow_Continue" ids="Yes,No"/>
+		<dip bits="8"    name="Service" ids="Off,On"/>
+	</switches>
+	<buttons names="Fire,-,-,-,Rotate Right,Rotate Left,Start 1P,Start 2P,Coin" default="A,R,L,Start,Select,Y"/>
+	<rom index="1">
+		<part>1</part>
+	</rom>
+	<rom index="0" zip="tron.zip|tron4.zip" md5="1c0622a10fd8e442a1dfbc8f6fd163a9">
+		<part crc="09d7a95a" name="pga-615.d2"/>
+		<part crc="b454337d" name="pgb-615.d3"/>
+		<part crc="ac1836ff" name="pgc-615.d4"/>
+		<part crc="1a7bec6d" name="pgd-615.d5"/>
+		<part crc="ea198fa8" name="pge-615.d6"/>
+		<part crc="790ee743" name="pgf-615.d7"/>
+		<part crc="2cbb332b" name="ssi_oa.a7"/>
+		<part crc="1355b7e6" name="ssi_ob.a8"/>
+		<part crc="6dd4b7c9" name="ssi_oc.a9"/>
+		<part repeat="4096">00</part>
+		<part crc="1a9ed2f5" name="scpu_bgg.g3"/>
+		<part crc="3220f974" name="scpu_bgh.g4"/>
+		<part crc="bc036d1d" name="vga.e1"/>
+		<part crc="58ee14d3" name="vgb.dc1"/>
+		<part crc="3329f9d4" name="vgc.cb1"/>
+		<part crc="9743f873" name="vga.a1"/>
+	</rom>
+</misterromdescription>

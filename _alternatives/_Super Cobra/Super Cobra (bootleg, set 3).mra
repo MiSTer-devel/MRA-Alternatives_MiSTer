@@ -1,0 +1,37 @@
+<misterromdescription>
+	<name>Super Cobra (bootleg, set 3)</name>
+	<mameversion>0218</mameversion>
+	<setname>scobraggi</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>bootleg (Cocamatic)</manufacturer>
+	<category>Army / Helicopter</category>
+	<rbf>scramble</rbf>
+	<switches default="FF,FD,F3">
+		<dip bits="8"     name="Allow Continue" ids="No,4 times"/>
+		<dip bits="9"     name="Lives" ids="3,4"/>
+		<dip bits="17,18" name="Coinage" ids="99cr,1c/1cr,2c/1cr,4c/3cr"/>
+		<dip bits="19"    name="Cabinet" ids="Upright,Cocktail"/>
+	</switches>
+	<buttons names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin" default="A,B,Start,Select,R"/>
+	<rom index="1">
+		<part>03</part>
+	</rom>
+	<rom index="0" zip="scobra.zip|scobraggi.zip" md5="e67ee361448a220717461c305db90b54">
+		<part crc="04ffab61" name="2c_b.bin"/>
+		<part crc="4e29d35f" name="2e_b.bin"/>
+		<part crc="9dee81cc" name="2f_b.bin"/>
+		<part crc="99dee0c6" name="2h_b.bin"/>
+		<part crc="db7fb865" name="2j_b.bin"/>
+		<part crc="5825d73b" name="2l_b.bin"/>
+		<part crc="04ffab61" name="2c_b.bin"/>
+		<part crc="4e29d35f" name="2e_b.bin"/>
+		<part crc="d4346959" name="1_13_a.bin"/>
+		<part crc="cc025d95" name="2_13_a.bin"/>
+		<part crc="1628c53f" name="3_13_a.bin"/>
+		<part crc="1628c53f" name="3_13_a.bin"/>
+		<part crc="a96316d3" repeat="4" name="5f_b.bin"/>
+		<part crc="64d113b4" repeat="4" name="5h_b.bin"/>
+		<part crc="4e3caeab" name="6e_b.bin"/>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,32 @@
+<misterromdescription>
+	<name>Xevios</name>
+	<mameversion>0218</mameversion>
+	<setname>xevios</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Space / Force</category>
+	<rbf>xevious</rbf>
+	<rom index="0" zip="xevious.zip|xevios.zip|namco50.zip|namco51.zip|namco54.zip" md5="72677feef0d6f73b430ee6d196e3a8e9">
+		<part crc="1f8ca4c0" name="4.7h"/>
+		<part crc="2e47ce8f" name="5.6h"/>
+		<part crc="79754b7d" name="6.5h"/>
+		<part crc="17f48277" name="7.4h"/>
+		<part crc="c85b703f" name="8.2h"/>
+		<part crc="e18cdaad" name="9.1h"/>
+		<part crc="dd35cf1c" name="3.9h"/>
+		<part crc="088c8b26" name="17.8f"/>
+		<part crc="de60ba25" name="18.9f"/>
+		<part crc="535cdbbc" name="19.11f"/>
+		<part crc="dc2c0ecb" name="13.4d"/>
+		<part crc="dfb587ce" name="15.7d"/>
+		<part crc="605ca889" name="14.6d"/>
+		<part crc="44262c04" name="16.8d"/>
+		<part crc="10baeebb" name="10.1d"/>
+		<part crc="ae3ba9e5" name="11.2d"/>
+		<part crc="51a4e83b" name="12.3d"/>
+		<part crc="a0acbaf7" name="50xx.bin" zip="namco50.zip"/>
+		<part crc="c2f57ef8" name="51xx.bin" zip="namco51.zip"/>
+		<part crc="ee7357e0" name="54xx.bin" zip="namco54.zip"/>
+	</rom>
+</misterromdescription>

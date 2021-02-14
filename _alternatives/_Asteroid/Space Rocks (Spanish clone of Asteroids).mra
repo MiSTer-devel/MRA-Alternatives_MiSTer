@@ -1,0 +1,18 @@
+<misterromdescription>
+	<name>Space Rocks (Spanish clone of Asteroids)</name>
+	<mameversion>0218</mameversion>
+	<setname>spcrocks</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>Atari (J.Estevez license)</manufacturer>
+	<category>Space / Asteroids</category>
+	<category>Space / Fighter</category>
+	<rbf>asteroids</rbf>
+	<rom index="0" zip="asteroid.zip|spcrocks.zip" md5="e03dfeb3cc03d0b85030f69a70351e3f">
+		<part crc="0cc75459" name="1.bin"/>
+		<part crc="096ed35c" name="2.bin"/>
+		<part crc="b912754d" name="3.bin"/>
+		<part crc="148ef465" name="e.bin"/>
+		<part crc="97953db8" name="034602-01.c8"/>
+	</rom>
+</misterromdescription>

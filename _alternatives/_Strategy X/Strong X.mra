@@ -1,0 +1,34 @@
+<misterromdescription>
+	<name>Strong X</name>
+	<mameversion>0218</mameversion>
+	<setname>strongx</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Army / Tank</category>
+	<rbf>scramble</rbf>
+	<switches default="FF,FC,F1,FF">
+		<dip bits="8,9"   name="Lives" ids="3,4,5,255(Cheat)"/>
+		<dip bits="17,18" name="Coinage" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr"/>
+	</switches>
+	<buttons names="Fire,Turn Left,Turn Right,-,Start 1P,Start 2P,Coin" default="A,L,R,Start,Select,Y"/>
+	<rom index="1">
+		<part>0E</part>
+	</rom>
+	<rom index="0" zip="stratgyx.zip|strongx.zip" md5="a057c6ceaf7365d99366e0440f037f5e">
+		<part crc="c2f7268c" name="strongx.2d"/>
+		<part crc="91059422" name="strongx.2e"/>
+		<part crc="849e2504" name="2f_3.bin"/>
+		<part crc="8a64069b" name="2h_4.bin"/>
+		<part crc="78b9b898" name="2j_5.bin"/>
+		<part crc="20bae414" name="2l_6.bin"/>
+		<part crc="20bae414" name="2l_6.bin"/>
+		<part crc="20bae414" name="2l_6.bin"/>
+		<part crc="713a5db8" name="s1.bin"/>
+		<part crc="46079411" name="s2.bin"/>
+		<part crc="d105ad91" repeat="4" name="5h_c1.bin"/>
+		<part crc="7121b679" repeat="4" name="5f_c2.bin"/>
+		<part crc="51a629e1" name="strategy.6e"/>
+		<part crc="d95c0318" name="strategy.10k"/>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Sarge Exposed - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>sargex</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>2009</year>
+	<manufacturer>Gatinho</manufacturer>
+	<category>Army / Tank</category>
+	<rbf>mcr3mono</rbf>
+	<switches default="FF,00">
+		<dip bits="3"    name="Free Play" ids="On,Off"/>
+		<dip bits="4,5"  name="Coinage" ids="1c/2cr,2c/1cr,1c/1cr" values="1,2,3"/>
+		<dip bits="8"    name="Service" ids="Off,On"/>
+	</switches>
+	<buttons names="Fire 1,Right-Rev,Right-Fwd,Fire 2,Start,Coin" default="A,B,X,Y,Start,R"/>
+	<rom index="1">
+		<part>01</part>
+	</rom>
+	<rom index="0" zip="/hbmame/sarge.zip" md5="4b7038b486b3a8751f0ff467190d009d">
+		<part crc="da31a58f" name="cpu_3b.bin"/>
+		<part crc="6800e746" name="cpu_5b.bin"/>
+		<part crc="9c0a3000" name="sargex/sargex.8"/>
+		<part crc="da7e3dbf" name="sargex/sargex.6"/>
+		<part crc="2effe749" name="sargex/sargex.5"/>
+		<part crc="66149219" name="sargex/sargex.4"/>
+		<part crc="685001b8" repeat="4" name="til_15a.bin"/>
+		<part crc="8449eb45" repeat="4" name="til_14b.bin"/>
+		<part crc="a894ef8a" name="tcs_u5.bin"/>
+		<part crc="6ca6faf3" name="tcs_u4.bin"/>
+		<part crc="a894ef8a" name="tcs_u5.bin"/>
+		<part crc="6ca6faf3" name="tcs_u4.bin"/>
+	</rom>
+</misterromdescription>

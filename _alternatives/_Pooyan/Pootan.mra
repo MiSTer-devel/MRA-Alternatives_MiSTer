@@ -1,0 +1,24 @@
+<misterromdescription>
+	<name>Pootan</name>
+	<mameversion>0218</mameversion>
+	<setname>pootan</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Maze / Balloons</category>
+	<category>Maze / Pigs</category>
+	<category>Sports / Shooting</category>
+	<rbf>pooyan</rbf>
+	<rom index="0" zip="pooyan.zip|pootan.zip" md5="112d8ff41daf9902522f1ce217ae498f">
+		<part crc="41b23a24" name="poo_ic22.bin"/>
+		<part crc="c9d94661" name="poo_ic23.bin"/>
+		<part crc="fe1a9e08" name="3.6a"/>
+		<part crc="8ae459ef" name="poo_ic25.bin"/>
+		<part crc="0be802e4" name="poo_ic13.bin"/>
+		<part crc="cba29096" name="poo_ic14.bin"/>
+		<part crc="b2d8c121" name="6.9a"/>
+		<part crc="1097c2b6" name="5.8a"/>
+		<part crc="fbe2b368" name="xx.7a"/>
+		<part crc="e1795b3d" name="xx.8a"/>
+	</rom>
+</misterromdescription>

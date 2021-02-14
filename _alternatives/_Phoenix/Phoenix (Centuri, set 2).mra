@@ -1,0 +1,24 @@
+<misterromdescription>
+	<name>Phoenix (Centuri, set 2)</name>
+	<mameversion>0218</mameversion>
+	<setname>phoenixb</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1980</year>
+	<manufacturer>Amstar (Centuri license)</manufacturer>
+	<category>Space / Shooter</category>
+	<rbf>phoenix</rbf>
+	<rom index="0" zip="phoenix.zip|phoenixb.zip" md5="2b359d4440644274403ad35c02c49b07">
+		<part crc="c7a9b499" name="1-ic45.1a"/>
+		<part crc="d0e6ae1b" name="2-ic46.2a"/>
+		<part crc="64bf463a" name="3-ic47.3a"/>
+		<part crc="1b20fe62" name="4-ic48.4a"/>
+		<part crc="1a1ce0d0" name="phoenixc.49"/>
+		<part crc="ac5e9ec1" name="h6-ic50.6a"/>
+		<part crc="2eab35b4" name="h7-ic51.7a"/>
+		<part crc="aff8e9c5" name="h8-ic52.8a"/>
+		<part crc="3c7e623f" name="ic23.3d"/>
+		<part crc="59916d3b" name="ic24.4d"/>
+		<part crc="bb0525ed" name="phoenixc.39"/>
+		<part crc="4178aa4f" name="phoenixc.40"/>
+	</rom>
+</misterromdescription>

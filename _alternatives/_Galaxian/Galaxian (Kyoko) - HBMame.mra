@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Galaxian (Kyoko) - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>galaxkyo</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>hack</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,00">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="None,4000,5000,7000"/>
+		<dip bits="18" name="Lives" ids="3,5"/>
+	</switches>
+	<rom index="0" zip="/hbmame/galnamco.zip" md5="94c3536a64b1e20d73d0b89ac1e2aee6">
+		<part crc="acfde501" name="galaxkyo/galxk.u"/>
+		<part crc="65cf3c77" name="galaxkyo/galxk.v"/>
+		<part crc="9eef9ae6" name="galaxkyo/galxk.w"/>
+		<part crc="56a5ddd1" name="galaxkyo/galxk.y"/>
+		<part crc="f4bc7262" name="galaxkyo/galxk.z"/>
+		<part crc="f4bc7262" name="galaxkyo/galxk.z"/>
+		<part crc="f4bc7262" name="galaxkyo/galxk.z"/>
+		<part crc="f4bc7262" name="galaxkyo/galxk.z"/>
+		<part crc="66a4335d" name="galaxkyo/galxk.1h"/>
+		<part crc="66a4335d" name="galaxkyo/galxk.1h"/>
+		<part crc="2160265b" name="galaxkyo/galxk.1k"/>
+		<part crc="2160265b" name="galaxkyo/galxk.1k"/>
+		<part crc="c3ac9467" name="6l.bpr"/>
+	</rom>
+</misterromdescription>

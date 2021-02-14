@@ -1,0 +1,22 @@
+<misterromdescription>
+	<name>Meteorite (Proel bootleg of Asteroids)</name>
+	<mameversion>0218</mameversion>
+	<setname>meteorite</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>bootleg (Proel)</manufacturer>
+	<category>Space / Asteroids</category>
+	<category>Space / Fighter</category>
+	<rbf>asteroids</rbf>
+	<rom index="0" zip="asteroid.zip|meteorite.zip" md5="9418b4ceffb2ccccf8d0ccdbe76ae6c9">
+		<part crc="cdf720c6" name="2"/>
+		<part crc="ee58bdf0" name="3"/>
+		<part crc="8d3e421e" name="4"/>
+		<part crc="d2ce7672" name="5"/>
+		<part crc="379072ed" name="6"/>
+		<part crc="75a39768" name="7"/>
+		<part crc="7a3ff3ac" name="0"/>
+		<part crc="d62b2887" name="1"/>
+		<part crc="97953db8" name="meteorites_bprom.bin"/>
+	</rom>
+</misterromdescription>

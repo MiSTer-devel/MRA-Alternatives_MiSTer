@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Zero Time (Marti Colls)</name>
+	<mameversion>0218</mameversion>
+	<setname>zerotimemc</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>bootleg (Marti Colls)</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,04">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="7000,10000,12000,20000"/>
+		<dip bits="18" name="Lives" ids="2,3"/>
+	</switches>
+	<rom index="0" zip="galaxian.zip|zerotimemc.zip" md5="3289e2107717c2016612be67c33ddf1e">
+		<part crc="ac64aabe" name="4_7k.bin"/>
+		<part crc="a433067e" name="5_7j.bin"/>
+		<part crc="7c86fc8a" name="6_7h.bin"/>
+		<part crc="786d690a" name="7_7f.bin"/>
+		<part crc="af9260d7" name="3_7l.bin"/>
+		<part crc="af9260d7" name="3_7l.bin"/>
+		<part crc="af9260d7" name="3_7l.bin"/>
+		<part crc="af9260d7" name="3_7l.bin"/>
+		<part crc="bc7d0985" name="2_1hj.bin"/>
+		<part crc="bc7d0985" name="2_1hj.bin"/>
+		<part crc="c48b88d0" name="1_1kl.bin"/>
+		<part crc="c48b88d0" name="1_1kl.bin"/>
+		<part crc="c3ac9467" name="6l.bpr"/>
+	</rom>
+</misterromdescription>

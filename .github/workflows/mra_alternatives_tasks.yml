@@ -1,0 +1,17 @@
+name: MRA Alternatives Tasks
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-18.04
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: ZIP _alternatives and publish to releases/
+      run: ./.github/release_mra_alternatives.sh

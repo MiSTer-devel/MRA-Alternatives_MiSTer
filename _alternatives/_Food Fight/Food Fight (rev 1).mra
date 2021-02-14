@@ -1,0 +1,25 @@
+<misterromdescription>
+	<name>Food Fight (rev 1)</name>
+	<mameversion>0218</mameversion>
+	<setname>foodf1</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>General Computer Corporation (Atari license)</manufacturer>
+	<category>Maze</category>
+	<category>Maze / Food</category>
+	<rbf>foodfight</rbf>
+	<rom index="0" zip="foodf.zip|foodf1.zip" md5="a1fa44e16242647a0196882d017e96ad">
+		<part crc="06d0ede0" name="136020-101.8c"/>
+		<part crc="ca6390a4" name="136020-102.9c"/>
+		<part crc="36e89e89" name="136020-103.8d"/>
+		<part crc="f667374c" name="136020-104.9d"/>
+		<part crc="a8c22e50" name="136020-105.8e"/>
+		<part crc="13e013c4" name="136020-106.9e"/>
+		<part crc="8a3f7ca4" name="136020-107.8f"/>
+		<part crc="d4244e12" name="136020-108.9f"/>
+		<part crc="c13c90eb" name="136020-109.6lm"/>
+		<part crc="8870e3d6" name="136020-110.4e"/>
+		<part crc="84372edf" name="136020-111.4d"/>
+		<part crc="a4186b13" name="foodf.nv"/>
+	</rom>
+</misterromdescription>

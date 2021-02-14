@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Zero Time (Petaco S.A.)</name>
+	<mameversion>0218</mameversion>
+	<setname>zerotime</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>bootleg? (Petaco S.A.)</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,04">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="7000,10000,12000,20000"/>
+		<dip bits="18" name="Lives" ids="2,3"/>
+	</switches>
+	<rom index="0" zip="galaxian.zip|zerotime.zip" md5="96d55a444bfaec609173d5ddc1138c48">
+		<part crc="90a2bc61" name="zt-p01c.016"/>
+		<part crc="a433067e" name="zt-2.016"/>
+		<part crc="aaf038d4" name="zt-3.016"/>
+		<part crc="786d690a" name="zt-4.016"/>
+		<part crc="af9260d7" name="zt-5.016"/>
+		<part crc="af9260d7" name="zt-5.016"/>
+		<part crc="af9260d7" name="zt-5.016"/>
+		<part crc="af9260d7" name="zt-5.016"/>
+		<part crc="1b13ca05" name="ztc-2.016"/>
+		<part crc="1b13ca05" name="ztc-2.016"/>
+		<part crc="5cd7df03" name="ztc-1.016"/>
+		<part crc="5cd7df03" name="ztc-1.016"/>
+		<part crc="c3ac9467" name="6l.bpr"/>
+	</rom>
+</misterromdescription>

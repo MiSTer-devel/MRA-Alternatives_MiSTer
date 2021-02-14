@@ -1,0 +1,44 @@
+<misterromdescription>
+	<name>Superdog - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>superdog</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1998</year>
+	<manufacturer>Jerky</manufacturer>
+	<category>Space / Defender</category>
+	<rbf>scramble</rbf>
+	<switches default="FF,FC,F1">
+		<dip bits="8,9"   name="Lives" ids="3,4,5,255(Cheat)"/>
+		<dip bits="17,18" name="Coinage" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr"/>
+		<dip bits="19"    name="Cabinet" ids="Upright,Cocktail"/>
+	</switches>
+	<buttons names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin" default="A,B,Start,Select,R"/>
+	<rom index="1">
+		<part>00</part>
+	</rom>
+	<rom index="0" zip="/hbmame/scramble.zip" md5="a7ec6dfa6633ef4da18276d9c9c45681">
+		<part crc="99dc8bb5" name="superdog/sdog-2d"/>
+		<part crc="e9b4b9eb" name="offender/2e"/>
+		<part crc="a1f14f4c" name="offender/2f"/>
+		<part crc="591bc0d9" name="offender/2h"/>
+		<part crc="22f11b6b" name="offender/2j"/>
+		<part crc="705ffe49" name="offender/2l"/>
+		<part crc="ea26c35c" name="offender/2m"/>
+		<part crc="94d8f5e3" name="offender/2p"/>
+		<part crc="99dc8bb5" name="superdog/sdog-2d"/>
+		<part crc="e9b4b9eb" name="offender/2e"/>
+		<part crc="a1f14f4c" name="offender/2f"/>
+		<part crc="591bc0d9" name="offender/2h"/>
+		<part crc="22f11b6b" name="offender/2j"/>
+		<part crc="705ffe49" name="offender/2l"/>
+		<part crc="ea26c35c" name="offender/2m"/>
+		<part crc="94d8f5e3" name="offender/2p"/>
+		<part crc="bcd297f0" name="ot1.5c"/>
+		<part crc="de7912da" name="ot2.5d"/>
+		<part crc="ba2fa933" name="ot3.5e"/>
+		<part crc="ba2fa933" name="ot3.5e"/>
+		<part crc="5b130bea" repeat="4" name="superdog/sdog-5h"/>
+		<part crc="7edbc59c" repeat="4" name="superdog/sdog-5f"/>
+		<part crc="4e3caeab" name="c01s.6e"/>
+	</rom>
+</misterromdescription>

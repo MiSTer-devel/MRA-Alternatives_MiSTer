@@ -1,0 +1,25 @@
+<misterromdescription>
+	<name>Pleiads (Irecsa)</name>
+	<mameversion>0218</mameversion>
+	<setname>pleiadsi</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>bootleg? (Irecsa)</manufacturer>
+	<rbf>pleiads</rbf>
+	<rom index="0" zip="pleiads.zip|pleiadsi.zip" md5="30a208f979be88b3e79386d489009cba">
+		<part crc="9bbef607" name="1 2716.bin"/>
+		<part crc="e2b5b8cd" name="2 2716.bin"/>
+		<part crc="87e700bb" name="3 2716.bin"/>
+		<part crc="ca14fe4a" name="4 2716.bin"/>
+		<part crc="9dc73e63" name="5 2716.bin"/>
+		<part crc="f1a8a00d" name="6 2716.bin"/>
+		<part crc="6f56f317" name="7 2716.bin"/>
+		<part crc="ca264c7c" name="8 2716.bin"/>
+		<part crc="8dbd3785" name="11 2716.bin"/>
+		<part crc="0db3e436" name="12 2716.bin"/>
+		<part crc="85866607" name="9 2716.bin"/>
+		<part crc="a841d511" name="10 2716.bin"/>
+		<part crc="e38eeb83" name="7611-5.33"/>
+		<part crc="7a1bcb1e" name="7611-5.26"/>
+	</rom>
+</misterromdescription>

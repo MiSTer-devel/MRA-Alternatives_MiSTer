@@ -1,0 +1,25 @@
+<misterromdescription>
+	<name>Solomon no Kagi (Translation Chinese) - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>solomonjs01</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1986</year>
+	<manufacturer>hack</manufacturer>
+	<category>Adventure</category>
+	<category>Platform</category>
+	<rbf>solomonskey</rbf>
+	<rom index="0" zip="/hbmame/solomon.zip" md5="728e403a710471b1721a08467e208a89">
+		<part crc="bb5c5400" name="solomonjs01/slmn_02hc01.bin"/>
+		<part crc="66137d2b" name="solomonjs01/slmn_03hc01.bin"/>
+		<part crc="33299a3a" name="solomonjs01/slmn_04hc01.bin"/>
+		<part crc="5856d9b0" name="solomonjs01/slmn_05hc01.bin"/>
+		<part crc="e80594fc" name="solomonjs01/slmn_12hc01.bin"/>
+		<part crc="9dab2e9a" name="solomonjs01/slmn_11hc01.bin"/>
+		<part crc="cf11872e" name="solomonjs01/slmn_10hc01.bin"/>
+		<part crc="60122e98" name="solomonjs01/slmn_09hc01.bin"/>
+		<part crc="fa6e562e" name="1.3jk"/>
+		<part crc="bbc0d319" name="solomonjs01/slmn_06hc01.bin"/>
+		<part crc="2465a83a" name="solomonjs01/slmn_07hc01.bin"/>
+		<part crc="b924d162" name="solomonjs01/slmn_08.bin"/>
+	</rom>
+</misterromdescription>

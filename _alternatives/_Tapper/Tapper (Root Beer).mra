@@ -1,0 +1,40 @@
+<misterromdescription>
+	<name>Tapper (Root Beer)</name>
+	<mameversion>0218</mameversion>
+	<setname>rbtapper</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1984</year>
+	<manufacturer>Bally Midway</manufacturer>
+	<category>Maze / Food</category>
+	<rbf>mcr3</rbf>
+	<switches default="FF 00">
+		<dip bits="2"    name="Demo Sounds" ids="Off,On"/>
+		<dip bits="6"    name="Cabinet" ids="Cocktail,Upright"/>
+		<dip bits="7"    name="Coin Meters" ids="1,2"/>
+		<dip bits="8"    name="Service" ids="Off,On"/>
+	</switches>
+	<buttons names="Fill,-,-,-,-,-,Start 1P,Start 2P,Coin" default="A,Start,Select,R"/>
+	<rom index="1">
+		<part>00</part>
+	</rom>
+	<rom index="0" zip="tapper.zip|rbtapper.zip" md5="7d8303d44b5ef1c415ad20ff80cb88e2">
+		<part crc="20b9adf4" name="rbtpg0.bin"/>
+		<part crc="87e616c2" name="rbtpg1.bin"/>
+		<part crc="0b332c97" name="rbtpg2.bin"/>
+		<part crc="698c06f2" name="rbtpg3.bin"/>
+		<part crc="5c1d0982" name="5788"/>
+		<part crc="09e74ed8" name="5787"/>
+		<part crc="c3e98284" name="5786"/>
+		<part crc="ced2fd47" name="5785"/>
+		<part crc="1c0b8791" name="rbtfg1.bin"/>
+		<part crc="e99f6018" name="rbtfg0.bin"/>
+		<part crc="3e725e77" name="rbtfg3.bin"/>
+		<part crc="4ee8b624" name="rbtfg2.bin"/>
+		<part crc="9eeca46e" name="rbtfg5.bin"/>
+		<part crc="8c79e7d7" name="rbtfg4.bin"/>
+		<part crc="8dbf0c36" name="rbtfg7.bin"/>
+		<part crc="441201a0" name="rbtfg6.bin"/>
+		<part crc="44dfa483" name="rbtbg1.bin"/>
+		<part crc="510b13de" name="rbtbg0.bin"/>
+	</rom>
+</misterromdescription>

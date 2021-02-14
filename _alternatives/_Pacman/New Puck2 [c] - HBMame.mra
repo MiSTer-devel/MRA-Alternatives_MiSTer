@@ -1,0 +1,28 @@
+<misterromdescription>
+	<name>New Puck2 [c] - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>chtpman2</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>2000</year>
+	<manufacturer>[Namco]</manufacturer>
+	<category>Maze / Pac-Man</category>
+	<rbf>pacman</rbf>
+	<rom index="0" zip="/hbmame/puckman.zip" md5="fe584e49e20ee84b7419c60a62e8a8f5">
+		<part crc="a8ae23c5" name="chtpman2/newpuck2.6e"/>
+		<part crc="72cea888" name="chtpac/chtpac.6f"/>
+		<part crc="197443f8" name="bucaneerx/newpuck2.6h"/>
+		<part crc="0e3bdbde" name="chtpman2/newpuck2.6j"/>
+		<part crc="a8ae23c5" name="chtpman2/newpuck2.6e"/>
+		<part crc="72cea888" name="chtpac/chtpac.6f"/>
+		<part crc="197443f8" name="bucaneerx/newpuck2.6h"/>
+		<part crc="0e3bdbde" name="chtpman2/newpuck2.6j"/>
+		<part crc="0c944964" name="chtpac/pacman.5e"/>
+		<part crc="958fedf9" name="chtpac/pacman.5f"/>
+		<part crc="958fedf9" name="chtpac/pacman.5f"/>
+		<part crc="958fedf9" name="chtpac/pacman.5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="3eb3a8e4" name="82s126.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="2fc650bd" name="82s123.7f"/>
+	</rom>
+</misterromdescription>

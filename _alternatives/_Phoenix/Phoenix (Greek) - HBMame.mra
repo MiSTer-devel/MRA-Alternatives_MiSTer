@@ -1,0 +1,24 @@
+<misterromdescription>
+	<name>Phoenix (Greek) - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>phoenixg</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1980</year>
+	<manufacturer>GreekRoms</manufacturer>
+	<category>Space / Shooter</category>
+	<rbf>phoenix</rbf>
+	<rom index="0" zip="/hbmame/phoenix.zip" md5="2d7d37a518fd76ef05d26c40f08964d8">
+		<part crc="5b8c55a8" name="phoenixg/phoenix.45"/>
+		<part crc="dbc942fa" name="phoenixg/phoenix.46"/>
+		<part crc="cbbb8839" name="phoenixg/phoenix.47"/>
+		<part crc="63d4c322" name="phoenixg/phoenixg.48"/>
+		<part crc="c8a5d6d6" name="phoenixg/phoenix.49"/>
+		<part crc="ac5e9ec1" name="h6-ic50.6a"/>
+		<part crc="2eab35b4" name="h7-ic51.7a"/>
+		<part crc="b9915263" name="phoenixg/phoenix.52"/>
+		<part crc="3c7e623f" name="ic23.3d"/>
+		<part crc="59916d3b" name="ic24.4d"/>
+		<part crc="0ed46d30" name="phoenixg/ic39g"/>
+		<part crc="0be2ba91" name="b2-ic40.4b"/>
+	</rom>
+</misterromdescription>

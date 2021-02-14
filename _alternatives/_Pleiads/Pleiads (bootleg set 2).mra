@@ -1,0 +1,25 @@
+<misterromdescription>
+	<name>Pleiads (bootleg set 2)</name>
+	<mameversion>0218</mameversion>
+	<setname>pleiadsb2</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>bootleg (ESG)</manufacturer>
+	<rbf>pleiads</rbf>
+	<rom index="0" zip="pleiads.zip|pleiadsb2.zip" md5="676470c55f4dcc5fdc850deb5b572cfb">
+		<part crc="fa98cb73" name="ic47.r1"/>
+		<part crc="b254217c" name="ic48.r2"/>
+		<part crc="0951829e" name="ic47.bin"/>
+		<part crc="4972f5ce" name="ic48.bin"/>
+		<part crc="49c629bc" name="ic51.r5"/>
+		<part crc="f1a8a00d" name="ic50.bin"/>
+		<part crc="037b319c" name="ic53.r7"/>
+		<part crc="b3db08c2" name="ic52.bin"/>
+		<part crc="4e30f9e7" name="ic23.bin"/>
+		<part crc="5188fc29" name="ic24.bin"/>
+		<part crc="85866607" name="ic39.bin"/>
+		<part crc="a841d511" name="ic40.bin"/>
+		<part crc="e38eeb83" name="7611-5.33"/>
+		<part crc="7a1bcb1e" name="7611-5.26"/>
+	</rom>
+</misterromdescription>

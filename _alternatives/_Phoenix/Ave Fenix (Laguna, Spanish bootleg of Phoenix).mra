@@ -1,0 +1,24 @@
+<misterromdescription>
+	<name>Ave Fenix (Laguna, Spanish bootleg of Phoenix)</name>
+	<mameversion>0218</mameversion>
+	<setname>avefenixl</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1980</year>
+	<manufacturer>bootleg (Laguna)</manufacturer>
+	<category>Space / Shooter</category>
+	<rbf>phoenix</rbf>
+	<rom index="0" zip="phoenix.zip|avefenixl.zip" md5="0525dceccf40d5239ed78b326042af1a">
+		<part crc="2c53998c" name="01_ic45.a1"/>
+		<part crc="fea2435c" name="02_ic46.a2"/>
+		<part crc="cbbb8839" name="03_ic47.a3"/>
+		<part crc="90a02a45" name="04_ic48.a4"/>
+		<part crc="74b1cf66" name="05_ic49.a5"/>
+		<part crc="ac5e9ec1" name="06_ic50.a6"/>
+		<part crc="2eab35b4" name="07_ic51.a7"/>
+		<part crc="f15c439d" name="08_ic52.a8"/>
+		<part crc="3c7e623f" name="11_ic23.d3"/>
+		<part crc="59916d3b" name="12_ic24.d4"/>
+		<part crc="bb0525ed" name="09_ic39.b3"/>
+		<part crc="4178aa4f" name="10_ic40.b4"/>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,20 @@
+<misterromdescription>
+	<name>Bump 'n' Jump</name>
+	<mameversion>0218</mameversion>
+	<setname>bnj</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>Data East USA</manufacturer>
+	<category>Racing / Cars</category>
+	<rbf>burningrubber</rbf>
+	<rom index="0" zip="brubber.zip|bnj.zip" md5="6a9851bfe5783f273679a24643f134d1">
+		<part crc="7a27f5f4" name="ad07.12c"/>
+		<part crc="f855a2d2" name="ad06.12d"/>
+		<part crc="b864d082" name="ad00.4e"/>
+		<part crc="6c31d77a" name="ad01.4f"/>
+		<part crc="5824e6fb" name="ad02.4h"/>
+		<part crc="f4e9eb49" name="ad03.10e"/>
+		<part crc="a9ffacb4" name="ad04.10f"/>
+		<part crc="8c02f662" name="ad05.6c"/>
+	</rom>
+</misterromdescription>
