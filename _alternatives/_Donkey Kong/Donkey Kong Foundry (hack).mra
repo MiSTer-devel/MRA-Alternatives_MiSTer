@@ -9,19 +9,30 @@
 	<category>Platform</category>
 	<category>Platform / Mario Bros.</category>
 	<rbf>donkeykong</rbf>
-	<rom index="0" zip="dkong.zip|dkongf.zip" md5="3cdc0afdad2aef98e6e778ea7427019f">
+	<switches default="80" base="8">
+		<dip bits="0,1"    name="Lives" ids="3,4,5,6"/>
+		<dip bits="2,3"    name="Bonus Life" ids="7K,10K,15K,20K"/>
+		<dip bits="4,6"    name="Coins" ids="1C1P,2C1P,1C1P,3C1P,1C1P,4C1P,1C1P,5C1P,1C1P"/>
+		<dip bits="7"      name="Cabinet" ids="Cocktail,Upright"/>
+	</switches>
+	<rom index="0" zip="dkong.zip|dkongf.zip" md5="119a6a68721084af8b156dd5251c4571">
+		<!-- Main CPU 32k -->
 		<part crc="00b7efaf" name="dk_f.5et"/>
 		<part crc="88af9b69" name="dk_f.5ct"/>
 		<part crc="de74ad91" name="dk_f.5bt"/>
 		<part crc="6a6bd420" name="dk_f.5at"/>
+		<part crc="00b7efaf" name="dk_f.5et"/>
+		<part crc="88af9b69" name="dk_f.5ct"/>
+		<part crc="de74ad91" name="dk_f.5bt"/>
 		<part crc="6a6bd420" name="dk_f.5at"/>
-		<part crc="6a6bd420" name="dk_f.5at"/>
+
+		<!-- GFX1 8k -->
 		<part crc="15e9c5e9" name="v_3pt.bin"/>
 		<part crc="15e9c5e9" name="v_3pt.bin"/>
 		<part crc="12c8c95d" name="v_5h_b.bin"/>
 		<part crc="12c8c95d" name="v_5h_b.bin"/>
-		<part crc="6a6bd420" name="dk_f.5at"/>
-		<part crc="6a6bd420" name="dk_f.5at"/>
+
+		<!-- GFX2 16k -->
 		<part crc="59f8054d" name="l_4m_b.bin"/>
 		<part crc="59f8054d" name="l_4m_b.bin"/>
 		<part crc="672e4714" name="l_4n_b.bin"/>
@@ -30,12 +41,20 @@
 		<part crc="feaa59ee" name="l_4r_b.bin"/>
 		<part crc="20f2ef7e" name="l_4s_b.bin"/>
 		<part crc="20f2ef7e" name="l_4s_b.bin"/>
+
+		<!-- Sound CPU 4k -->
 		<part crc="45a4ed06" name="s_3i_b.bin"/>
 		<part crc="4743fe92" name="s_3j_b.bin"/>
+
+		<!-- LUTs 3x256 -->
+		<part crc="e273ede5" name="c-2k.bpr"/>
 		<part crc="e273ede5" name="c-2k.bpr"/>
 		<part crc="d6412358" name="c-2j.bpr"/>
+		<part crc="d6412358" name="c-2j.bpr"/>
 		<part crc="b869b8f5" name="v-5e.bpr"/>
-		<part repeat="3328">00</part>
+		<part repeat="2816">00</part>
+
+		<!-- WAWs -->
 		<part>
 8080808080807f7f7f7f7f7f7f808080
 8080807f7f7f7f7f7f7f7f8080808080
