@@ -1,0 +1,22 @@
+<misterromdescription>
+	<name>Galagalaxian - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>galgaxin</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1998</year>
+	<manufacturer>T-Bone</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaga</rbf>
+	<rom index="0" zip="/hbmame/galaga.zip|namco54.zip" md5="f160471de2a5e8e9268b13b0fb47dfe3">
+		<part crc="3ef0b053" name="galagads/3200a.bin"/>
+		<part crc="1b280831" name="galagads/3300b.bin"/>
+		<part crc="16233d33" name="galagads/3400c.bin"/>
+		<part crc="0aaf5c23" name="galagads/3500d.bin"/>
+		<part crc="bc556e76" name="galagaef/3600e.bin"/>
+		<part crc="b07f0aa4" name="galagads/3700g.bin"/>
+		<part crc="bf803b06" name="galgaxin/2800l_4d.bin"/>
+		<part crc="020906a3" name="galgaxin/2700k.bin"/>
+		<part crc="10fa1481" name="galgaxin/2600j_4l.bin"/>
+		<part crc="ee7357e0" name="54xx.bin" zip="namco54.zip"/>
+	</rom>
+</misterromdescription>

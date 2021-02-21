@@ -1,0 +1,35 @@
+<misterromdescription>
+	<name>War of the Bugs or Monsterous Manouvers in a Mushroom Maze (US)</name>
+	<mameversion>0218</mameversion>
+	<setname>warofbugu</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>Armenia / Super Video Games</manufacturer>
+	<category>Maze / Bugs</category>
+	<category>Maze / Centipede</category>
+	<rbf>galaxian</rbf>
+	<switches default="DF,3F,F2">
+		<dip bits="5"     name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,2c/1cr,Free Play" values="0,1,3" />
+		<dip bits="16,17" name="Lives" ids="1,2,3,4"/>
+		<dip bits="19" name="Bonus Life After" ids="50k,75k"/>
+	</switches>
+	<rom index="1">
+		<part>0E</part>
+	</rom>
+	<rom index="0" zip="warofbug.zip|warofbugu.zip" md5="031dd84ebd0ac35c65f52a17d245eb1c">
+		<part crc="b8dfb7e3" name="wb-prog-1.7d"/>
+		<part crc="fd8854e0" name="wb-prog-2.7e"/>
+		<part crc="4495aa14" name="wb-prog-3.7j"/>
+		<part crc="e4bd257c" name="wb-prog-4.7n"/>
+		<part crc="71257bb4" name="wb-prog-5.7p"/>
+		<part crc="71257bb4" name="wb-prog-5.7p"/>
+		<part crc="71257bb4" name="wb-prog-5.7p"/>
+		<part crc="71257bb4" name="wb-prog-5.7p"/>
+		<part crc="8100fa85" name="warofbug.1k"/>
+		<part crc="8100fa85" name="warofbug.1k"/>
+		<part crc="d1220ae9" name="warofbug.1j"/>
+		<part crc="d1220ae9" name="warofbug.1j"/>
+		<part crc="8688e64b" name="warofbug.clr"/>
+	</rom>
+</misterromdescription>

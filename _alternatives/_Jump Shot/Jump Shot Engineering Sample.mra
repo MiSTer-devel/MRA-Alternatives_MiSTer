@@ -1,0 +1,39 @@
+<misterromdescription>
+	<name>Jump Shot Engineering Sample</name>
+	<mameversion>0218</mameversion>
+	<setname>jumpshotp</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1985</year>
+	<manufacturer>Bally Midway</manufacturer>
+	<category>Sports / Basketball</category>
+	<rbf>pacman</rbf>
+	<switches default="FF,FF,FB">
+		<dip bits="15"    name="Cabinet" ids="Cocktail,Upright"/>
+		<dip bits="16,17" name="Time" ids="1:00,1:30,2:00,2:30" values="0,2,3,1"/>
+		<dip bits="18"    name="Skin Tone P1" ids="Darker,Lighter"/>
+		<dip bits="19"    name="Skin Tone P2" ids="Darker,Lighter"/>		
+		<dip bits="20"    name="Free Play" ids="Off,On"/>
+		<dip bits="21"    name="2 Players Game" ids="1 Credit,2 Credit"/>
+	</switches>
+	<rom index="1">
+		<part>10</part>
+	</rom>
+	<rom index="0" zip="jumpshot.zip|jumpshotp.zip" md5="5be60081b8ba372780b5d21d028f5826">
+		<part crc="acc5e15e" name="js6e.bin"/>
+		<part crc="62b48ba4" name="js6f.bin"/>
+		<part crc="7c9b5e30" name="js6h.bin"/>
+		<part crc="9f0c39f6" name="js6j.bin"/>
+		<part crc="acc5e15e" name="js6e.bin"/>
+		<part crc="62b48ba4" name="js6f.bin"/>
+		<part crc="7c9b5e30" name="js6h.bin"/>
+		<part crc="9f0c39f6" name="js6j.bin"/>
+		<part crc="d9fa90f5" name="5e"/>
+		<part crc="2ec711c1" name="5f"/>
+		<part crc="d9fa90f5" name="5e"/>
+		<part crc="2ec711c1" name="5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="0399f39f" name="prom.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="872b42f3" name="prom.7f"/>
+	</rom>
+</misterromdescription>

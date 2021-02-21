@@ -1,0 +1,31 @@
+<misterromdescription>
+	<name>Omni</name>
+	<mameversion>0218</mameversion>
+	<setname>omni</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>19??</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Space / Shooter</category>
+	<rbf>galaxian</rbf>
+	<switches default="FF,1F,00">
+		<dip bits="14" name="Lives" ids="3,4"/>
+		<dip bits="15" name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="16" name="Bonus Life After" ids="10000,20000"/>
+		<dip bits="17" name="Coinage" ids="1c/1cr,2c/1cr"/>
+		<dip bits="18" name="Difficulty" ids="Easy,Hard"/>
+	</switches>
+	<rom index="1">
+		<part>0B</part>
+	</rom>
+	<rom index="0" zip="pisces.zip|omni.zip" md5="3a91dc233425c9c4c640d60b36e4be01">
+		<part crc="a9b7acc6" name="omni1.7f"/>
+		<part crc="6ade29b7" name="omni2.7j"/>
+		<part crc="9e37bb24" name="omni3.7f"/>
+		<part crc="9e37bb24" name="omni3.7f"/>
+		<part crc="9503a23a" name="omni5b.l1"/>
+		<part crc="0adfc3fe" name="omni6c.j22"/>
+		<part crc="3e61f849" name="omni4a.j1"/>
+		<part crc="7130e9eb" name="omni7d.l2"/>
+		<part crc="57a45057" name="colour.bin"/>
+	</rom>
+</misterromdescription>

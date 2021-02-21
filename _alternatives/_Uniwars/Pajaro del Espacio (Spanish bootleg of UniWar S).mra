@@ -1,0 +1,36 @@
+<misterromdescription>
+	<name>Pajaro del Espacio (Spanish bootleg of UniWar S)</name>
+	<mameversion>0218</mameversion>
+	<setname>pajaroes</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1980</year>
+	<manufacturer>bootleg (PSV S.A.)</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,00">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="None,4000,5000,7000"/>
+		<dip bits="18" name="Lives" ids="3,5"/>
+	</switches>
+	<rom index="1">
+		<part>0C</part>
+	</rom>
+	<rom index="0" zip="uniwars.zip|pajaroes.zip" md5="412f91f40dd34c8ed4686002c734818b">
+		<part crc="82a9da91" name="pea.rom"/>
+		<part crc="cc59b49c" name="peb.rom"/>
+		<part crc="3bc5a165" name="pec.rom"/>
+		<part crc="c50149d0" name="ped.rom"/>
+		<part crc="cb461871" name="pe05.rom"/>
+		<part crc="f157a8db" name="pe04.rom"/>
+		<part crc="75085cb6" name="pe03.rom"/>
+		<part crc="797d45c7" name="pe02.rom"/>
+		<part crc="012941e0" name="pe07.rom"/>
+		<part crc="c26132af" name="pe09.rom"/>
+		<part crc="fc8b58fd" name="pe06.rom"/>
+		<part crc="dcc2b33b" name="pe08.rom"/>
+		<part crc="25c79518" name="uniwars.clr"/>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,32 @@
+<misterromdescription>
+	<name>Bomb Jack (Red) - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>bombjred</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>2008</year>
+	<manufacturer>hack</manufacturer>
+	<category>Platform</category>
+	<rbf>bombjack</rbf>
+	<rom index="0" zip="/hbmame/bombjack.zip" md5="b0394f72abec4adef0069a8194f3bd98">
+		<part crc="8407917d" name="01_h03t.bin"/>
+		<part crc="398d4a02" name="02_p04t.bin"/>
+		<part crc="398d4a02" name="02_p04t.bin"/>
+		<part crc="8732fa2b" name="bombjred/bombjred.03"/>
+		<part crc="8732fa2b" name="bombjred/bombjred.03"/>
+		<part crc="dc392a25" name="bombjred/bombjred.04"/>
+		<part crc="dc392a25" name="bombjred/bombjred.04"/>
+		<part crc="ad9d7a8c" name="bombjred/bombjred.05"/>
+		<part crc="ad9d7a8c" name="bombjred/bombjred.05"/>
+		<part crc="51eebd89" name="06_l08t.bin"/>
+		<part crc="9dd98e9d" name="07_n08t.bin"/>
+		<part crc="3155ee7d" name="08_r08t.bin"/>
+		<part crc="c668dc30" name="09_j01b.bin"/>
+		<part crc="52a1e5fb" name="10_l01b.bin"/>
+		<part crc="b68a062a" name="11_m01b.bin"/>
+		<part crc="1d3ecee5" name="12_n01b.bin"/>
+		<part crc="70e0244d" name="13.1r"/>
+		<part crc="498513fe" name="bombjred/bombjred.14"/>
+		<part crc="a213f039" name="bombjred/bombjred.15"/>
+		<part crc="bdabd682" name="bombjred/bombjred.16"/>
+	</rom>
+</misterromdescription>

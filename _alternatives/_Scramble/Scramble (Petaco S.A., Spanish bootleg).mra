@@ -1,0 +1,44 @@
+<misterromdescription>
+	<name>Scramble (Petaco S.A., Spanish bootleg)</name>
+	<mameversion>0218</mameversion>
+	<setname>scrampt</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>bootleg (Petaco S.A.)</manufacturer>
+	<category>Space / Defender</category>
+	<rbf>scramble</rbf>
+	<switches default="FF,FC,F1">
+		<dip bits="8,9"   name="Lives" ids="3,4,5,255(Cheat)"/>
+		<dip bits="17,18" name="Coinage" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr"/>
+		<dip bits="19"    name="Cabinet" ids="Upright,Cocktail"/>
+	</switches>
+	<buttons names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin" default="A,B,Start,Select,R"/>
+	<rom index="1">
+		<part>00</part>
+	</rom>
+	<rom index="0" zip="scramble.zip|scrampt.zip" md5="e9d94f15a855547d7b122fdf0d03a1df">
+		<part crc="12b97cc6" name="cx8-2716.cpu"/>
+		<part crc="66ebc070" name="cx4-2716.cpu"/>
+		<part crc="317548fd" name="cx9-2716.cpu"/>
+		<part crc="dd380a22" name="cx5-2716.cpu"/>
+		<part crc="fa4f1a70" name="cx10-2716.cpu"/>
+		<part crc="9fd96374" name="cx6-2716.cpu"/>
+		<part crc="88ac07a0" name="cx11-2716.cpu"/>
+		<part crc="c9a6c489" name="cx7-2716.cpu"/>
+		<part crc="12b97cc6" name="cx8-2716.cpu"/>
+		<part crc="66ebc070" name="cx4-2716.cpu"/>
+		<part crc="317548fd" name="cx9-2716.cpu"/>
+		<part crc="dd380a22" name="cx5-2716.cpu"/>
+		<part crc="fa4f1a70" name="cx10-2716.cpu"/>
+		<part crc="9fd96374" name="cx6-2716.cpu"/>
+		<part crc="88ac07a0" name="cx11-2716.cpu"/>
+		<part crc="c9a6c489" name="cx7-2716.cpu"/>
+		<part crc="be037cf6" name="cx3-2716.cpu"/>
+		<part crc="de7912da" name="cx2-2716.cpu"/>
+		<part crc="ba2fa933" name="cx1-2716.cpu"/>
+		<part crc="ba2fa933" name="cx1-2716.cpu"/>
+		<part crc="11fd2887" repeat="4" name="cx13-2716.cpu"/>
+		<part crc="4708845b" repeat="4" name="cx12-2716.cpu"/>
+		<part crc="4e3caeab" name="c01s.6e"/>
+	</rom>
+</misterromdescription>

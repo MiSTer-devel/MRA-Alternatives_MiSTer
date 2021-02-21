@@ -1,0 +1,25 @@
+<misterromdescription>
+	<name>Pleiads (Niemer S.A.)</name>
+	<mameversion>0218</mameversion>
+	<setname>pleiadsn</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>Niemer S.A.</manufacturer>
+	<rbf>pleiads</rbf>
+	<rom index="0" zip="pleiads.zip|pleiadsn.zip" md5="693eb43e71ef90ecc44033895b763c00">
+		<part crc="c013515f" name="1.bin"/>
+		<part crc="b254217c" name="2.bin"/>
+		<part crc="3b29aec5" name="3.bin"/>
+		<part crc="1fbde4d7" name="4.bin"/>
+		<part crc="9dc73e63" name="5.bin"/>
+		<part crc="f1a8a00d" name="6.bin"/>
+		<part crc="b5f07fbc" name="7.bin"/>
+		<part crc="b3db08c2" name="8.bin"/>
+		<part crc="4e30f9e7" name="11.bin"/>
+		<part crc="72d511fc" name="12.bin"/>
+		<part crc="85866607" name="9.bin"/>
+		<part crc="a841d511" name="10.bin"/>
+		<part crc="7a1bcb1e" name="mb7052.ic41"/>
+		<part crc="e38eeb83" name="hm3-7611.bin"/>
+	</rom>
+</misterromdescription>

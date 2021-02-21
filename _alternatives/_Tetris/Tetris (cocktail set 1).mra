@@ -1,0 +1,14 @@
+<misterromdescription>
+	<name>Tetris (cocktail set 1)</name>
+	<mameversion>0218</mameversion>
+	<setname>atetrisc</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1989</year>
+	<manufacturer>Atari Games</manufacturer>
+	<category>Puzzle / Tetris</category>
+	<rbf>ataritetris</rbf>
+	<rom index="0" zip="atetris.zip|atetrisc.zip" md5="41a700662430d190fb1ae1974770ad52">
+		<part crc="9afd1f4a" name="tetcktl1.rom"/>
+		<part crc="ec2a7f93" name="136066-1103.35a"/>
+	</rom>
+</misterromdescription>

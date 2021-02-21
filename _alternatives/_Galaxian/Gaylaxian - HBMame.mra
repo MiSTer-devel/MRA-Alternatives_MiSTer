@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Gaylaxian - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>gaylaxn</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1998</year>
+	<manufacturer>The Dog</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,00">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="None,4000,5000,7000"/>
+		<dip bits="18" name="Lives" ids="3,5"/>
+	</switches>
+	<rom index="0" zip="/hbmame/galnamco.zip" md5="db80359a4d451e7009aef0022aed7ef1">
+		<part crc="79e4007d" name="gaylaxn/galx.u"/>
+		<part crc="bc16064e" name="gaylaxn/galx.v"/>
+		<part crc="72d2d3ee" name="gaylaxn/galx.w"/>
+		<part crc="afe397f3" name="gaylaxn/galx.y"/>
+		<part crc="778c0d3c" name="gaylaxn/galx.z"/>
+		<part crc="778c0d3c" name="gaylaxn/galx.z"/>
+		<part crc="778c0d3c" name="gaylaxn/galx.z"/>
+		<part crc="778c0d3c" name="gaylaxn/galx.z"/>
+		<part crc="ce77d89b" name="gaylaxn/galxn.1h"/>
+		<part crc="ce77d89b" name="gaylaxn/galxn.1h"/>
+		<part crc="08008d2c" name="gaylaxn/galxn.1k"/>
+		<part crc="08008d2c" name="gaylaxn/galxn.1k"/>
+		<part crc="c3ac9467" name="6l.bpr"/>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,28 @@
+<misterromdescription>
+	<name>Pacman (Namco) (Sil hack) [c] - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>namcosil</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1998</year>
+	<manufacturer>Marcel Silvius</manufacturer>
+	<category>Maze / Pac-Man</category>
+	<rbf>pacman</rbf>
+	<rom index="0" zip="/hbmame/puckman.zip" md5="6ca5834148632e8d8fb04550cc622e07">
+		<part crc="fee263b3" name="abortman/puckmanb.6e"/>
+		<part crc="c5ec2352" name="namcosil/namcosil.6f"/>
+		<part crc="02083b03" name="abortman/puckmanb.6h"/>
+		<part crc="57a07f6e" name="namcosil/namcosil.6j"/>
+		<part crc="fee263b3" name="abortman/puckmanb.6e"/>
+		<part crc="c5ec2352" name="namcosil/namcosil.6f"/>
+		<part crc="02083b03" name="abortman/puckmanb.6h"/>
+		<part crc="57a07f6e" name="namcosil/namcosil.6j"/>
+		<part crc="0c944964" name="chtpac/pacman.5e"/>
+		<part crc="958fedf9" name="chtpac/pacman.5f"/>
+		<part crc="958fedf9" name="chtpac/pacman.5f"/>
+		<part crc="958fedf9" name="chtpac/pacman.5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="3eb3a8e4" name="82s126.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="2fc650bd" name="82s123.7f"/>
+	</rom>
+</misterromdescription>

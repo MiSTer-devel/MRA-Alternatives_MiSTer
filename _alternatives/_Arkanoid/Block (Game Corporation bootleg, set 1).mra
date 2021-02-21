@@ -1,0 +1,20 @@
+<misterromdescription>
+	<name>Block (Game Corporation bootleg, set 1)</name>
+	<mameversion>0218</mameversion>
+	<setname>arkblock</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1986</year>
+	<manufacturer>bootleg (Game Corporation)</manufacturer>
+	<category>Platform / Breakout</category>
+	<rbf>arkanoid</rbf>
+	<rom index="0" zip="arkanoid.zip|arkblock.zip" md5="ebe08f7ba6f780fff2c9a3b55b652fb7">
+		<part crc="0be015de" name="ark-6.bin"/>
+		<part crc="9f0d4754" name="arkgc.2"/>
+		<part crc="038b74ba" name="a75-03.rom"/>
+		<part crc="71fae199" name="a75-04.rom"/>
+		<part crc="c76374e2" name="a75-05.rom"/>
+		<part crc="0af8b289" name="a75-07.bpr"/>
+		<part crc="abb002fb" name="a75-08.bpr"/>
+		<part crc="a7c6c277" name="a75-09.bpr"/>
+	</rom>
+</misterromdescription>

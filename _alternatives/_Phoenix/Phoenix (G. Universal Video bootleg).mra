@@ -1,0 +1,24 @@
+<misterromdescription>
+	<name>Phoenix (G. Universal Video bootleg)</name>
+	<mameversion>0218</mameversion>
+	<setname>phoenixgu</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>bootleg? (G. Universal Video)</manufacturer>
+	<category>Space / Shooter</category>
+	<rbf>phoenix</rbf>
+	<rom index="0" zip="phoenix.zip|phoenixgu.zip" md5="7f93e3ed43f146af5eac80f508b68b6b">
+		<part crc="5b8c55a8" name="phoenix.45"/>
+		<part crc="dbc942fa" name="phoenix.46"/>
+		<part crc="cbbb8839" name="phoenix.47"/>
+		<part crc="75623a06" name="48.bin"/>
+		<part crc="1a1ce0d0" name="phoenixc.49"/>
+		<part crc="ac5e9ec1" name="h6-ic50.6a"/>
+		<part crc="2eab35b4" name="h7-ic51.7a"/>
+		<part crc="8424d7c4" name="phoenixc.52"/>
+		<part crc="3c7e623f" name="ic23.3d"/>
+		<part crc="59916d3b" name="ic24.4d"/>
+		<part crc="bb0525ed" name="phoenixc.39"/>
+		<part crc="4178aa4f" name="phoenixc.40"/>
+	</rom>
+</misterromdescription>

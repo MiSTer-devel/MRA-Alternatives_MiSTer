@@ -1,0 +1,24 @@
+<misterromdescription>
+	<name>Phoenix (Irecsa - G.G.I Corp, set 2)</name>
+	<mameversion>0218</mameversion>
+	<setname>phoenixc2</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>bootleg? (Irecsa / G.G.I Corp)</manufacturer>
+	<category>Space / Shooter</category>
+	<rbf>phoenix</rbf>
+	<rom index="0" zip="phoenix.zip|phoenixc2.zip" md5="e5106f2a10544dc5c11eb66a6735c8ca">
+		<part crc="5b8c55a8" name="phoenix.45"/>
+		<part crc="dbc942fa" name="phoenix.46"/>
+		<part crc="cbbb8839" name="phoenix.47"/>
+		<part crc="f28e16d8" name="01.ic48"/>
+		<part crc="1a1ce0d0" name="phoenixc.49"/>
+		<part crc="ac5e9ec1" name="h6-ic50.6a"/>
+		<part crc="2eab35b4" name="h7-ic51.7a"/>
+		<part crc="8424d7c4" name="phoenixc.52"/>
+		<part crc="3c7e623f" name="ic23.3d"/>
+		<part crc="59916d3b" name="ic24.4d"/>
+		<part crc="bb0525ed" name="phoenixc.39"/>
+		<part crc="4178aa4f" name="phoenixc.40"/>
+	</rom>
+</misterromdescription>

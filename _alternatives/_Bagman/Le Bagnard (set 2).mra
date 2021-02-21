@@ -1,0 +1,37 @@
+<misterromdescription>
+	<name>Le Bagnard (set 2)</name>
+	<mameversion>0218</mameversion>
+	<setname>bagnarda</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>Valadon Automation</manufacturer>
+	<category>Platform / Extra</category>
+	<rbf>bagman</rbf>
+	<switches default="F6">		
+		<dip bits="0,1" name="Lives" ids="5,4,3,2"/>
+		<dip bits="2"   name="Coinage" ids="2c/1cr,1c/1cr"/>
+		<dip bits="3,4" name="Difficulty" ids="Hardest,Hard,Medium,Easy"/>
+		<dip bits="5"   name="Language" ids="French,English"/>
+		<dip bits="6"   name="Bonus" ids="40000,30000"/>
+	</switches>
+	<rom index="1">
+		<part>00</part>
+	</rom>
+	<rom index="0" zip="bagman.zip|bagnarda.zip" md5="344a27c9cf0e1abf46cf0ff9343b785f">
+		<part crc="98fca49c" name="bagman.005"/>
+		<part crc="8f447432" name="bagman.006"/>
+		<part crc="236203a6" name="bagman.007"/>
+		<part crc="8bd8c6cb" name="bagman.008"/>
+		<part crc="6211ba82" name="bagman.009"/>
+		<part crc="08ed1247" name="bagman.010"/>
+		<part repeat="40960">00</part>
+		<part crc="7dc57abc" name="bagman.002"/>
+		<part crc="1eb56acd" name="bagman.001"/>
+		<part crc="1e21577e" name="bagman.004"/>
+		<part crc="0ad82a39" name="bagman.003"/>
+		<part crc="2e0057ff" name="r9_b11.bin"/>
+		<part crc="b2120edd" name="t9_b12.bin"/>
+		<part crc="2a855523" name="p3.bin"/>
+		<part crc="ae6f1019" name="r3.bin"/>
+	</rom>
+</misterromdescription>

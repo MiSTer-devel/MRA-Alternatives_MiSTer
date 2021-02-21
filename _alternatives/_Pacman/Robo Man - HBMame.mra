@@ -1,0 +1,35 @@
+<misterromdescription>
+	<name>Robo Man - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>roboman</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1999</year>
+	<manufacturer>Runge Editing</manufacturer>
+	<category>Maze / Pac-Man</category>
+	<rbf>pacman</rbf>
+	<switches default="FF,FF,C9">
+		<dip bits="15"    name="Cabinet" ids="Cocktail,Upright"/>
+		<dip bits="16,17" name="Coinage" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" values="3,1,2,0"/>
+		<dip bits="18,19" name="Lives" ids="1,2,3,5"/>
+		<dip bits="20,21" name="Bonus Life After" ids="10000,15000,20000,None"/>
+		<dip bits="22"    name="Difficulty" ids="Hard,Normal"/>
+	</switches>
+	<rom index="0" zip="/hbmame/puckman.zip" md5="310888867c1bb504315b10fb56bd7bfa">
+		<part crc="c1e6ab10" name="baby2/pacman.6e"/>
+		<part crc="1a6fb2d4" name="baby2/pacman.6f"/>
+		<part crc="bcdd1beb" name="baby2/pacman.6h"/>
+		<part crc="a909673e" name="roboman/roboman.6j"/>
+		<part crc="c1e6ab10" name="baby2/pacman.6e"/>
+		<part crc="1a6fb2d4" name="baby2/pacman.6f"/>
+		<part crc="bcdd1beb" name="baby2/pacman.6h"/>
+		<part crc="a909673e" name="roboman/roboman.6j"/>
+		<part crc="e386213e" name="roboman/roboman.5e"/>
+		<part crc="d8db5788" name="roboman/roboman.5f"/>
+		<part crc="d8db5788" name="roboman/roboman.5f"/>
+		<part crc="d8db5788" name="roboman/roboman.5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="3eb3a8e4" name="82s126.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="2fc650bd" name="82s123.7f"/>
+	</rom>
+</misterromdescription>

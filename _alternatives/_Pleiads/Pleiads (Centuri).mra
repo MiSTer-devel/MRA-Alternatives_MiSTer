@@ -1,0 +1,25 @@
+<misterromdescription>
+	<name>Pleiads (Centuri)</name>
+	<mameversion>0218</mameversion>
+	<setname>pleiadce</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>Tehkan (Centuri license)</manufacturer>
+	<rbf>pleiads</rbf>
+	<rom index="0" zip="pleiads.zip|pleiadce.zip" md5="f5f71b28a341ab9507da4b7dcba7e590">
+		<part crc="711e2ba0" name="pleiades.47"/>
+		<part crc="93a36943" name="pleiades.48"/>
+		<part crc="87e700bb" name="ic47.bin"/>
+		<part crc="5a9beba0" name="pleiades.50"/>
+		<part crc="1d828719" name="pleiades.51"/>
+		<part crc="f1a8a00d" name="ic50.bin"/>
+		<part crc="037b319c" name="pleiades.53"/>
+		<part crc="ca264c7c" name="pleiades.54"/>
+		<part crc="8dbd3785" name="pleiades.45"/>
+		<part crc="0db3e436" name="pleiades.44"/>
+		<part crc="85866607" name="ic39.bin"/>
+		<part crc="a841d511" name="ic40.bin"/>
+		<part crc="7a1bcb1e" name="7611-5.26"/>
+		<part crc="e38eeb83" name="7611-5.33"/>
+	</rom>
+</misterromdescription>

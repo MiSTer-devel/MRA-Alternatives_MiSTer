@@ -1,0 +1,28 @@
+<misterromdescription>
+	<name>Dig Dug II (Old Ver.)</name>
+	<mameversion>0218</mameversion>
+	<setname>digdug2o</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1985</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Maze / Digging</category>
+	<rbf>druaga</rbf>
+	<rom index="1">
+		<part>03</part>
+	</rom>
+	<rom index="0" zip="digdug2.zip|digdug2o.zip" md5="58c7ee6f2311602d342644bd577b41ca">
+		<part crc="be7ec80b" name="d21_3.1d"/>
+		<part crc="5c77c0d4" name="d21_1.1b"/>
+		<part crc="df1f4ad8" name="d21_6.3m"/>
+		<part crc="ccadb3ea" name="d21_7.3n"/>
+		<part crc="737443b1" name="d21_4.1k"/>
+		<part crc="afcb4509" name="d21_5.3b"/>
+		<part crc="1525a4d1" name="d2x-7.5k"/>
+		<part crc="1525a4d1" name="d2x-7.5k"/>
+		<part crc="1525a4d1" name="d2x-7.5k"/>
+		<part crc="1525a4d1" name="d2x-7.5k"/>
+		<part crc="55a88695" name="d21-6.4c"/>
+		<part crc="e0074ee2" name="d21-3.3m"/>
+		<part crc="9b169db5" name="d21-5.5b"/>
+	</rom>
+</misterromdescription>

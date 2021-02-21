@@ -1,0 +1,22 @@
+<misterromdescription>
+	<name>Galapede (Fast Shoot) - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>galaped</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1998</year>
+	<manufacturer>Cary Barnhard</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaga</rbf>
+	<rom index="0" zip="/hbmame/galaga.zip|namco54.zip" md5="6ee586c749435417d48eb3d60d911512">
+		<part crc="3ef0b053" name="galagads/3200a.bin"/>
+		<part crc="1b280831" name="galagads/3300b.bin"/>
+		<part crc="16233d33" name="galagads/3400c.bin"/>
+		<part crc="0aaf5c23" name="galagads/3500d.bin"/>
+		<part crc="23d586e5" name="galagads/3600fast.bin"/>
+		<part crc="b07f0aa4" name="galagads/3700g.bin"/>
+		<part crc="1d0a2438" name="galaped/ped_07e_g10.bin"/>
+		<part crc="11d9b093" name="galaped/ped_07h_g09.bin"/>
+		<part crc="d4fda6a5" name="galaped/ped_07m_g08.bin"/>
+		<part crc="ee7357e0" name="54xx.bin" zip="namco54.zip"/>
+	</rom>
+</misterromdescription>

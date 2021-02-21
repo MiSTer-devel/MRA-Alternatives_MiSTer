@@ -1,0 +1,44 @@
+<misterromdescription>
+	<name>Scramble (Centromatic S.A., Spanish bootleg)</name>
+	<mameversion>0218</mameversion>
+	<setname>scramce</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>bootleg (Centromatic S.A.)</manufacturer>
+	<category>Space / Defender</category>
+	<rbf>scramble</rbf>
+	<switches default="FF,FC,F1">
+		<dip bits="8,9"   name="Lives" ids="3,4,5,255(Cheat)"/>
+		<dip bits="17,18" name="Coinage" ids="1c/1cr,1c/2cr,1c/3cr,1c/4cr"/>
+		<dip bits="19"    name="Cabinet" ids="Upright,Cocktail"/>
+	</switches>
+	<buttons names="Shoot,Bomb,-,-,Start 1P,Start 2P,Coin" default="A,B,Start,Select,R"/>
+	<rom index="1">
+		<part>00</part>
+	</rom>
+	<rom index="0" zip="scramble.zip|scramce.zip" md5="dc002b05ad26f3193f0a7085f4a1d68e">
+		<part crc="726fb19e" name="es1.2c"/>
+		<part crc="66ebc070" name="es2.2e"/>
+		<part crc="317548fd" name="es3.2f"/>
+		<part crc="dd380a22" name="es4.2h"/>
+		<part crc="fa4f1a70" name="es5.2j"/>
+		<part crc="9fd96374" name="es6.2l"/>
+		<part crc="88ac07a0" name="es7.2m"/>
+		<part crc="d20088ee" name="es8.2p"/>
+		<part crc="726fb19e" name="es1.2c"/>
+		<part crc="66ebc070" name="es2.2e"/>
+		<part crc="317548fd" name="es3.2f"/>
+		<part crc="dd380a22" name="es4.2h"/>
+		<part crc="fa4f1a70" name="es5.2j"/>
+		<part crc="9fd96374" name="es6.2l"/>
+		<part crc="88ac07a0" name="es7.2m"/>
+		<part crc="d20088ee" name="es8.2p"/>
+		<part crc="be037cf6" name="11.5c"/>
+		<part crc="de7912da" name="12.5d"/>
+		<part crc="ba2fa933" name="13.5e"/>
+		<part crc="ba2fa933" name="13.5e"/>
+		<part crc="11fd2887" repeat="4" name="10.5h"/>
+		<part crc="4708845b" repeat="4" name="9.5f"/>
+		<part crc="4e3caeab" name="prom7051.6e"/>
+	</rom>
+</misterromdescription>

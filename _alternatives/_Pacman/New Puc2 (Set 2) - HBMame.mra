@@ -1,0 +1,28 @@
+<misterromdescription>
+	<name>New Puc2 (Set 2) - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>nwpuc2b</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>Linear Elect</manufacturer>
+	<category>Maze / Pac-Man</category>
+	<rbf>pacman</rbf>
+	<rom index="0" zip="/hbmame/puckman.zip" md5="2df9a068d62b978a35467ba936ae3795">
+		<part crc="532bd09f" name="nwpuc2b/nwpuc2b.6e"/>
+		<part crc="b9062f57" name="nwpuc2b/nwpuc2b.6f"/>
+		<part crc="519b3c57" name="nwpuc2b/nwpuc2b.6h"/>
+		<part crc="154cc118" name="nwpuc2b/nwpuc2b.6j"/>
+		<part crc="532bd09f" name="nwpuc2b/nwpuc2b.6e"/>
+		<part crc="b9062f57" name="nwpuc2b/nwpuc2b.6f"/>
+		<part crc="519b3c57" name="nwpuc2b/nwpuc2b.6h"/>
+		<part crc="154cc118" name="nwpuc2b/nwpuc2b.6j"/>
+		<part crc="58357313" name="nwpuc2b/nwpuc2b.5e"/>
+		<part crc="4b044c87" name="nwpuc2b/nwpuc2b.5f"/>
+		<part crc="4b044c87" name="nwpuc2b/nwpuc2b.5f"/>
+		<part crc="4b044c87" name="nwpuc2b/nwpuc2b.5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="3eb3a8e4" name="82s126.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="2fc650bd" name="82s123.7f"/>
+	</rom>
+</misterromdescription>

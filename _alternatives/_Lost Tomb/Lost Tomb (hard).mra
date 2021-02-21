@@ -1,0 +1,37 @@
+<misterromdescription>
+	<name>Lost Tomb (hard)</name>
+	<mameversion>0218</mameversion>
+	<setname>losttombh</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>Stern Electronics</manufacturer>
+	<category>Adventure / Arabian</category>
+	<category>Maze</category>
+	<rbf>scramble</rbf>
+	<switches default="FF,FD,F3">
+		<dip bits="8,9"   name="Lives" ids="Invulnerable,3,5,Free Play"/>
+		<dip bits="17,18" name="Coinage" ids="1c/2cr,1c/1cr,1c/3cr,1c/4cr"/>
+		<dip bits="19"    name="Demo Sounds" ids="On,Off"/>
+	</switches>
+	<buttons names="Fire Right,Fire Down,Fire Up,Fire Left,Start 1P/Bomb,Start 2P,Coin" default="A,B,X,Y,Start,Select,R"/>
+	<rom index="1">
+		<part>0B</part>
+	</rom>
+	<rom index="0" zip="losttomb.zip|losttombh.zip" md5="4cf8666e963957adc78f65d787c9f58c">
+		<part crc="d6176d2c" name="2c"/>
+		<part crc="a5f55f4a" name="2e"/>
+		<part crc="0169fa3c" name="2f"/>
+		<part crc="e32cbf0e" name="lthard"/>
+		<part crc="249ee040" name="2j"/>
+		<part crc="c7d2e608" name="2l"/>
+		<part crc="bc4bc5b1" name="2m"/>
+		<part crc="bc4bc5b1" name="2m"/>
+		<part crc="b899be2a" name="5c"/>
+		<part crc="6907af31" name="5d"/>
+		<part crc="b899be2a" name="5c"/>
+		<part crc="6907af31" name="5d"/>
+		<part crc="5581de5f" repeat="4" name="5h"/>
+		<part crc="61f137e7" repeat="4" name="5f"/>
+		<part crc="1108b816" name="ltprom"/>
+	</rom>
+</misterromdescription>

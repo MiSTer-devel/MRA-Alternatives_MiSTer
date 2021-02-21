@@ -1,0 +1,28 @@
+<misterromdescription>
+	<name>The Tower of Druaga (Old Ver.)</name>
+	<mameversion>0218</mameversion>
+	<setname>todruagao</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1984</year>
+	<manufacturer>Namco</manufacturer>
+	<category>Adventure / Knights</category>
+	<category>Maze / Extra</category>
+	<rbf>druaga</rbf>
+	<rom index="1">
+		<part>01</part>
+	</rom>
+	<rom index="0" zip="todruaga.zip|todruagao.zip" md5="254e6a73b9489c91186da9023b7f25eb">
+		<part crc="7ab4f5b2" name="td1_3.1d"/>
+		<part crc="8c20ef10" name="td1_1.1b"/>
+		<part crc="e827e787" name="td1_6.3m"/>
+		<part crc="e827e787" name="td1_6.3m"/>
+		<part crc="962bd060" name="td1_7.3n"/>
+		<part crc="962bd060" name="td1_7.3n"/>
+		<part crc="ae9d06d9" name="td1_4.1k"/>
+		<part crc="d32b249f" name="td1_5.3b"/>
+		<part crc="a86c74dd" name="td1-7.5k"/>
+		<part crc="8c661d6a" name="td1-6.4c"/>
+		<part crc="07104c40" name="td1-3.3m"/>
+		<part crc="122cc395" name="td1-5.5b"/>
+	</rom>
+</misterromdescription>
