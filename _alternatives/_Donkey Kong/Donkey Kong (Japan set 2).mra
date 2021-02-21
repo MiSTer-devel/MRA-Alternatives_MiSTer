@@ -9,19 +9,30 @@
 	<category>Platform</category>
 	<category>Platform / Mario Bros.</category>
 	<rbf>donkeykong</rbf>
-	<rom index="0" zip="dkong.zip|dkongjo.zip" md5="6a8b7385556394497b13ef29ec8500ab">
+	<switches default="80" base="8">
+		<dip bits="0,1"    name="Lives" ids="3,4,5,6"/>
+		<dip bits="2,3"    name="Bonus Life" ids="7K,10K,15K,20K"/>
+		<dip bits="4,6"    name="Coins" ids="1C1P,2C1P,1C1P,3C1P,1C1P,4C1P,1C1P,5C1P,1C1P"/>
+		<dip bits="7"      name="Cabinet" ids="Cocktail,Upright"/>
+	</switches>
+	<rom index="0" zip="dkong.zip|dkongjo.zip" md5="97302d9ed3f0ef75313f6f27264330ff">
+	<!-- Main CPU 32k -->
 		<part crc="424f2b11" name="c_5f_b.bin"/>
 		<part crc="3b2a6635" name="c_5g_b.bin"/>
 		<part crc="1d28895d" name="c_5h_b.bin"/>
 		<part crc="394d6007" name="c_5k_b.bin"/>
+		<part crc="424f2b11" name="c_5f_b.bin"/>
+		<part crc="3b2a6635" name="c_5g_b.bin"/>
+		<part crc="1d28895d" name="c_5h_b.bin"/>
 		<part crc="394d6007" name="c_5k_b.bin"/>
-		<part crc="394d6007" name="c_5k_b.bin"/>
+
+		<!-- GFX1 8k -->
 		<part crc="3684f914" name="v_5k_b.bin"/>
 		<part crc="3684f914" name="v_5k_b.bin"/>
 		<part crc="12c8c95d" name="v_5h_b.bin"/>
 		<part crc="12c8c95d" name="v_5h_b.bin"/>
-		<part crc="394d6007" name="c_5k_b.bin"/>
-		<part crc="394d6007" name="c_5k_b.bin"/>
+
+		<!-- GFX2 16k -->
 		<part crc="59f8054d" name="l_4m_b.bin"/>
 		<part crc="59f8054d" name="l_4m_b.bin"/>
 		<part crc="672e4714" name="l_4n_b.bin"/>
@@ -30,12 +41,20 @@
 		<part crc="feaa59ee" name="l_4r_b.bin"/>
 		<part crc="20f2ef7e" name="l_4s_b.bin"/>
 		<part crc="20f2ef7e" name="l_4s_b.bin"/>
+
+		<!-- Sound CPU 4k -->
 		<part crc="45a4ed06" name="s_3i_b.bin"/>
 		<part crc="4743fe92" name="s_3j_b.bin"/>
+
+		<!-- LUTs 3x256 -->
+		<part crc="e273ede5" name="c-2k.bpr"/>
 		<part crc="e273ede5" name="c-2k.bpr"/>
 		<part crc="d6412358" name="c-2j.bpr"/>
+		<part crc="d6412358" name="c-2j.bpr"/>
 		<part crc="b869b8f5" name="v-5e.bpr"/>
-		<part repeat="3328">00</part>
+		<part repeat="2816">00</part>
+
+		<!-- WAWs -->
 		<part>
 8080808080807f7f7f7f7f7f7f808080
 8080807f7f7f7f7f7f7f7f8080808080
