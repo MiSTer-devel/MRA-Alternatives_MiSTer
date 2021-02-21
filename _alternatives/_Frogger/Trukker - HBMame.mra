@@ -1,0 +1,37 @@
+<misterromdescription>
+	<name>Trukker - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>trukker</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1999</year>
+	<manufacturer>Grimlick</manufacturer>
+	<category>Maze</category>
+	<category>Maze / Frogs</category>
+	<rbf>scramble</rbf>
+	<switches default="FF,FC,F1">
+		<dip bits="8,9"   name="Lives" ids="3,4,5,256(Cheat)"/>
+		<dip bits="17,18" name="Coinage" ids="1c/1cr,2c/1cr"/>
+		<dip bits="19"    name="Cabinet" ids="Upright,Cocktail"/>
+	</switches>
+	<buttons names="Jump,-,-,-,Start 1P,Start 2P,Coin" default="A,Start,Select,R"/>
+	<rom index="1">
+		<part>02</part>
+	</rom>
+	<rom index="0" zip="/hbmame/frogger.zip" md5="7f8ee938ebef2780a29940e67ba44e1a">
+		<part crc="efab0c79" name="trukker/frogger.ic5"/>
+		<part crc="aeca9c13" name="trukker/frogger.ic6"/>
+		<part crc="dd251066" name="trukker/frogger.ic7"/>
+		<part crc="bf293a02" name="trukker/frogger.ic8"/>
+		<part crc="efab0c79" name="trukker/frogger.ic5"/>
+		<part crc="aeca9c13" name="trukker/frogger.ic6"/>
+		<part crc="dd251066" name="trukker/frogger.ic7"/>
+		<part crc="bf293a02" name="trukker/frogger.ic8"/>
+		<part crc="e8ab0256" name="frogger.608"/>
+		<part crc="7380a48f" name="frogger.609"/>
+		<part crc="31d7eb27" name="frogger.610"/>
+		<part crc="31d7eb27" name="frogger.610"/>
+		<part crc="6ab5c2eb" repeat="4" name="trukker/trukker.607"/>
+		<part crc="f0c49466" repeat="4" name="trukker/trukker.606"/>
+		<part crc="413703bf" name="pr-91.6l"/>
+	</rom>
+</misterromdescription>

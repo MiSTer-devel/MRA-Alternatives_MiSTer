@@ -1,0 +1,22 @@
+<misterromdescription>
+	<name>Sprint 2 (set 2)</name>
+	<mameversion>0218</mameversion>
+	<setname>sprint2a</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1976</year>
+	<manufacturer>Atari (Kee Games)</manufacturer>
+	<category>Racing / Cars</category>
+	<rbf>sprint2</rbf>
+	<rom index="0" zip="sprint1.zip|sprint2a.zip" md5="59bb05f55d0744526f441b2fc95a63f1">
+		<part crc="41fc985e" name="6290-01.b1"/>
+		<part crc="07f7a920" name="6291-01.c1"/>
+		<part crc="d2878ff6" name="6404.d1"/>
+		<part crc="e80fd249" name="6405-02.e1"/>
+		<part crc="801b42dd" name="6396-01.p4"/>
+		<part crc="135ba1aa" name="6397-01.r4"/>
+		<part crc="c9e1017e" name="6398-01.k6"/>
+		<part crc="63d685b2" name="6399-01.j6"/>
+		<part crc="b8094b4c" name="6400-01.m2"/>
+		<part crc="857df8db" name="6401-01.e2"/>
+	</rom>
+</misterromdescription>

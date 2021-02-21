@@ -1,0 +1,20 @@
+<misterromdescription>
+	<name>Car Action (set 1)</name>
+	<mameversion>0218</mameversion>
+	<setname>caractn</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Racing / Cars</category>
+	<rbf>burningrubber</rbf>
+	<rom index="0" zip="brubber.zip|caractn.zip" md5="cb87ce6dc5ee0765e2b9980768c064c3">
+		<part crc="b5279c70" name="c7.12c"/>
+		<part crc="1d6957c4" name="c6.12d"/>
+		<part crc="bf3ea732" name="c0.4e"/>
+		<part crc="9789f639" name="c1.4f"/>
+		<part crc="51dcc111" name="c2.4h"/>
+		<part crc="f4e9eb49" name="c3.10e"/>
+		<part crc="a9ffacb4" name="c4.10f"/>
+		<part crc="8c02f662" name="c5.6c"/>
+	</rom>
+</misterromdescription>

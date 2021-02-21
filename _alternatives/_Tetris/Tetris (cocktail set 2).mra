@@ -1,0 +1,14 @@
+<misterromdescription>
+	<name>Tetris (cocktail set 2)</name>
+	<mameversion>0218</mameversion>
+	<setname>atetrisc2</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1989</year>
+	<manufacturer>Atari Games</manufacturer>
+	<category>Puzzle / Tetris</category>
+	<rbf>ataritetris</rbf>
+	<rom index="0" zip="atetris.zip|atetrisc2.zip" md5="3363856fcc8e4fcbaaf5bceab01920e2">
+		<part crc="1bd28902" name="136066-1102.45f"/>
+		<part crc="ec2a7f93" name="136066-1103.35a"/>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Galaxian (Taito)</name>
+	<mameversion>0218</mameversion>
+	<setname>galaxiant</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>Namco (Taito license)</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,00">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="None,4000,5000,7000"/>
+		<dip bits="18" name="Lives" ids="3,5"/>
+	</switches>
+	<rom index="0" zip="galaxian.zip|galaxiant.zip" md5="8ca66bd8396aac926338a249ba005a13">
+		<part crc="e8f3aa67" name="gl-03.8g"/>
+		<part crc="f58283e3" name="gl-04.8f"/>
+		<part crc="4c7031c0" name="gl-05.8e"/>
+		<part crc="097d92a2" name="gl-06.8d"/>
+		<part crc="5341d75a" name="gl-07.8c"/>
+		<part crc="5341d75a" name="gl-07.8c"/>
+		<part crc="5341d75a" name="gl-07.8c"/>
+		<part crc="5341d75a" name="gl-07.8c"/>
+		<part crc="d14f7510" name="gl-02.1k"/>
+		<part crc="d14f7510" name="gl-02.1k"/>
+		<part crc="968b6016" name="gl-01.1j"/>
+		<part crc="968b6016" name="gl-01.1j"/>
+		<part crc="c3ac9467" name="6l.bpr"/>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,37 @@
+<misterromdescription>
+	<name>Satan's Hollow (set 2)</name>
+	<mameversion>0218</mameversion>
+	<setname>shollow2</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>Bally Midway</manufacturer>
+	<category>Space / Shooter</category>
+	<rbf>mcr2</rbf>
+	<switches default="FF 00">
+		<dip bits="0"  name="Coin Meters" ids="1,2"/>
+		<dip bits="1"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="8"    name="Service" ids="Off,On"/>
+	</switches>
+	<buttons names="Fire,Shield,-,-,-,-,Start 1P,Start 2P,Coin" default="A,B,Start,Select,R"/>
+	<rom index="1">
+		<part>0</part>
+	</rom>
+	<rom index="0" zip="shollow.zip|shollow2.zip" md5="1d9c242b13e885850bf4501203ded65d">
+		<part crc="95e2b800" name="sh-pro.00"/>
+		<part crc="b99f6ff8" name="sh-pro.01"/>
+		<part crc="1202c7b2" name="sh-pro.02"/>
+		<part crc="0a64afb9" name="sh-pro.03"/>
+		<part crc="22fa9175" name="sh-pro.04"/>
+		<part crc="1716e2bb" name="sh-pro.05"/>
+		<part crc="9d815bb3" name="snd-0.a7"/>
+		<part crc="9f253412" name="snd-1.a8"/>
+		<part crc="7783d6c6" name="snd-2.a9"/>
+		<part repeat="4096">00</part>
+		<part crc="3e2b333c" name="sh-bg.00"/>
+		<part crc="d1d70cc4" name="sh-bg.01"/>
+		<part crc="33f4554e" name="sh-fg.00"/>
+		<part crc="ba1a38b4" name="sh-fg.01"/>
+		<part crc="6b57f6da" name="sh-fg.02"/>
+		<part crc="37ea9d07" name="sh-fg.03"/>
+	</rom>
+</misterromdescription>

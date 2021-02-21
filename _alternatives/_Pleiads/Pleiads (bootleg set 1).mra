@@ -1,0 +1,25 @@
+<misterromdescription>
+	<name>Pleiads (bootleg set 1)</name>
+	<mameversion>0218</mameversion>
+	<setname>pleiadbl</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>bootleg</manufacturer>
+	<rbf>pleiads</rbf>
+	<rom index="0" zip="pleiads.zip|pleiadbl.zip" md5="fa6ae19bfe61be6e81e6dc6ed9f28006">
+		<part crc="93fc2958" name="ic45.bin"/>
+		<part crc="e2b5b8cd" name="ic46.bin"/>
+		<part crc="87e700bb" name="ic47.bin"/>
+		<part crc="2d5198d0" name="ic48.bin"/>
+		<part crc="9dc73e63" name="ic49.bin"/>
+		<part crc="f1a8a00d" name="ic50.bin"/>
+		<part crc="6f56f317" name="ic51.bin"/>
+		<part crc="b1b5a8a6" name="ic52.bin"/>
+		<part crc="4e30f9e7" name="ic23.bin"/>
+		<part crc="5188fc29" name="ic24.bin"/>
+		<part crc="85866607" name="ic39.bin"/>
+		<part crc="a841d511" name="ic40.bin"/>
+		<part crc="7a1bcb1e" name="7611-5.26"/>
+		<part crc="e38eeb83" name="7611-5.33"/>
+	</rom>
+</misterromdescription>

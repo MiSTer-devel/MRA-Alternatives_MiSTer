@@ -1,0 +1,20 @@
+<misterromdescription>
+	<name>Arkanoid (Tayto bootleg, harder)</name>
+	<mameversion>0218</mameversion>
+	<setname>arktayt2</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1986</year>
+	<manufacturer>bootleg (Tayto)</manufacturer>
+	<category>Platform / Breakout</category>
+	<rbf>arkanoid</rbf>
+	<rom index="0" zip="arkanoid.zip|arktayt2.zip" md5="5041f34c91cf238e907a9d7c2c7a05e2">
+		<part crc="6e0a2b6f" name="ic81.3f"/>
+		<part crc="5a97dd56" name="ic82.5f"/>
+		<part crc="038b74ba" name="1-ic33.2c"/>
+		<part crc="71fae199" name="2-ic34.3c"/>
+		<part crc="c76374e2" name="3-ic35.5c"/>
+		<part crc="0af8b289" name="ic73.11e"/>
+		<part crc="abb002fb" name="ic74.12e"/>
+		<part crc="a7c6c277" name="ic75.13e"/>
+	</rom>
+</misterromdescription>

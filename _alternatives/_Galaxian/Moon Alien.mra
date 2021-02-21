@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Moon Alien</name>
+	<mameversion>0218</mameversion>
+	<setname>moonaln</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>Namco / Nichibutsu (Karateco license?)</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,00">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="None,4000,5000,7000"/>
+		<dip bits="18" name="Lives" ids="3,5"/>
+	</switches>
+	<rom index="0" zip="galaxian.zip|moonaln.zip" md5="14991e47a4c3202e1570bded8d4957be">
+		<part crc="79e4007d" name="galx.u"/>
+		<part crc="59580b30" name="prg2.bin"/>
+		<part crc="b64e9d12" name="prg3.bin"/>
+		<part crc="9463f753" name="superg.y"/>
+		<part crc="8bb78987" name="prg5.bin"/>
+		<part crc="8bb78987" name="prg5.bin"/>
+		<part crc="8bb78987" name="prg5.bin"/>
+		<part crc="8bb78987" name="prg5.bin"/>
+		<part crc="074271dd" name="ca1.bin"/>
+		<part crc="074271dd" name="ca1.bin"/>
+		<part crc="84d90397" name="ca2.bin"/>
+		<part crc="84d90397" name="ca2.bin"/>
+		<part crc="c3ac9467" name="6l.bpr"/>
+	</rom>
+</misterromdescription>

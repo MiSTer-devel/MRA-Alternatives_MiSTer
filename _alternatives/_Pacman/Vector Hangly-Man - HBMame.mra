@@ -1,0 +1,35 @@
+<misterromdescription>
+	<name>Vector Hangly-Man - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>vhangly</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>2000</year>
+	<manufacturer>[Nittoh]</manufacturer>
+	<category>Maze / Pac-Man</category>
+	<rbf>pacman</rbf>
+	<switches default="FF,FF,C9">
+		<dip bits="15"    name="Cabinet" ids="Cocktail,Upright"/>
+		<dip bits="16,17" name="Coinage" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" values="3,1,2,0"/>
+		<dip bits="18,19" name="Lives" ids="1,2,3,5"/>
+		<dip bits="20,21" name="Bonus Life After" ids="10000,15000,20000,None"/>
+		<dip bits="22"    name="Difficulty" ids="Hard,Normal"/>
+	</switches>
+	<rom index="0" zip="/hbmame/puckman.zip" md5="441c9120edf73f73b4a43022f7492bf8">
+		<part crc="5fe8610a" name="fasthang/hangly.6e"/>
+		<part crc="73726586" name="hanglyad/hangly.6f"/>
+		<part crc="4e7ef99f" name="fasthang/hangly.6h"/>
+		<part crc="7f4147e6" name="fasthang/hangly.6j"/>
+		<part crc="5fe8610a" name="fasthang/hangly.6e"/>
+		<part crc="73726586" name="hanglyad/hangly.6f"/>
+		<part crc="4e7ef99f" name="fasthang/hangly.6h"/>
+		<part crc="7f4147e6" name="fasthang/hangly.6j"/>
+		<part crc="936d0475" name="vcrunchy/vecpac.5e"/>
+		<part crc="022d0686" name="vcrunchy/vecpac.5f"/>
+		<part crc="022d0686" name="vcrunchy/vecpac.5f"/>
+		<part crc="022d0686" name="vcrunchy/vecpac.5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="3eb3a8e4" name="82s126.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="2fc650bd" name="82s123.7f"/>
+	</rom>
+</misterromdescription>

@@ -1,0 +1,33 @@
+<misterromdescription>
+	<name>Galaxian (Bug sprites) - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>buglaxn</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1998</year>
+	<manufacturer>The Dog</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,04">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="7000,10000,12000,20000"/>
+		<dip bits="18" name="Lives" ids="2,3"/>
+	</switches>
+	<rom index="0" zip="/hbmame/galnamco.zip" md5="cf7874dc5c13fe1cd3e4c53e676fd4ee">
+		<part crc="745e2d61" name="buglaxn/galmidw.u"/>
+		<part crc="9c999a40" name="buglaxn/galmidw.v"/>
+		<part crc="b5894925" name="buglaxn/galmidw.w"/>
+		<part crc="6b3ca10b" name="buglaxn/galmidw.y"/>
+		<part crc="cb24f797" name="buglaxn/galmidw.z"/>
+		<part crc="cb24f797" name="buglaxn/galmidw.z"/>
+		<part crc="cb24f797" name="buglaxn/galmidw.z"/>
+		<part crc="cb24f797" name="buglaxn/galmidw.z"/>
+		<part crc="b8d46e4b" name="buglaxn/buglaxn.1j"/>
+		<part crc="b8d46e4b" name="buglaxn/buglaxn.1j"/>
+		<part crc="a00bde50" name="buglaxn/buglaxn.1k"/>
+		<part crc="a00bde50" name="buglaxn/buglaxn.1k"/>
+		<part crc="c3ac9467" name="6l.bpr"/>
+	</rom>
+</misterromdescription>

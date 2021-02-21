@@ -1,0 +1,28 @@
+<misterromdescription>
+	<name>Burger Time (Data East set 2)</name>
+	<mameversion>0218</mameversion>
+	<setname>btime2</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>Data East Corporation</manufacturer>
+	<category>Maze / Food</category>
+	<category>Platform</category>
+	<rbf>burgertime</rbf>
+	<rom index="0" zip="btime.zip|btime2.zip" md5="bc99291492e72ea99c6f0b958c00eeab">
+		<part crc="a041e25b" name="aa04.9b2"/>
+		<part crc="b4ba400d" name="aa06.13b"/>
+		<part crc="8005bffa" name="aa05.10b"/>
+		<part crc="086440ad" name="aa07.15b"/>
+		<part crc="c4617243" name="aa12.7k"/>
+		<part crc="ac01042f" name="ab13.9k"/>
+		<part crc="854a872a" name="ab10.10k"/>
+		<part crc="d4848014" name="ab11.12k"/>
+		<part crc="8650c788" name="aa8.13k"/>
+		<part crc="8dec15e6" name="ab9.15k"/>
+		<part crc="c7a14485" name="ab00.1b"/>
+		<part crc="25b49078" name="ab01.3b"/>
+		<part crc="b8ef56c3" name="ab02.4b"/>
+		<part crc="d26bc1f3" name="ab03.6b"/>
+		<part crc="f55e5211" name="ab14.12h"/>
+	</rom>
+</misterromdescription>

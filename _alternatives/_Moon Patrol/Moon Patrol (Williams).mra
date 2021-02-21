@@ -1,0 +1,24 @@
+<misterromdescription>
+	<name>Moon Patrol (Williams)</name>
+	<mameversion>0218</mameversion>
+	<setname>mpatrolw</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>Irem (Williams license)</manufacturer>
+	<category>Space / Moon</category>
+	<rbf>moonpatrol</rbf>
+	<rom index="0" zip="mpatrol.zip|mpatrolw.zip" md5="2c2576d313ea8bc50149a101695b6094">
+		<part crc="baa1a1d4" name="mpa-1w.3m"/>
+		<part crc="52459e51" name="mpa-2w.3l"/>
+		<part crc="9b249fe5" name="mpa-3w.3k"/>
+		<part crc="fee76972" name="mpa-4w.3j"/>
+		<part crc="f56e01fe" name="mpe-5w.3e"/>
+		<part crc="caaba2d9" name="mpe-4w.3f"/>
+		<part crc="707ace5e" name="mpb-2.3m"/>
+		<part crc="9b72133a" name="mpb-1.3n"/>
+		<part crc="a0919392" name="mpe-3.3h"/>
+		<part crc="c7aa1fb0" name="mpe-2.3k"/>
+		<part crc="c46a7f72" name="mpe-1.3l"/>
+		<part crc="561d3108" name="mp-s1.1a"/>
+	</rom>
+</misterromdescription>

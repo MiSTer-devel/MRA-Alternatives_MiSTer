@@ -1,0 +1,40 @@
+<misterromdescription>
+	<name>Apocaljpse Now (bootleg of Rescue)</name>
+	<mameversion>0218</mameversion>
+	<setname>aponow</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1982</year>
+	<manufacturer>bootleg</manufacturer>
+	<category>Army / Helicopter</category>
+	<category>Platform / Rescue</category>
+	<category>Platform / Water</category>
+	<rbf>scramble</rbf>
+	<switches default="FF,FD,F3">
+		<dip bits="1"     name="Starting Level" ids="3,1"/>
+		<dip bits="8"     name="Lives" ids="5,3"/>
+		<dip bits="9"     name="Demo Sounds" ids="On,Off"/>
+		<dip bits="17,18" name="Coinage" ids="1c/2cr,1c/1cr,1c/3cr,1/4cr"/>
+		<dip bits="19"    name="Difficulty" ids="Easy,Hard"/>
+	</switches>
+	<buttons names="Shoot Right,Shoot Down,Shoot Up,Shoot Left,Start 1P/Bomb,Start 2P,Coin" default="A,B,X,Y,Start,Select,R"/>
+	<rom index="1">
+		<part>11</part>
+	</rom>
+	<rom index="0" zip="rescue.zip|aponow.zip" md5="24c0c7e1dd5138754a6c1a5c3aa081b7">
+		<part crc="33011579" name="aponow01.rom"/>
+		<part crc="d477573e" name="aponow02.rom"/>
+		<part crc="46c41898" name="aponow03.rom"/>
+		<part crc="d6505742" name="rb15dcpu.bin"/>
+		<part crc="604df3a4" name="rb15ecpu.bin"/>
+		<part crc="604df3a4" name="rb15ecpu.bin"/>
+		<part crc="604df3a4" name="rb15ecpu.bin"/>
+		<part crc="604df3a4" name="rb15ecpu.bin"/>
+		<part crc="8b24bf17" name="rb15csnd.bin"/>
+		<part crc="d96e4fb3" name="rb15dsnd.bin"/>
+		<part crc="8b24bf17" name="rb15csnd.bin"/>
+		<part crc="d96e4fb3" name="rb15dsnd.bin"/>
+		<part crc="5512c547" repeat="4" name="rb15hcpu.bin"/>
+		<part crc="4489d20c" repeat="4" name="rb15fcpu.bin"/>
+		<part crc="40c6bcbd" name="rescue.clr"/>
+	</rom>
+</misterromdescription>

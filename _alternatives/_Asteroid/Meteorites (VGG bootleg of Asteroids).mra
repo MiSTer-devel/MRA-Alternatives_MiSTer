@@ -1,0 +1,18 @@
+<misterromdescription>
+	<name>Meteorites (VGG bootleg of Asteroids)</name>
+	<mameversion>0218</mameversion>
+	<setname>meteorts</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>bootleg (VGG)</manufacturer>
+	<category>Space / Asteroids</category>
+	<category>Space / Fighter</category>
+	<rbf>asteroids</rbf>
+	<rom index="0" zip="asteroid.zip|meteorts.zip" md5="ba0d4208275d59217a24b00f79297762">
+		<part crc="dff88688" name="m0_c1.bin"/>
+		<part crc="e53c28a9" name="m1_f1.bin"/>
+		<part crc="64bd0408" name="m2_j1.bin"/>
+		<part crc="11d1c4ae" name="mv_np3.bin"/>
+		<part crc="97953db8" name="034602-01.c8"/>
+	</rom>
+</misterromdescription>

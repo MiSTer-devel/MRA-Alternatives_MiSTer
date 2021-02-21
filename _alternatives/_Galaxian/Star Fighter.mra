@@ -1,0 +1,41 @@
+<misterromdescription>
+	<name>Star Fighter</name>
+	<mameversion>0218</mameversion>
+	<setname>starfght</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>bootleg (Jeutel)</manufacturer>
+	<category>Space / Galaxian</category>
+	<rbf>galaxian</rbf>
+	<switches default="1F,1F,04">
+		<dip bits="7"    name="Service" ids="Off,On"/>
+		<dip bits="6"    name="Test" ids="Off,On"/>
+		<dip bits="5"    name="Cabinet" ids="Upright,Cocktail"/>
+		<dip bits="14,15" name="Coinage" ids="1c/1cr,1c/2cr,2c/1cr,Free Play" values="0,2,1,3"/>
+		<dip bits="16,17" name="Bonus Life After" ids="7000,10000,12000,20000"/>
+		<dip bits="18" name="Lives" ids="2,3"/>
+	</switches>
+	<rom index="0" zip="galaxian.zip|starfght.zip" md5="d51a0a26344532a49ef61d9b6eb79587">
+		<part crc="c6ab558b" name="ja.1"/>
+		<part crc="34b99fed" name="jb.2"/>
+		<part crc="30e28016" name="jc.3"/>
+		<part crc="de7e7770" name="jd.4"/>
+		<part crc="a916c919" name="je.5"/>
+		<part crc="9175882b" name="jf.6"/>
+		<part crc="707c0f02" name="jg.7"/>
+		<part crc="5dd26461" name="jh.8"/>
+		<part crc="6651fe93" name="ji.9"/>
+		<part crc="12c721b9" name="jj.10"/>
+		<part crc="6651fe93" name="ji.9"/>
+		<part crc="12c721b9" name="jj.10"/>
+		<part crc="6651fe93" name="ji.9"/>
+		<part crc="12c721b9" name="jj.10"/>
+		<part crc="6651fe93" name="ji.9"/>
+		<part crc="12c721b9" name="jj.10"/>
+		<part crc="977e37cf" name="k1.7a"/>
+		<part crc="977e37cf" name="k1.7a"/>
+		<part crc="15e387ce" name="k2.9a"/>
+		<part crc="15e387ce" name="k2.9a"/>
+		<part crc="24652bc4" name="mmi6331.7f"/>
+	</rom>
+</misterromdescription>

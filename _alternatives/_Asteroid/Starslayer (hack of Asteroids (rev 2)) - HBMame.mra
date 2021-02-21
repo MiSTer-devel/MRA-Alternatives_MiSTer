@@ -1,0 +1,18 @@
+<misterromdescription>
+	<name>Starslayer (hack of Asteroids (rev 2)) - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>starslayer</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1979</year>
+	<manufacturer>Nufekop</manufacturer>
+	<category>Space / Asteroids</category>
+	<category>Space / Fighter</category>
+	<rbf>asteroids</rbf>
+	<rom index="0" zip="/hbmame/asteroid.zip" md5="3a76d639409e82ea0b4c73943f9ed8be">
+		<part crc="0cc75459" name="starslayer/035145-02.ef2"/>
+		<part crc="096ed35c" name="starslayer/035144-02.h2"/>
+		<part crc="312caa02" name="035143-02.j2"/>
+		<part crc="edf610a2" name="starslayer/035127-02.ss"/>
+		<part crc="97953db8" name="034602-01.c8"/>
+	</rom>
+</misterromdescription>

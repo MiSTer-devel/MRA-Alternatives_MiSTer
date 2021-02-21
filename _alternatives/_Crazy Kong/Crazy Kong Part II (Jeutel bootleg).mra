@@ -1,0 +1,40 @@
+<misterromdescription>
+	<name>Crazy Kong Part II (Jeutel bootleg)</name>
+	<mameversion>0218</mameversion>
+	<setname>ckongpt2jeu</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1981</year>
+	<manufacturer>bootleg (Jeutel)</manufacturer>
+	<category>Maze / Monkeys</category>
+	<category>Platform</category>
+	<category>Platform / Mario Bros.</category>
+	<rbf>crazykong</rbf>
+	<rom index="0" zip="ckongpt2.zip|ckongpt2jeu.zip" md5="f7c07c3b9a3dfef38a7f92bbf173e3a1">
+		<part crc="b27df032" name="7.5d"/>
+		<part crc="5dc1aaba" name="8.5e"/>
+		<part crc="c9054c94" name="9.5h"/>
+		<part crc="7e6eeec4" name="ckjeu10.dat"/>
+		<part crc="ae159192" name="11.5l"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="0532f270" name="ckjeu12.dat"/>
+		<part crc="2dcedd12" name="6.11n"/>
+		<part crc="fa7cbd91" name="5.11l"/>
+		<part crc="3375b3bd" name="4.11k"/>
+		<part crc="5655cc11" name="3.11h"/>
+		<part crc="d1352c31" name="2.11c"/>
+		<part crc="a7a2fdbd" name="1.11a"/>
+		<part crc="d1352c31" name="2.11c"/>
+		<part crc="a7a2fdbd" name="1.11a"/>
+		<part crc="5f0bcdfb" name="14.5s"/>
+		<part crc="9003ffbd" name="13.5p"/>
+	</rom>
+</misterromdescription>

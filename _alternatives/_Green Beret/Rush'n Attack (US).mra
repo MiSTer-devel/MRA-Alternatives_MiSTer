@@ -1,0 +1,24 @@
+<misterromdescription>
+	<name>Rush'n Attack (US)</name>
+	<mameversion>0218</mameversion>
+	<setname>rushatck</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>1985</year>
+	<manufacturer>Konami</manufacturer>
+	<category>Army / Fighter</category>
+	<rbf>rshnatk</rbf>
+	<rom index="0" zip="gberet.zip|rushatck.zip" md5="77c3e9fb3763204f8e118a7442991c6e">
+		<part crc="4d276b52" name="577h03.10c"/>
+		<part crc="b5802806" name="577h02.8c"/>
+		<part crc="da7c8f3d" name="577h01.7c"/>
+		<part crc="da7c8f3d" name="577h01.7c"/>
+		<part crc="0f1cb0ca" name="577l06.5e"/>
+		<part crc="9d028e8f" name="577h05.4e"/>
+		<part crc="883933a4" name="577l08.4f"/>
+		<part crc="ccecda4c" name="577l04.3e"/>
+		<part crc="03f9815f" name="577h07.3f"/>
+		<part crc="e9de1e53" name="577h10.5f"/>
+		<part crc="2a1a992b" name="577h11.6f"/>
+		<part crc="c15e7c80" name="577h09.2f"/>
+	</rom>
+</misterromdescription>

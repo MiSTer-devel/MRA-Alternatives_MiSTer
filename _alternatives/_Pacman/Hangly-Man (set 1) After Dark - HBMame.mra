@@ -1,0 +1,35 @@
+<misterromdescription>
+	<name>Hangly-Man (set 1) After Dark - HBMame</name>
+	<mameversion>0217</mameversion>
+	<setname>hanglyad</setname>
+	<mratimestamp>20200225084106</mratimestamp>
+	<year>2000</year>
+	<manufacturer>[Nittoh]</manufacturer>
+	<category>Maze / Pac-Man</category>
+	<rbf>pacman</rbf>
+	<switches default="FF,FF,C9">
+		<dip bits="15"    name="Cabinet" ids="Cocktail,Upright"/>
+		<dip bits="16,17" name="Coinage" ids="2c/1cr,1c/1cr,1c/2cr,Free Play" values="3,1,2,0"/>
+		<dip bits="18,19" name="Lives" ids="1,2,3,5"/>
+		<dip bits="20,21" name="Bonus Life After" ids="10000,15000,20000,None"/>
+		<dip bits="22"    name="Difficulty" ids="Hard,Normal"/>
+	</switches>
+	<rom index="0" zip="/hbmame/puckman.zip" md5="3620c8e235645b5ae6fb58ae1da1147f">
+		<part crc="5fe8610a" name="fasthang/hangly.6e"/>
+		<part crc="73726586" name="hanglyad/hangly.6f"/>
+		<part crc="4e7ef99f" name="fasthang/hangly.6h"/>
+		<part crc="7f4147e6" name="fasthang/hangly.6j"/>
+		<part crc="5fe8610a" name="fasthang/hangly.6e"/>
+		<part crc="73726586" name="hanglyad/hangly.6f"/>
+		<part crc="4e7ef99f" name="fasthang/hangly.6h"/>
+		<part crc="7f4147e6" name="fasthang/hangly.6j"/>
+		<part crc="93fd3682" name="hanglyad/hanglyad.5e"/>
+		<part crc="c2310808" name="hanglyad/pacjr1.5f"/>
+		<part crc="c2310808" name="hanglyad/pacjr1.5f"/>
+		<part crc="c2310808" name="hanglyad/pacjr1.5f"/>
+		<part crc="a9cc86bf" name="82s126.1m"/>
+		<part crc="3eb3a8e4" name="82s126.4a"/>
+		<part crc="77245b66" name="82s126.3m"/>
+		<part crc="2fc650bd" name="82s123.7f"/>
+	</rom>
+</misterromdescription>
