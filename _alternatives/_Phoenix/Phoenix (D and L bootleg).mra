@@ -4,7 +4,7 @@
 	<setname>phoenixdal</setname>
 	<mratimestamp>20200225084106</mratimestamp>
 	<year>1980</year>
-	<manufacturer>bootleg (D&L)</manufacturer>
+	<manufacturer>bootleg (D&amp;L)</manufacturer>
 	<category>Space / Shooter</category>
 	<rbf>phoenix</rbf>
 	<rom index="0" zip="phoenix.zip|phoenixdal.zip" md5="62e2775c0f4b58a8539ca091d662fce5">
