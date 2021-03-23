@@ -3,8 +3,9 @@
 	<mameversion>0218</mameversion>
 	<setname>pleiadsb2</setname>
 	<mratimestamp>20200225084106</mratimestamp>
-	<year>1981</year>
-	<manufacturer>bootleg (ESG)</manufacturer>
+	<<year>1981</year>
+	<manufacturer>Bootleg</manufacturer>
+	<category>Shoot em up</category>
 	<rbf>pleiads</rbf>
 	<rom index="0" zip="pleiads.zip|pleiadsb2.zip" md5="676470c55f4dcc5fdc850deb5b572cfb">
 		<part crc="fa98cb73" name="ic47.r1"/>
