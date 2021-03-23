@@ -4,7 +4,8 @@
 	<setname>pleiadce</setname>
 	<mratimestamp>20200225084106</mratimestamp>
 	<year>1981</year>
-	<manufacturer>Tehkan (Centuri license)</manufacturer>
+	<manufacturer>Tehkan</manufacturer>
+	<category>Shoot em up</category>
 	<rbf>pleiads</rbf>
 	<rom index="0" zip="pleiads.zip|pleiadce.zip" md5="f5f71b28a341ab9507da4b7dcba7e590">
 		<part crc="711e2ba0" name="pleiades.47"/>
