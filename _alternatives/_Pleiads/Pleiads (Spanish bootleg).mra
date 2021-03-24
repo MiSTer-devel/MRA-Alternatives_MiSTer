@@ -5,6 +5,7 @@
 	<mratimestamp>20200225084106</mratimestamp>
 	<year>1981</year>
 	<manufacturer>bootleg</manufacturer>
+	<category>Space / Shooter</category>
 	<rbf>pleiads</rbf>
 	<rom index="0" zip="pleiads.zip|pleiadss.zip" md5="d69308603d7ff982313b58ee45add925">
 		<part crc="e2528599" name="pl45.bin"/>
