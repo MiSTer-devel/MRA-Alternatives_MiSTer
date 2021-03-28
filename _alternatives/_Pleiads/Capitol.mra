@@ -4,7 +4,8 @@
 	<setname>capitol</setname>
 	<mratimestamp>20200225084106</mratimestamp>
 	<year>1981</year>
-	<manufacturer>bootleg? (Universal Video Spiel)</manufacturer>
+	<manufacturer>Universal Video Spiel</manufacturer>
+	<category>Space / Shooter</category>
 	<rbf>pleiads</rbf>
 	<rom index="0" zip="pleiads.zip|capitol.zip" md5="df68f7d8d28e8d5b44f09433064864ba">
 		<part crc="0922905b" name="cp1.45"/>
