@@ -1,7 +1,7 @@
 <misterromdescription>
-	<name>Kung-Fu Master (World)</name>
+	<name>Spartan X (Japan)</name>
 	<mameversion>0221</mameversion>
-	<setname>kungfum</setname>
+	<setname>spartanx</setname>
 	<mratimestamp>20200601015747</mratimestamp>
 	<year>1984</year>
 	<manufacturer>Irem</manufacturer>
@@ -25,7 +25,7 @@
 	<rom index="1">
 		<part>04</part>
 	</rom>
-	<rom index="0" zip="kungfum.zip" md5="none">
+	<rom index="0" zip="kungfum.zip|spartanx.zip" type="merged|nonmerged|split" md5="none">
 		<part crc="32a0a9a6" name="a-4e-c-j.bin"/>
 		<part crc="3173ea78" name="a-4d-c-j.bin"/>
 		<part crc="32a0a9a6" name="a-4e-c-j.bin"/>

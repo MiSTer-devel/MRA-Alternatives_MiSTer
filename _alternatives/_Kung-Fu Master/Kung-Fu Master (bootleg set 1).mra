@@ -1,7 +1,7 @@
 <misterromdescription>
-	<name>Kung-Fu Master (World)</name>
+	<name>Kung-Fu Master (bootleg set 1)</name>
 	<mameversion>0221</mameversion>
-	<setname>kungfum</setname>
+	<setname>kungfub</setname>
 	<mratimestamp>20200601015747</mratimestamp>
 	<year>1984</year>
 	<manufacturer>Irem</manufacturer>
@@ -25,7 +25,7 @@
 	<rom index="1">
 		<part>04</part>
 	</rom>
-	<rom index="0" zip="kungfum.zip" md5="none">
+	<rom index="0" zip="kungfum.zip|kungfub.zip" type="merged|nonmerged|split" md5="none">
 		<part crc="5d8e791d" name="c5.5h"/>
 		<part crc="4000e2b8" name="c4.5k"/>
 		<part crc="5d8e791d" name="c5.5h"/>
