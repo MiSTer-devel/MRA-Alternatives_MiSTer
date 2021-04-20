@@ -1,7 +1,7 @@
 <misterromdescription>
 	<name>Lode Runner (set 2)</name>
 	<mameversion>0221</mameversion>
-	<setname>ldrun</setname>
+	<setname>ldruna</setname>
 	<mratimestamp>20200601015747</mratimestamp>
 	<year>1984</year>
 	<manufacturer>Irem (licensed from Broderbund)</manufacturer>
@@ -23,7 +23,7 @@
 	<rom index="1">
 		<part>00</part>
 	</rom>
-	<rom index="0" zip="ldrun.zip" md5="none">
+	<rom index="0" zip="ldrun.zip|ldruna.zip" type="merged|nonmerged|split" md5="none">
 		<part crc="279421e1" name="ldruna/roma4c"/>
 		<part crc="96f20473" name="lr-a-4d"/>
 		<part crc="3c464bad" name="ldruna/roma4b"/>

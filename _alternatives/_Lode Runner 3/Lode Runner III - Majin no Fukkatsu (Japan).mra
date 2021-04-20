@@ -1,7 +1,7 @@
 <misterromdescription>
-	<name>Lode Runner III - The Golden Labyrinth</name>
+	<name>Lode Runner III - Majin no Fukkatsu (Japan)</name>
 	<mameversion>0221</mameversion>
-	<setname>ldrun3</setname>
+	<setname>ldrun3j</setname>
 	<mratimestamp>20200601015747</mratimestamp>
 	<year>1985</year>
 	<manufacturer>Irem (licensed from Broderbund)</manufacturer>
@@ -24,7 +24,7 @@
 	<rom index="1">
 		<part>02</part>
 	</rom>
-	<rom index="0" zip="ldrun3.zip" md5="none">
+	<rom index="0" zip="ldrun3.zip|ldrun3j.zip" type="merged|nonmerged|split" md5="none">
 		<part crc="5b334e8e" name="ldrunj/lr3-a-4e"/>
 		<part crc="a84bc931" name="ldrunj/lr3-a-4d.a"/>
 		<part crc="be09031d" name="ldrunj/lr3-a-4b.a"/>
