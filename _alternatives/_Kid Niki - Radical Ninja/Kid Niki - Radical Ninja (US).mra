@@ -104,5 +104,5 @@
         <dip name="Invulnerability (Cheat)" bits="14" ids="On,Off"/>
         <dip name="Service Mode" bits="15" ids="On,Off"/>
     </switches>
-    <buttons names="Fire,Jump,Start 1P,Start 2P,Coin,Pause" default="A,B,Start,Select,R,L" count="2"/>
+    <buttons names="Sword,Jump,Start 1P,Start 2P,Coin,Pause" default="A,B,Start,Select,R,L" count="2"/>
 </misterromdescription>
