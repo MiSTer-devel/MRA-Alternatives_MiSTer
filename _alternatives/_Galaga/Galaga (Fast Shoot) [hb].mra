@@ -1,0 +1,55 @@
+<misterromdescription>
+	<name>Galaga</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Fast Shoot</version>
+	<alternative>Galaga</alternative>
+	<platform></platform>
+	<series>Galaxian</series>
+	<year>1981</year>
+	<manufacturer>Namco</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Gallery</category>
+
+	<setname>galagads</setname>
+	<parent>galaga</parent>
+	<mameversion>0217</mameversion>
+	<rbf>galaga</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="44425ddeb6e79d3955a388e21fbc7929" zip="/hbmame/galaga.zip|namco54.zip">
+		<part crc="3ef0b053" name="galagads/3200a.bin"></part>
+		<part crc="1b280831" name="galagads/3300b.bin"></part>
+		<part crc="16233d33" name="galagads/3400c.bin"></part>
+		<part crc="0aaf5c23" name="galagads/3500d.bin"></part>
+		<part crc="23d586e5" name="galagads/3600fast.bin"></part>
+		<part crc="b07f0aa4" name="galagads/3700g.bin"></part>
+		<part crc="ad447c80" name="gg1_11.4d"></part>
+		<part crc="dd6f1afc" name="gg1_10.4f"></part>
+		<part crc="58b2f47c" name="gg1_9.4l"></part>
+		<part crc="ee7357e0" name="54xx.bin" zip="namco54.zip"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>
