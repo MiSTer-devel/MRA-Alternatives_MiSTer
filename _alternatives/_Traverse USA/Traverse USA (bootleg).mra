@@ -1,12 +1,36 @@
 <misterromdescription>
-	<name>Traverse USA (bootleg)</name>
-	<mameversion>0218</mameversion>
-	<setname>travrusab</setname>
-	<mratimestamp>20200225084106</mratimestamp>
+	<name>Traverse</name>
+	<region>USA</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>bootleg</version>
+	<alternative>Traverse USA</alternative>
+	<platform></platform>
+	<series></series>
 	<year>1983</year>
-	<manufacturer>bootleg (I.P.)</manufacturer>
-	<category>Racing / Motorbike</category>
+	<manufacturer>Irem</manufacturer>
+	<manufacturer>Broderbund</manufacturer>
+	<category>Racing</category>
+
+	<setname>travrusab</setname>
+	<parent>travrusa</parent>
+	<mameversion>0218</mameversion>
 	<rbf>traverseusa</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>yes</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
 	<rom index="0" zip="travrusa.zip|travrusab.zip" md5="a41877e6ccd3259a7d4256279b637f9c">
 		<part crc="704ce6e4" name="at4.m3"/>
 		<part crc="686cb0e6" name="at5.l3"/>
@@ -24,4 +48,13 @@
 		<part crc="76062638" name="tbp24s10.3"/>
 		<part crc="a1130007" name="tbp18s.2"/>
 	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>

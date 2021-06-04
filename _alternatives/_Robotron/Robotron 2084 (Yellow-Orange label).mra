@@ -1,36 +1,55 @@
 <misterromdescription>
-	<name>Robotron 2084 (Yellow-Orange label)</name>
-	<mameversion>0218</mameversion>
-	<setname>robotronyo</setname>
-	<mratimestamp>20200225084106</mratimestamp>
+	<name>Robotron 2084</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Yellow-Orange Label</version>
+	<alternative>Robotron 2084</alternative>
+	<platform></platform>
+	<series></series>
 	<year>1982</year>
-	<manufacturer>Williams / Vid Kidz</manufacturer>
-	<category>Adventure / Apocalyptic</category>
-	<category>Maze</category>
-	<category>Space / Robots</category>
+	<manufacturer>Williams</manufacturer>
+	<manufacturer>Vid Kidz</manufacturer>
+	<category>Arena</category>
+
+	<setname>robotronyo</setname>
+	<parent>robotron</parent>
+	<mameversion>0218</mameversion>
 	<rbf>robotron</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls>twin stick</special_controls>
+	<num_buttons>4</num_buttons>
+	<buttons default="A,B,X,Y,Start,Select,R,-,-,L" names="Fire Right,Fire Down,Fire Up,Fire Left,-,-,Start 1P,Start 2P,Coin,Advance,Auto Up,Pause"></buttons>
+
 	<switches default="00">
-		<dip bits="0"   name="Auto Up" ids="Off,On"/>
-		<dip bits="1"   name="Advance" ids="Off,On"/>
-	</switches>
-	<buttons names="Fire Right,Fire Down,Fire Up,Fire Left,Start 1P,Start 2P,Coin" default="A,B,X,Y,Start,Select,R"/>
+		<dip bits="0" ids="Off,On" name="Auto Up"></dip>
+		<dip bits="1" ids="Off,On" name="Advance"></dip>
+		</switches>
+
 	<rom index="1">
 		<part>0</part>
-	</rom>
-	<rom index="0" zip="robotron.zip|robotronyo.zip" md5="c6569a56056f7c4019affc6e89ac8b07">
-		<part crc="66c7d3ef" name="robotron.sb1"/>
-		<part crc="5bc6c614" name="robotron.sb2"/>
-		<part crc="67a369bc" name="robotron.yo3"/>
-		<part crc="b0de677a" name="robotron.yo4"/>
-		<part crc="24726007" name="robotron.yo5"/>
-		<part crc="028181a6" name="robotron.yo6"/>
-		<part crc="4dfcceae" name="robotron.yo7"/>
-		<part crc="3a96e88c" name="robotron.sb8"/>
-		<part crc="b124367b" name="robotron.sb9"/>
-		<part crc="4a9d5f52" name="robotron.yoa"/>
-		<part crc="2afc5e7f" name="robotron.yob"/>
-		<part crc="45da9202" name="robotron.yoc"/>
-		<part crc="c56c1d28" name="robotron.snd"/>
+		</rom>
+	<rom index="0" md5="c6569a56056f7c4019affc6e89ac8b07" zip="robotron.zip|robotronyo.zip">
+		<part crc="66c7d3ef" name="robotron.sb1"></part>
+		<part crc="5bc6c614" name="robotron.sb2"></part>
+		<part crc="67a369bc" name="robotron.yo3"></part>
+		<part crc="b0de677a" name="robotron.yo4"></part>
+		<part crc="24726007" name="robotron.yo5"></part>
+		<part crc="028181a6" name="robotron.yo6"></part>
+		<part crc="4dfcceae" name="robotron.yo7"></part>
+		<part crc="3a96e88c" name="robotron.sb8"></part>
+		<part crc="b124367b" name="robotron.sb9"></part>
+		<part crc="4a9d5f52" name="robotron.yoa"></part>
+		<part crc="2afc5e7f" name="robotron.yob"></part>
+		<part crc="45da9202" name="robotron.yoc"></part>
+		<part crc="c56c1d28" name="robotron.snd"></part>
 		<part>
 02250003000300010004000100010000
 00000001000300030000000000000000
@@ -97,7 +116,16 @@
 00000000000000000000000000000000
 00000000000000000000000000000000
 		</part>
-		<part crc="e6631c23" name="decoder.4"/>
-		<part crc="83faf25e" name="decoder.6"/>
-	</rom>
+		<part crc="e6631c23" name="decoder.4"></part>
+		<part crc="83faf25e" name="decoder.6"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>

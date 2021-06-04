@@ -1,27 +1,48 @@
 <misterromdescription>
-	<name>Mayday (set 3)</name>
-	<mameversion>0218</mameversion>
-	<setname>maydayb</setname>
-	<mratimestamp>20200225084106</mratimestamp>
+	<name>Mayday</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 3</version>
+	<alternative>Mayday</alternative>
+	<platform></platform>
+	<series></series>
 	<year>1980</year>
 	<manufacturer>Hoei</manufacturer>
-	<category>Space / Defender</category>
+	<category>Shooter - Horizontal</category>
+
+	<setname>maydayb</setname>
+	<parent>mayday</parent>
+	<mameversion>0218</mameversion>
 	<rbf>defender</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<buttons names="Fire,Back Fire,Mayday,-,-,Start 1P,Start 2P,Coin,Advance,Auto Up,Test Credit,Pause" default="A,B,X,Start,Select,R,-,-,-,L"/>
+
 	<switches>
-		<dip bits="0" name="Auto up" ids="Off,On"/>
-		<dip bits="1" name="Advance" ids="Off,On"/>
-	</switches>
+		<dip bits="0" ids="Off,On" name="Auto up"></dip>
+		<dip bits="1" ids="Off,On" name="Advance"></dip>
+		</switches>
+
 	<rom index="1">
 		<part>2</part>
-	</rom>
-	<rom index="0" zip="mayday.zip|maydayb.zip" md5="4a6fd3adb68087efe9e1b8f513d0d077">
-		<part crc="a1ff6e62" name="ic03-3.bin"/>
-		<part crc="62183aea" name="ic02-2.bin"/>
-		<part crc="5dcb113f" name="ic01-1.bin"/>
-		<part crc="0c3ca687" name="rom7.bin"/>
-		<part crc="0d797a3e" name="ic05-5.bin"/>
-		<part crc="ee8bfcd6" name="ic06-6.bin"/>
-		<part crc="d9c065e7" name="ic07-7d.bin"/>
+		</rom>
+	<rom index="0" md5="4a6fd3adb68087efe9e1b8f513d0d077" zip="mayday.zip|maydayb.zip">
+		<part crc="a1ff6e62" name="ic03-3.bin"></part>
+		<part crc="62183aea" name="ic02-2.bin"></part>
+		<part crc="5dcb113f" name="ic01-1.bin"></part>
+		<part crc="0c3ca687" name="rom7.bin"></part>
+		<part crc="0d797a3e" name="ic05-5.bin"></part>
+		<part crc="ee8bfcd6" name="ic06-6.bin"></part>
+		<part crc="d9c065e7" name="ic07-7d.bin"></part>
 		<part>
 00408001418102428203438304448405
 45850646860747870848880949890a4a
@@ -91,7 +112,16 @@ abaaa9a8a7a6a5a4a3a2a1a09f9e9d9c
 0b0a09080706050403020100fcfdfeff
 		</part>
 		<part repeat="3072">00</part>
-		<part crc="fefd5b48" name="ic28-8.bin"/>
-		<part crc="fefd5b48" name="ic28-8.bin"/>
-	</rom>
+		<part crc="fefd5b48" name="ic28-8.bin"></part>
+		<part crc="fefd5b48" name="ic28-8.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>

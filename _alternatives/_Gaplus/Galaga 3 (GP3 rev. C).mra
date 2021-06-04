@@ -1,25 +1,48 @@
 <misterromdescription>
-	<name>Galaga 3 (GP3 rev. C)</name>
-	<mameversion>0218</mameversion>
-	<setname>galaga3a</setname>
-	<mratimestamp>20200225084106</mratimestamp>
+	<name>Galaga 3</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>GP3 Rev C</version>
+	<alternative>Gaplus</alternative>
+	<platform></platform>
+	<series>Galaxian</series>
 	<year>1984</year>
 	<manufacturer>Namco</manufacturer>
-	<category>Space / Galaxian</category>
+	<category>Shooter - Gallery</category>
+
+	<setname>galaga3a</setname>
+	<parent>gaplus</parent>
+	<mameversion>0218</mameversion>
 	<rbf>gaplus</rbf>
-	<rom index="0" zip="gaplus.zip|galaga3a.zip" md5="46e488d5b504ba4830186ac03421a51e">
-		<part crc="10d7f64c" name="gp3-4c.8d"/>
-		<part crc="962411e8" name="gp3-3c.8c"/>
-		<part crc="f72d6fc5" name="gp3-2c.8b"/>
-		<part crc="ed8aa206" name="gp2-1.4b"/>
-		<part crc="f5e056d1" name="gp3-8b.11d"/>
-		<part crc="0621f7df" name="gp2-7.11c"/>
-		<part crc="026491b6" name="gp3-6b.11b"/>
-		<part crc="8d4dcebf" name="gp3-5.8s"/>
-		<part crc="57740ff9" name="gp2-11.11p"/>
-		<part crc="6cd8ce11" name="gp2-10.11n"/>
-		<part crc="7316a1f1" name="gp2-12.11r"/>
-		<part crc="e6a9ae67" name="gp2-9.11m"/>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="46e488d5b504ba4830186ac03421a51e" zip="gaplus.zip|galaga3a.zip">
+		<part crc="10d7f64c" name="gp3-4c.8d"></part>
+		<part crc="962411e8" name="gp3-3c.8c"></part>
+		<part crc="f72d6fc5" name="gp3-2c.8b"></part>
+		<part crc="ed8aa206" name="gp2-1.4b"></part>
+		<part crc="f5e056d1" name="gp3-8b.11d"></part>
+		<part crc="0621f7df" name="gp2-7.11c"></part>
+		<part crc="026491b6" name="gp3-6b.11b"></part>
+		<part crc="8d4dcebf" name="gp3-5.8s"></part>
+		<part crc="57740ff9" name="gp2-11.11p"></part>
+		<part crc="6cd8ce11" name="gp2-10.11n"></part>
+		<part crc="7316a1f1" name="gp2-12.11r"></part>
+		<part crc="e6a9ae67" name="gp2-9.11m"></part>
 		<part>
 80808087929ba5aaadaeaeb0aeadadab
 abaaaaa8a8a7a7a5a5a4a4a2a2a1a19f
@@ -2070,12 +2093,21 @@ a29f9e9c9b9996959392908f8f8f9090
 7a7a7a7a7a7a7a7a7a7a7a7c7c7c7d7d
 7d7d7d7d7d7d7d7d7d7d7c7c7c7c7c7c
 		</part>
-		<part crc="d48c0eef" name="gp3-6.6p"/>
-		<part crc="417ba0dc" name="gp3-5.6n"/>
-		<part crc="2faa3e09" name="gp2-7.6s"/>
-		<part crc="a5091352" name="gp2-3.1p"/>
-		<part crc="8bc8022a" name="gp2-1.1n"/>
-		<part crc="8dabc20b" name="gp2-2.2n"/>
-		<part crc="2d9fbdd8" name="gp2-4.3f"/>
-	</rom>
+		<part crc="d48c0eef" name="gp3-6.6p"></part>
+		<part crc="417ba0dc" name="gp3-5.6n"></part>
+		<part crc="2faa3e09" name="gp2-7.6s"></part>
+		<part crc="a5091352" name="gp2-3.1p"></part>
+		<part crc="8bc8022a" name="gp2-1.1n"></part>
+		<part crc="8dabc20b" name="gp2-2.2n"></part>
+		<part crc="2d9fbdd8" name="gp2-4.3f"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>

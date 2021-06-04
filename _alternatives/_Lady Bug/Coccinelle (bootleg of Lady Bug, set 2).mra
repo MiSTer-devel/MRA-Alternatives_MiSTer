@@ -1,13 +1,35 @@
 <misterromdescription>
-	<name>Coccinelle (bootleg of Lady Bug, set 2)</name>
-	<mameversion>0218</mameversion>
-	<setname>ladybugb2</setname>
-	<mratimestamp>20200225084106</mratimestamp>
+	<name>Coccinelle</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Lady Bug, Set 2</version>
+	<alternative>Lady Bug</alternative>
+	<platform></platform>
+	<series></series>
 	<year>1981</year>
-	<manufacturer>bootleg (Model Racing)</manufacturer>
+	<manufacturer>Universal</manufacturer>
 	<category>Maze</category>
-	<category>Maze / Bugs</category>
+
+	<setname>ladybugb2</setname>
+	<parent>ladybug</parent>
+	<mameversion>0218</mameversion>
 	<rbf>ladybug</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (ccw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>0</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
 	<rom index="0" zip="ladybug.zip|ladybugb2.zip" md5="530d955a6796e9890c9bdba469229e1e">
 		<part crc="35d61e65" name="lb1b.cpu"/>
 		<part crc="a13e0fe4" name="lb2b.cpu"/>
@@ -20,4 +42,13 @@
 		<part crc="77b1da1e" name="l9.f7"/>
 		<part crc="aa82e00b" name="l0.h7"/>
 	</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>

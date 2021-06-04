@@ -1,27 +1,48 @@
 <misterromdescription>
-	<name>Mayday (set 2)</name>
-	<mameversion>0218</mameversion>
-	<setname>maydaya</setname>
-	<mratimestamp>20200225084106</mratimestamp>
+	<name>Mayday</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 2</version>
+	<alternative>Mayday</alternative>
+	<platform></platform>
+	<series></series>
 	<year>1980</year>
 	<manufacturer>Hoei</manufacturer>
-	<category>Space / Defender</category>
+	<category>Shooter - Horizontal</category>
+
+	<setname>maydaya</setname>
+	<parent>mayday</parent>
+	<mameversion>0218</mameversion>
 	<rbf>defender</rbf>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>1</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>3</num_buttons>
+	<buttons names="Fire,Back Fire,Mayday,-,-,Start 1P,Start 2P,Coin,Advance,Auto Up,Test Credit,Pause" default="A,B,X,Start,Select,R,-,-,-,L"/>
+
 	<switches>
-		<dip bits="0" name="Auto up" ids="Off,On"/>
-		<dip bits="1" name="Advance" ids="Off,On"/>
-	</switches>
+		<dip bits="0" ids="Off,On" name="Auto up"></dip>
+		<dip bits="1" ids="Off,On" name="Advance"></dip>
+		</switches>
+
 	<rom index="1">
 		<part>2</part>
-	</rom>
-	<rom index="0" zip="mayday.zip|maydaya.zip" md5="68608512531ec3817413130b9236ac92">
-		<part crc="872a2f2d" name="mayday.c"/>
-		<part crc="c4ab5e22" name="mayday.b"/>
-		<part crc="329a1318" name="mayday.a"/>
-		<part crc="c2ae4716" name="mayday.d"/>
-		<part crc="41225666" name="mayday.e"/>
-		<part crc="c39be3c0" name="mayday.f"/>
-		<part crc="2bd0f106" name="mayday.g"/>
+		</rom>
+	<rom index="0" md5="68608512531ec3817413130b9236ac92" zip="mayday.zip|maydaya.zip">
+		<part crc="872a2f2d" name="mayday.c"></part>
+		<part crc="c4ab5e22" name="mayday.b"></part>
+		<part crc="329a1318" name="mayday.a"></part>
+		<part crc="c2ae4716" name="mayday.d"></part>
+		<part crc="41225666" name="mayday.e"></part>
+		<part crc="c39be3c0" name="mayday.f"></part>
+		<part crc="2bd0f106" name="mayday.g"></part>
 		<part>
 00408001418102428203438304448405
 45850646860747870848880949890a4a
@@ -91,7 +112,16 @@ abaaa9a8a7a6a5a4a3a2a1a09f9e9d9c
 0b0a09080706050403020100fcfdfeff
 		</part>
 		<part repeat="3072">00</part>
-		<part crc="fefd5b48" name="ic28-8.bin"/>
-		<part crc="fefd5b48" name="ic28-8.bin"/>
-	</rom>
+		<part crc="fefd5b48" name="ic28-8.bin"></part>
+		<part crc="fefd5b48" name="ic28-8.bin"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>
