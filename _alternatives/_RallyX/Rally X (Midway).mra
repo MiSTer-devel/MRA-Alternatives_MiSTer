@@ -1,17 +1,41 @@
 <misterromdescription>
-	<name>Rally X (Midway)</name>
-	<mameversion>0218</mameversion>
-	<setname>rallyxm</setname>
-	<mratimestamp>20200225084106</mratimestamp>
+	<name>Rally-X</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version>Midway</version>
+	<alternative>Rally-X</alternative>
+	<platform></platform>
+	<series></series>
 	<year>1980</year>
-	<manufacturer>Namco (Midway license)</manufacturer>
-	<category>Racing</category>
+	<manufacturer>Namco</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Maze</category>
+
+	<setname>rallyxm</setname>
+	<parent>rallyx</parent>
+	<mameversion>0218</mameversion>
 	<rbf>rallyx</rbf>
-	<rom index="0" zip="rallyx.zip|rallyxm.zip" md5="aeb94b4e4186c66198e5d43c9d694aea">
-		<part crc="5882700d" name="1b"/>
-		<part crc="786585ec" name="1e"/>
-		<part crc="110d7dcd" name="1h"/>
-		<part crc="473ab447" name="1k"/>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons names="Smoke,Start 1P,Start 2P,Coin,Pause" default="A,Start,Select,R,L"/>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="aeb94b4e4186c66198e5d43c9d694aea" zip="rallyx.zip|rallyxm.zip">
+		<part crc="5882700d" name="1b"></part>
+		<part crc="786585ec" name="1e"></part>
+		<part crc="110d7dcd" name="1h"></part>
+		<part crc="473ab447" name="1k"></part>
 		<part>
 807f7f796b717f7995bfd3bebfb9b5b1
 adaaa6a3a09d9a989593907620001601
@@ -1038,10 +1062,19 @@ a5acb1b1aba19a938c878788857f7670
 80808080808080808080808080808080
 80808080808080808080808080808080
 		</part>
-		<part crc="277c1de5" name="8e"/>
-		<part crc="3c16f62c" name="rx1-6.8m"/>
-		<part crc="4bad7017" name="rx1-5.3p"/>
-		<part crc="834d4fda" name="rx1-7.8p"/>
-		<part crc="c7865434" name="rx1-1.11n"/>
-	</rom>
+		<part crc="277c1de5" name="8e"></part>
+		<part crc="3c16f62c" name="rx1-6.8m"></part>
+		<part crc="4bad7017" name="rx1-5.3p"></part>
+		<part crc="834d4fda" name="rx1-7.8p"></part>
+		<part crc="c7865434" name="rx1-1.11n"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>

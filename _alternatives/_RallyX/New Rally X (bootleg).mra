@@ -1,17 +1,40 @@
 <misterromdescription>
-	<name>New Rally X (bootleg)</name>
-	<mameversion>0218</mameversion>
-	<setname>nrallyxb</setname>
-	<mratimestamp>20200225084106</mratimestamp>
+	<name>New Rally-X</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version></version>
+	<alternative>Rally-X</alternative>
+	<platform></platform>
+	<series>Rally-X</series>
 	<year>1981</year>
 	<manufacturer>Namco</manufacturer>
 	<category>Racing</category>
+
+	<setname>nrallyxb</setname>
+	<parent>nrallyx</parent>
+	<mameversion>0218</mameversion>
 	<rbf>rallyx</rbf>
-	<rom index="0" zip="nrallyx.zip|nrallyxb.zip" md5="113b2afb644dd386dc7c3fc1ae685ff4">
-		<part crc="9404c8d6" name="nrallyx.1b"/>
-		<part crc="ac01bf3f" name="nrallyx.1e"/>
-		<part crc="aeba29b5" name="nrallyx.1h"/>
-		<part crc="78f17da7" name="nrallyx.1k"/>
+	<about author="MrX-8B" source="https://github.com/MiSTer-devel/Arcade-RallyX_MiSTer" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons names="Smoke,Start 1P,Start 2P,Coin,Pause" default="A,Start,Select,R,L"/>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="113b2afb644dd386dc7c3fc1ae685ff4" zip="nrallyx.zip|nrallyxb.zip">
+		<part crc="9404c8d6" name="nrallyx.1b"></part>
+		<part crc="ac01bf3f" name="nrallyx.1e"></part>
+		<part crc="aeba29b5" name="nrallyx.1h"></part>
+		<part crc="78f17da7" name="nrallyx.1k"></part>
 		<part>
 807f7f796b717f7995bfd3bebfb9b5b1
 adaaa6a3a09d9a989593907620001601
@@ -1038,10 +1061,19 @@ a5acb1b1aba19a938c878788857f7670
 80808080808080808080808080808080
 80808080808080808080808080808080
 		</part>
-		<part crc="ca7a174a" name="nrallyx.8e"/>
-		<part crc="3c16f62c" name="rx1-6.8m"/>
-		<part crc="4bad7017" name="rx1-5.3p"/>
-		<part crc="4e46f485" name="nrx1-7.8p"/>
-		<part crc="a0a49017" name="nrx1-1.11n"/>
-	</rom>
+		<part crc="ca7a174a" name="nrallyx.8e"></part>
+		<part crc="3c16f62c" name="rx1-6.8m"></part>
+		<part crc="4bad7017" name="rx1-5.3p"></part>
+		<part crc="4e46f485" name="nrx1-7.8p"></part>
+		<part crc="a0a49017" name="nrx1-1.11n"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>

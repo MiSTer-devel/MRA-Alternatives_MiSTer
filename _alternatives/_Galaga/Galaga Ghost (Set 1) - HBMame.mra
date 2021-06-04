@@ -1,22 +1,55 @@
 <misterromdescription>
-	<name>Galaga Ghost (Set 1) - HBMame</name>
-	<mameversion>0217</mameversion>
+	<name>Galaga Ghost</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>Set 1</version>
+	<alternative>Galaga</alternative>
+	<platform></platform>
+	<series>Galaxian</series>
+	<year>1981</year>
+	<manufacturer>Namco</manufacturer>
+	<manufacturer>Midway</manufacturer>
+	<category>Shooter - Gallery</category>
+
 	<setname>galagost</setname>
-	<mratimestamp>20200225084106</mratimestamp>
-	<year>2002</year>
-	<manufacturer>Twisty</manufacturer>
-	<category>Space / Galaxian</category>
+	<parent>galaga</parent>
+	<mameversion>0217</mameversion>
 	<rbf>galaga</rbf>
-	<rom index="0" zip="/hbmame/galaga.zip|namco54.zip" md5="d39af6901028a8d00f181ce8a45b1d04">
-		<part crc="3ef0b053" name="galagads/3200a.bin"/>
-		<part crc="1b280831" name="galagads/3300b.bin"/>
-		<part crc="16233d33" name="galagads/3400c.bin"/>
-		<part crc="0aaf5c23" name="galagads/3500d.bin"/>
-		<part crc="23d586e5" name="galagads/3600fast.bin"/>
-		<part crc="b07f0aa4" name="galagads/3700g.bin"/>
-		<part crc="0758b90f" name="galagosb/gost_07e_g10.bin"/>
-		<part crc="53f1332b" name="galagost/gost_07h_g09.bin"/>
-		<part crc="c7588555" name="galagosb/gost_07m_g08.bin"/>
-		<part crc="ee7357e0" name="54xx.bin" zip="namco54.zip"/>
-	</rom>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>2-way horizontal</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches></switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="d39af6901028a8d00f181ce8a45b1d04" zip="/hbmame/galaga.zip|namco54.zip">
+		<part crc="3ef0b053" name="galagads/3200a.bin"></part>
+		<part crc="1b280831" name="galagads/3300b.bin"></part>
+		<part crc="16233d33" name="galagads/3400c.bin"></part>
+		<part crc="0aaf5c23" name="galagads/3500d.bin"></part>
+		<part crc="23d586e5" name="galagads/3600fast.bin"></part>
+		<part crc="b07f0aa4" name="galagads/3700g.bin"></part>
+		<part crc="0758b90f" name="galagosb/gost_07e_g10.bin"></part>
+		<part crc="53f1332b" name="galagost/gost_07h_g09.bin"></part>
+		<part crc="c7588555" name="galagosb/gost_07m_g08.bin"></part>
+		<part crc="ee7357e0" name="54xx.bin" zip="namco54.zip"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>

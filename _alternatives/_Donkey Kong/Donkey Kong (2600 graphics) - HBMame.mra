@@ -1,59 +1,74 @@
 <misterromdescription>
-	<name>Donkey Kong (2600 graphics) - HBMame</name>
-	<mameversion>0217</mameversion>
+	<name>Donkey Kong</name>
+	<region></region>
+	<homebrew>yes</homebrew>
+	<bootleg>no</bootleg>
+	<version>2600 GFX</version>
+	<alternative>Donkey Kong</alternative>
+	<platform></platform>
+	<series>Donkey Kong</series>
+	<year>1981</year>
+	<manufacturer>Nintendo</manufacturer>
+	<category>Platform - Climb</category>
+
 	<setname>kong2600</setname>
-	<mratimestamp>202102134106</mratimestamp>
-	<year>1999</year>
-	<manufacturer>Vic Twenty George</manufacturer>
-	<category>Maze / Monkeys</category>
-	<category>Platform</category>
-	<category>Platform / Mario Bros.</category>
+	<parent>dkong</parent>
+	<mameversion>0217</mameversion>
 	<rbf>donkeykong</rbf>
-	<switches default="80" base="8">
-		<dip bits="0,1"    name="Lives" ids="3,4,5,6"/>
-		<dip bits="2,3"    name="Bonus Life" ids="7K,10K,15K,20K"/>
-		<dip bits="4,6"    name="Coins" ids="1C1P,2C1P,1C1P,3C1P,1C1P,4C1P,1C1P,5C1P,1C1P"/>
-		<dip bits="7"      name="Cabinet" ids="Cocktail,Upright"/>
-	</switches>
-	<rom index="0" zip="/hbmame/dkong.zip" md5="969217c492973a2637d397863d11bad6">
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>4-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<button_names></button_names>
+
+	<switches base="8" default="80">
+		<dip bits="0,1" ids="3,4,5,6" name="Lives"></dip>
+		<dip bits="2,3" ids="7K,10K,15K,20K" name="Bonus Life"></dip>
+		<dip bits="4,6" ids="1C1P,2C1P,1C1P,3C1P,1C1P,4C1P,1C1P,5C1P,1C1P" name="Coins"></dip>
+		<dip bits="7" ids="Cocktail,Upright" name="Cabinet"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="969217c492973a2637d397863d11bad6" zip="/hbmame/dkong.zip">
 		<!-- Main CPU 32k -->
-		<part crc="ba70b88b" name="c_5et_g.bin"/>
-		<part crc="5ec461ec" name="c_5ct_g.bin"/>
-		<part crc="1c97d324" name="c_5bt_g.bin"/>
-		<part crc="b9005ac0" name="c_5at_g.bin"/>
-		<part crc="ba70b88b" name="c_5et_g.bin"/>
-		<part crc="5ec461ec" name="c_5ct_g.bin"/>
-		<part crc="1c97d324" name="c_5bt_g.bin"/>
-		<part crc="b9005ac0" name="c_5at_g.bin"/>
-
+		<part crc="ba70b88b" name="c_5et_g.bin"></part>
+		<part crc="5ec461ec" name="c_5ct_g.bin"></part>
+		<part crc="1c97d324" name="c_5bt_g.bin"></part>
+		<part crc="b9005ac0" name="c_5at_g.bin"></part>
+		<part crc="ba70b88b" name="c_5et_g.bin"></part>
+		<part crc="5ec461ec" name="c_5ct_g.bin"></part>
+		<part crc="1c97d324" name="c_5bt_g.bin"></part>
+		<part crc="b9005ac0" name="c_5at_g.bin"></part>
 		<!-- GFX1 8k -->
-		<part crc="ca57e0f4" name="kong2600/k2600.3p"/>
-		<part crc="ca57e0f4" name="kong2600/k2600.3p"/>
-		<part crc="0e6a2a6d" name="kong2600/k2600.3n"/>
-		<part crc="0e6a2a6d" name="kong2600/k2600.3n"/>
-		
+		<part crc="ca57e0f4" name="kong2600/k2600.3p"></part>
+		<part crc="ca57e0f4" name="kong2600/k2600.3p"></part>
+		<part crc="0e6a2a6d" name="kong2600/k2600.3n"></part>
+		<part crc="0e6a2a6d" name="kong2600/k2600.3n"></part>
 		<!-- GFX2 16k -->
-		<part crc="cf450a43" name="kong2600/k2600.7c"/>
-		<part crc="cf450a43" name="kong2600/k2600.7c"/>
-		<part crc="d5046907" name="kong2600/k2600.7d"/>
-		<part crc="d5046907" name="kong2600/k2600.7d"/>
-		<part crc="1539fe2a" name="kong2600/k2600.7e"/>
-		<part crc="1539fe2a" name="kong2600/k2600.7e"/>
-		<part crc="77cc00ab" name="kong2600/k2600.7f"/>
-		<part crc="77cc00ab" name="kong2600/k2600.7f"/>
-		
+		<part crc="cf450a43" name="kong2600/k2600.7c"></part>
+		<part crc="cf450a43" name="kong2600/k2600.7c"></part>
+		<part crc="d5046907" name="kong2600/k2600.7d"></part>
+		<part crc="d5046907" name="kong2600/k2600.7d"></part>
+		<part crc="1539fe2a" name="kong2600/k2600.7e"></part>
+		<part crc="1539fe2a" name="kong2600/k2600.7e"></part>
+		<part crc="77cc00ab" name="kong2600/k2600.7f"></part>
+		<part crc="77cc00ab" name="kong2600/k2600.7f"></part>
 		<!-- Sound CPU 4k -->
-		<part crc="45a4ed06" name="s_3i_b.bin"/>
-		<part crc="4743fe92" name="s_3j_b.bin"/>
-
+		<part crc="45a4ed06" name="s_3i_b.bin"></part>
+		<part crc="4743fe92" name="s_3j_b.bin"></part>
 		<!-- LUTs 3x256 -->
-		<part crc="1e82d375" name="dkongpac/k2600.2k"/>
-		<part crc="1e82d375" name="dkongpac/k2600.2k"/>
-		<part crc="2ab01dc8" name="dkongpac/k2600.2j"/>
-		<part crc="2ab01dc8" name="dkongpac/k2600.2j"/>
-		<part crc="44988665" name="dkongpac/k2600.5f"/>
+		<part crc="1e82d375" name="dkongpac/k2600.2k"></part>
+		<part crc="1e82d375" name="dkongpac/k2600.2k"></part>
+		<part crc="2ab01dc8" name="dkongpac/k2600.2j"></part>
+		<part crc="2ab01dc8" name="dkongpac/k2600.2j"></part>
+		<part crc="44988665" name="dkongpac/k2600.5f"></part>
 		<part repeat="2816">00</part>
-
 		<!-- WAWs -->
 		<part>
 8080808080807f7f7f7f7f7f7f808080
@@ -2617,5 +2632,14 @@ ffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffff
 ffffffffffffffffffffffffffffffff
 		</part>
-	</rom>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>

@@ -1,0 +1,66 @@
+<misterromdescription>
+	<name>Venus</name>
+	<region></region>
+	<homebrew>no</homebrew>
+	<bootleg>yes</bootleg>
+	<version>Gyruss</version>
+	<alternative></alternative>
+	<platform></platform>
+	<series></series>
+	<year>1983</year>
+	<manufacturer>Bootleg</manufacturer>
+	<category>Shooter - Tube</category>
+
+	<setname>venus</setname>
+	<parent>gyruss</parent>
+	<mameversion>0219</mameversion>
+	<rbf>gyruss</rbf>
+	<about author="MrX-8B" source="https://github.com/MrX-8B/MiSTer-Arcade-Gyruss" twitter="@MrX_8B" webpage="https://patreon.com/MrX_8B"></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>vertical (cw)</rotation>
+	<flip>no</flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>1</num_buttons>
+	<buttons default="A,Start,Select,R" names="Fire,Start 1P,Start 2P,Coin"></buttons>
+
+	<switches default="00,40,00">
+		<dip bits="8,9" ids="3,4,5,255" name="Lives"></dip>
+		<dip bits="10" ids="Cocktail,Upright" name="Cabinet"></dip>
+		<dip bits="11" ids="30k 90k 60k+,40k 110k 70k+" name="Bonus Life"></dip>
+		<dip bits="12,14" ids="1 (Easiest),2,3,4,5 (Average),6,7,8 (Hardest)" name="Difficulty"></dip>
+		<dip bits="15" ids="Off,On" name="Demo Sound"></dip>
+		<dip bits="16" ids="Off,On" name="Demo Music"></dip>
+		</switches>
+
+	<rom index="1"></rom>
+	<rom index="0" md5="294008b88093ae45abbcb22c2c36bdb1" zip="gyruss.zip|venus.zip">
+		<part crc="d030abb1" name="r1"></part>
+		<part crc="dbf65d4d" name="r2"></part>
+		<part crc="db246fcd" name="r3"></part>
+		<part crc="822bf27e" name="gyrussk.9"></part>
+		<part crc="27d8329b" name="gyrussk.4"></part>
+		<part crc="4f22411a" name="gyrussk.5"></part>
+		<part crc="c949db10" name="gyrussk.6"></part>
+		<part crc="8e8d388c" name="gyrussk.7"></part>
+		<part crc="47cd1fbc" name="gyrussk.8"></part>
+		<part crc="f4ae1c17" name="gyrussk.1a"></part>
+		<part crc="ba498115" name="gyrussk.2a"></part>
+		<part crc="3f9b5dea" name="gyrussk.3a"></part>
+		<part crc="7ed057de" name="gyrussk.pr1"></part>
+		<part crc="de823a81" name="gyrussk.pr2"></part>
+		<part crc="98782db3" name="gyrussk.pr3"></part>
+		</rom>
+	<rom index="2"></rom>
+	<rom index="3"></rom>
+	<rom index="4"></rom>
+
+	<nvram></nvram>
+
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
+</misterromdescription>

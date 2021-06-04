@@ -1,30 +1,50 @@
 <misterromdescription>
-	<name>Spartan X (Japan)</name>
-	<mameversion>0221</mameversion>
-	<setname>spartanx</setname>
-	<mratimestamp>20200601015747</mratimestamp>
+	<name>Spartan X</name>
+	<region>Japan</region>
+	<homebrew>no</homebrew>
+	<bootleg>no</bootleg>
+	<version></version>
+	<alternative>Kung-Fu Master</alternative>
+	<platform>Irem M62</platform>
+	<series></series>
 	<year>1984</year>
 	<manufacturer>Irem</manufacturer>
-	<category>Fighter / Asian</category>
+	<category>Beat 'em Up</category>
+
+	<setname>spartanx</setname>
+	<parent>spartanx</parent>
+	<mameversion>0221</mameversion>
 	<rbf>iremm62</rbf>
-        <buttons names="Kick,Punch,Start 1P,Start 2P,Coin,Pause" default="A,B,Start,Select,R,L"/>
+	<about></about>
+
+	<resolution>15kHz</resolution>
+	<rotation>horizontal</rotation>
+	<flip></flip>
+
+	<players>2 (alternating)</players>
+	<joystick>8-way</joystick>
+	<special_controls></special_controls>
+	<num_buttons>2</num_buttons>
+	<buttons default="A,B,Start,Select,R,L" names="Kick,Punch,Start 1P,Start 2P,Coin,Pause"></buttons>
+
 	<switches default="FF,FD">
-		<dip bits="0" name="Difficulty" ids="Hard,Easy"></dip>
-		<dip bits="1" name="Energy Loss" ids="Fast,Slow"></dip>
-		<dip bits="2,3" name="Lives" ids="5,4,2,3"></dip>
-        <dip bits="4,7" name="Coinage" ids="Free Play,1C/1C" values="16,15"></dip>
-		<dip bits="8" name="Flip Screen" ids="On,Off"></dip>
-		<dip bits="9" name="Cabinet" ids="Upright,Cocktail"></dip>
-		<dip bits="10" name="Coin Mode" ids="Mode 2,Mode 1"></dip>
-		<dip bits="11" name="Slow Motion Mode (Cheat)" ids="On,Off"></dip>
-		<dip bits="12" name="Freeze (Cheat)" ids="On,Off"></dip>
-		<dip bits="13" name="Level Selection (Cheat)" ids="On,Off"></dip>
-		<dip bits="14" name="Invulnerability (Cheat)" ids="On,Off"></dip>
-		<dip bits="15" name="Service Mode" ids="On,Off"></dip>
-	</switches>
+		<dip bits="0" ids="Hard,Easy" name="Difficulty"></dip>
+		<dip bits="1" ids="Fast,Slow" name="Energy Loss"></dip>
+		<dip bits="2,3" ids="5,4,2,3" name="Lives"></dip>
+		<dip bits="4,7" ids="Free Play,1C/1C" name="Coinage" values="16,15"></dip>
+		<dip bits="8" ids="On,Off" name="Flip Screen"></dip>
+		<dip bits="9" ids="Upright,Cocktail" name="Cabinet"></dip>
+		<dip bits="10" ids="Mode 2,Mode 1" name="Coin Mode"></dip>
+		<dip bits="11" ids="On,Off" name="Slow Motion Mode (Cheat)"></dip>
+		<dip bits="12" ids="On,Off" name="Freeze (Cheat)"></dip>
+		<dip bits="13" ids="On,Off" name="Level Selection (Cheat)"></dip>
+		<dip bits="14" ids="On,Off" name="Invulnerability (Cheat)"></dip>
+		<dip bits="15" ids="On,Off" name="Service Mode"></dip>
+		</switches>
+
 	<rom index="1">
 		<part>04</part>
-	</rom>
+		</rom>
 	<rom index="0" zip="kungfum.zip|spartanx.zip" type="merged|nonmerged|split" md5="none">
 		<part crc="32a0a9a6" name="a-4e-c-j.bin"/>
 		<part crc="3173ea78" name="a-4d-c-j.bin"/>
@@ -120,15 +140,20 @@
 		<part repeat="0x300">FF</part>
 		<part crc="7a601c3d" name="b-5f-.bin"/>
 	</rom>
-
+	<rom index="2"></rom>
 	<rom index="3" md5="none">
 		<part>
-		00 00 FF FF 00 3F 00 02 00 02 00 01 00 FF 00 00
+		00 00 FF FF 00 3F 00 02
+		00 02 00 01 00 FF 00 00
 		00 00 EA 06 00 78 00 41
 		00 00 E9 80 00 03 52 00
 		</part>
 	</rom>
-	<nvram index="4" size="123"/>	
+	<rom index="4"></rom>
 
+	<nvram index="4" size="123"></nvram>
 
+	<remark></remark>
+
+	<mratimestamp>20210430005030</mratimestamp>
 </misterromdescription>
