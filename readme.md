@@ -451,7 +451,7 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Zig Zag (Dig Dug conversion on Galaxian hardware, bootleg set 2)|zigzag|zigzagb.zip , zigzagb2.zip|
 
 
-## Arcade Games (148) - Only for information/Not in this pack
+## Arcade Games (151) - Only for information/Not in this pack
 
 |Game|core|Zip Needed|
 |-|-|-|
@@ -483,6 +483,7 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Colony 7|defender|colony7.zip|
 |Computer Space|computerspace| |
 |Cosmic Avenger|cosmicavenger|cavenger.zip|
+|Cosmic Alien|cosmic|cosmica.zip|
 |Crater Raider|mcr3scroll|crater.zip|
 |Crazy Climber|crazyclimber|cclimber.zip|
 |Crazy Kong Part II|crazykong|ckongpt2.zip|
@@ -524,6 +525,7 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Lucky Today|galaxian|luctoday.zip|
 |Lunar Battle (prototype, later)|blackwidow||
 |Lunar Lander|lunarlander|llander.zip|
+|Magical Spot|cosmic|magspot.zip|
 |Mappy|druaga|mappy.zip|
 |Mars|scramble|mars.zip|
 |Max RPM|mcr3mono|maxrpm.zip|
@@ -568,6 +570,7 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Snap Jack|snapjack|snapjack.zip|
 |Solar Fox|mcr1|solarfox.zip|
 |Solomon's Key|solomonskey|solomon.zip|
+|Space Panic|cosmic|panic.zip|
 |Speed Coin|scramble|spdcoin.zip|
 |Splat!|robotron|splat.zip|
 |Sprint 1|sprint1|sprint1.zip|
