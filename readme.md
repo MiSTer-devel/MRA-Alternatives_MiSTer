@@ -465,7 +465,7 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Asteroids Deluxe|asteroidsdeluxe|astdelux.zip|
 |Azurian Attack|galaxian|azurian.zip|
 |Bagman|bagman|bagman.zip|
-|Battle of Atlantis||atlantis.zip|
+|Battle of Atlantis|scramble|atlantis.zip|
 |Beastie Feastie|pacman|suprglob.zip , beastfp.zip|
 |Berzerk|berzerk|berzerk.zip|
 |Birdiy|pacman|birdiy.zip|
@@ -510,8 +510,10 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Galaxian|galaxian|galaxian.zip|
 |Gaplus|gaplus|gaplus.zip|
 |Gorkans|pacman|mrtnt.zip , gorkans.zip|
-|Gravitar (version 3)|blackwidow||
+|Gravitar (version 3)|blackwidow|gravitar.zip|
 |Green Beret|rshnatk|gberet.zip|
+|Iron Horse|ironhorse|ironhors.zip|
+|Jackal|jackal|jackal.zip|
 |Jin|defender|jin.zip|
 |Journey|mcr3|journey.zip|
 |Joust|robotron|joust.zip|
@@ -523,7 +525,7 @@ Zip filenames displayed are from Mame Merged/Non-Merged/Split and HBMame Merged.
 |Lizard Wizard|pacman|lizwiz.zip|
 |Lost Tomb|scramble|losttomb.zip|
 |Lucky Today|galaxian|luctoday.zip|
-|Lunar Battle (prototype, later)|blackwidow||
+|Lunar Battle (prototype, later)|blackwidow|gravitar.zip , lunarbat.zip|
 |Lunar Lander|lunarlander|llander.zip|
 |Magical Spot|cosmic|magspot.zip|
 |Mappy|druaga|mappy.zip|
