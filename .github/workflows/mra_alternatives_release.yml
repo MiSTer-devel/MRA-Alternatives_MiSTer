@@ -2,6 +2,7 @@ name: MRA Alternatives Release
 
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   release:
