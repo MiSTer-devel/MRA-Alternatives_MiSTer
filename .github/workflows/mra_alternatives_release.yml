@@ -3,7 +3,8 @@ name: MRA Alternatives Release
 on:
   workflow_dispatch:
   push:
-
+    branches:
+      - main
 jobs:
   release:
     runs-on: ubuntu-18.04
