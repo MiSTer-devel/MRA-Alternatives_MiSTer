@@ -14,7 +14,7 @@
   <setname>mysticm</setname>
   <parent>mysticm</parent>
   <mameversion>0222</mameversion>
-  <rbf>mysticm</rbf>
+  <rbf>MysticMarathon</rbf>
   <about></about>
 
   <resolution>15kHz</resolution>
