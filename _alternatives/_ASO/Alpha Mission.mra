@@ -2,7 +2,7 @@
 	<name>Alpha Mission</name>
 	<mameversion>0193</mameversion>
 	<setname>alphamis</setname>
-	<mratimestamp>20220509</mratimestamp>
+	<mratimestamp>20220510</mratimestamp>
 	<year>1985</year>
 	<manufacturer>SNK</manufacturer>
 	<category>Shooter / Flying Vertical</category>
@@ -30,7 +30,7 @@
 		<dip bits="11"    name="Demo Sounds" ids="Off,On" values="1,0"/>
 		<dip bits="12"    name="All Ships at Start (Cheat)" ids="Off,On" values="1,0"/>
 		<dip bits="13"    name="Flip Screen" ids="Off,On" values="1,0"/>
-		<dip bits="14,15" name="Start Area" ids="1,2,3,4" values="3,2,1,0"/>
+		<dip bits="14,15" name="Start Area" ids="1,2,3,4" values="0,1,2,3"/>
 	</switches>
 
 	<rom index='0' md5="None" type='nonmerged' zip='alphamis.zip|aso.zip'>
