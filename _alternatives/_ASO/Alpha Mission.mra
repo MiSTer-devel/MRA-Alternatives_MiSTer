@@ -2,7 +2,7 @@
 	<name>Alpha Mission</name>
 	<mameversion>0193</mameversion>
 	<setname>alphamis</setname>
-	<mratimestamp>20220510</mratimestamp>
+	<mratimestamp>20220515</mratimestamp>
 	<year>1985</year>
 	<manufacturer>SNK</manufacturer>
 	<category>Shooter / Flying Vertical</category>
@@ -22,15 +22,15 @@
 		<dip bits="0"     name="Allow Continue" ids="No,3 Times" values="1,0"/>
 		<dip bits="1"     name="Cabinet" ids="Upright,Cocktail" values="0,1"/>
 		<dip bits="2"     name="Lives" ids="3,5" values="0,1"/>
-		<dip bits="3,4"   name="Coin A" ids="4C/1C,3C/1C,2C/1C,1C/1C" values="0,1,2,3"/>
-		<dip bits="5,6"   name="Coin B" ids="1C/2C,1C/3C,1C/4C,1C/6C" values="0,2,1,3"/>
+		<dip bits="3,4"   name="Coin A" ids="4Co/1Cr,3Co/1Cr,2Co/1Cr,1Co/1Cr" values="0,1,2,3"/>
+		<dip bits="5,6"   name="Coin B" ids="1Co/2Cr,1Co/3Cr,1Co/4Cr,1Co/6Cr" values="0,2,1,3"/>
 		<!-- DSW2 -->
 		<dip bits="8"     name="Bonus Life" ids="50k 100k 100k+,50k 100k" values="1,0"/>
 		<dip bits="9,10"  name="Difficulty" ids="Easy,Normal,Hard,Hardest" values="3,2,1,0"/>
 		<dip bits="11"    name="Demo Sounds" ids="Off,On" values="1,0"/>
 		<dip bits="12"    name="All Ships at Start (Cheat)" ids="Off,On" values="1,0"/>
 		<dip bits="13"    name="Flip Screen" ids="Off,On" values="1,0"/>
-		<dip bits="14,15" name="Start Area" ids="1,2,3,4" values="0,1,2,3"/>
+		<dip bits="14,15" name="Start Area" ids="1,2,3,4" values="3,2,1,0"/>
 	</switches>
 
 	<rom index='0' md5="None" type='nonmerged' zip='alphamis.zip|aso.zip'>
