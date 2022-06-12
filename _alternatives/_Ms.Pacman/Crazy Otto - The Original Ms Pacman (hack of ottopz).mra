@@ -3,7 +3,7 @@
 	<region></region>
 	<homebrew>yes</homebrew>
 	<bootleg>no</bootleg>
-	<version>0230</version>
+	<version></version>
 	<alternative>Ms. Pac-Man</alternative>
 	<platform></platform>
 	<series>Pac-Man</series>
@@ -13,7 +13,7 @@
 
 	<setname>ottopza</setname>
 	<parent>mspacman</parent>
-	<mameversion>0218</mameversion>
+	<mameversion>0230</mameversion>
 	<rbf>pacman</rbf>
 	<about></about>
 
