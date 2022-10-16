@@ -11,7 +11,7 @@
 	<manufacturer>Namco</manufacturer>
 	<category>Shooter - Gallery</category>
 
-	<setname>galaga</setname>
+	<setname>galagao</setname>
 	<parent>galaga</parent>
 	<mameversion>0229</mameversion>
 	<rbf>galaga</rbf>
