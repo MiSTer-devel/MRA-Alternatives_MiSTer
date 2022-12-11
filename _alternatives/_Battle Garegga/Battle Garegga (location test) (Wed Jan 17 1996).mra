@@ -8,7 +8,7 @@
     <manufacturer>Raizing / Eighting</manufacturer>
     <players>2</players>
     <joystick>8-way</joystick>
-    <rotation>vertical</rotation>
+    <rotation>vertical (ccw)</rotation>
     <region>World</region>
     <rom index="0" zip="bgareggat.zip|bgaregga.zip" md5="None" address="0x30000000">
         <!-- mapper for game 00 - bgaregga, 01 - sstriker, 02 - kingdmgp -->

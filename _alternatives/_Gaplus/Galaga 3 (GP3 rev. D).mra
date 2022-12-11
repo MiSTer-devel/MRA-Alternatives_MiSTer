@@ -6,6 +6,7 @@
 	<year>1984</year>
 	<manufacturer>Namco</manufacturer>
 	<category>Space / Galaxian</category>
+	<rotation>vertical (cw)</rotation>
 	<rbf>gaplus</rbf>
 	<rom index="0" zip="gaplus.zip|galaga3.zip" md5="6c8c27f573b22b58f20073570423074a">
 		<part crc="10d7f64c" name="gp3-4c.8d"/>

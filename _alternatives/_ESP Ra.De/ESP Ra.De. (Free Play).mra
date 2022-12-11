@@ -1,9 +1,10 @@
 <misterromdescription>
   <name>ESP Ra.De.</name>
   <mameversion>0226</mameversion>
-  <setname>esprade</setname>
+  <setname>esprade_fp</setname>
   <year>1998</year>
   <manufacturer>CAVE</manufacturer>
+  <rotation>vertical (ccw)</rotation>
   <category>Shooter</category>
   <rbf>cave</rbf>
 

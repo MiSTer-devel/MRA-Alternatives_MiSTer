@@ -18,7 +18,7 @@
 	<about author="Ace" twitter="@Ace9921Tweets"></about>
 
 	<resolution>15kHz</resolution>
-	<rotation>no</rotation>
+	<rotation>horizontal</rotation>
 	<flip>no</flip>
 
 	<players>2 (alternating)</players>
