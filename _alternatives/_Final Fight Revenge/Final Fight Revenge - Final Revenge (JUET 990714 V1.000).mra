@@ -8,9 +8,12 @@
 	<manufacturer>Capcom</manufacturer>
 	<buttons names="Button 1,Button 2,Button 3,Button 4,Button 5,Button 6,Start,Coin,Service,Test" default="A,B,X,Y,L,R,Start,Select" />
 	<rom index="0">
-		<part>00 01</part>
+		<part>31 01</part>
 	</rom>
 	<rom index="1" md5="" zip="ffrevng10.zip|ffreveng.zip" address="0x32000000">
+		<part repeat="0x80">00</part>
+	</rom>
+	<rom index="1" md5="" zip="ffreveng.zip" address="0x32000000">
 		<part repeat="0x80">00</part>
 	</rom>
 	<rom index="2" md5="" zip="stvbios.zip" address="0x30000000">
