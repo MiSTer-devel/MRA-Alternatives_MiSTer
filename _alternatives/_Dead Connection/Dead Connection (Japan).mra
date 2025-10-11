@@ -23,7 +23,7 @@
 		<dip name="Upright Controls" bits="15" values="0,1" ids="Single,Dual"/>
 	</switches>
 	<rom index="0" address="0x30000000" zip="deadconxj.zip|deadconx.zip">
-		<part>16 00</part>
+		<part>1c 00</part>
 		<!--Region: maincpu, Size: 1048576 bytes-->
 		<part>00100000</part>
 		<interleave output="16">
