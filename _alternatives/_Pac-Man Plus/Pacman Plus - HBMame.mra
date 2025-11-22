@@ -5,6 +5,7 @@
 	<mratimestamp>20200225084106</mratimestamp>
 	<year>1982</year>
 	<manufacturer>[Namco] (Midway license)</manufacturer>
+	<rotation>vertical (cw)</rotation>
 	<category>Maze / Pac-Man</category>
 	<rbf>pacman</rbf>
 	<switches default="FF,FF,C9">

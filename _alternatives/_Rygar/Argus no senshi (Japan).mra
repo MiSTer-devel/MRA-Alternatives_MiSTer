@@ -5,6 +5,7 @@
   <mratimestamp>20200531</mratimestamp>
   <year>1986</year>
   <manufacturer>Tecmo</manufacturer>
+  <rotation>horizontal</rotation>
   <category>Platform</category>
   <rbf>tecmo</rbf>
 

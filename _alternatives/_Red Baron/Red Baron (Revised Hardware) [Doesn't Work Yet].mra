@@ -5,6 +5,7 @@
 	<mratimestamp>20201224150402</mratimestamp>
 	<year>1980</year>
 	<manufacturer>Atari</manufacturer>
+	<rotation>horizontal</rotation>
 	<category>Army / Airforce 3D</category>
 	<rbf>BattleZone</rbf>
 	<mameinfo parent="redbaron" cpp="bzone" input="redbaron"/>

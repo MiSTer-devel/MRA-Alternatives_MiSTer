@@ -4,6 +4,7 @@
   <setname>uopokoj</setname>
   <year>1998</year>
   <manufacturer>CAVE</manufacturer>
+  <rotation>horizontal</rotation>
   <category>Puzzle</category>
   <rbf>cave</rbf>
 
