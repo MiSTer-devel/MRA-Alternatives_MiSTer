@@ -39,7 +39,7 @@
 		<dip bits="15" name="Demo Sounds" ids="Off,On"/>
 	</switches>
 
-	<rom index="0" zip="vball.zip|vballb.zip" md5="none">
+	<rom index="0" zip="vball.zip" md5="none">
 		<!-- bg roms 64k x 8 -->
 		<part name="13" crc="f26df8e1"/>
 		<part name="14" crc="c9798d0e"/>
@@ -64,7 +64,7 @@
 		<part name="25j1-0.47" crc="10ca79ad"/>
 	</rom>
 	<rom index="1"></rom>
-	<rom index="2" zip="vballb.zip" address="0x30000000" md5="none">
+	<rom index="2" zip="vballb.zip|vball.zip" address="0x30000000" md5="none">
 		<part name="vball.78a" crc="f3e63b76"/>
 		<part name="vball.78b" crc="7ad9d338"/>
 	</rom>
