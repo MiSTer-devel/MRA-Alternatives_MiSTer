@@ -1,6 +1,7 @@
 <misterromdescription>
 	<name>BlockBuster</name>
 	<setname>blkbustr</setname>
+	<mameversion>0245</mameversion>
 	<homebrew>no</homebrew>
 	<bootleg>no</bootleg>
 	<series></series>
