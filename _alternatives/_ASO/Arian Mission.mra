@@ -9,7 +9,7 @@
 	<rbf>SNK_TripleZ80</rbf>
 	<about author="RndMnkIII" twitter="@RndMnkIII"></about>
 	<resolution>16.1785kHz</resolution>
-	<rotation>vertical (cw)</rotation>
+	<rotation>vertical (ccw)</rotation>
 	<players>2</players>
 	<joystick>8-way</joystick>
 	<special_controls></special_controls>
