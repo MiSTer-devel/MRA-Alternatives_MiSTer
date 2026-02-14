@@ -63,15 +63,14 @@
 	</rom>
 	<rom index="2"></rom>
 	<rom index="3" md5="none">
-		<part>
-		01 FF FF FF 00 FF 00 02 00 02 00 01 00 FF 00 00
-		00 00 AB 08 00 28 00 F1
-		00 00 A9 8B 00 03 00 01
-		</part>
-	</rom>
-	<rom index="4"></rom>
+        <part>
+        01 FF FF FF 00 FF 00 02 00 02 00 01 00 FF 00 00
+        00 00 88 A6 00 2D 03 54
+        </part>
+    </rom>
+    <rom index="4"></rom>
 
-	<nvram index="4" size="43"></nvram>
+    <nvram index="4" size="45"></nvram>
 
 	<remark></remark>
 
