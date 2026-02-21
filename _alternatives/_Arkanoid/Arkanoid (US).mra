@@ -1,6 +1,6 @@
 <misterromdescription>
-	<name>Arkanoid</name>
-	<region>Japan</region>
+	<name>Arkanoid (US, older)</name>
+	<region>US</region>
 	<homebrew>no</homebrew>
 	<bootleg>no</bootleg>
 	<version></version>
@@ -11,7 +11,7 @@
 	<manufacturer>Taito</manufacturer>
 	<category>Ball and Paddle</category>
 
-	<setname>arkanoidj</setname>
+	<setname>arkanoid</setname>
 	<parent>arkanoid</parent>
 	<mameversion>0220</mameversion>
 	<rbf>arkanoid</rbf>
@@ -24,12 +24,11 @@
 	<players>2 (alternating)</players>
 	<joystick></joystick>
 	<special_controls>spinner</special_controls>
-	<num_buttons>0</num_buttons>
+	<num_buttons>1</num_buttons>
 	<button_names></button_names>
 
-	<switches default="81">
-		<dip bits="0" ids="Cocktail,Upright" name="Cabinet type"></dip>
-		<dip bits="1" ids="1c/1cr,1c/2cr" name="Credits"></dip>
+	<switches default="80">
+		<dip bits="0,1" ids="1c/1cr,2c/1cr,1c/2cr,1c/6cr" name="Credits"></dip>
 		<dip bits="2" ids="3,5" name="Lives"></dip>
 		<dip bits="3" ids="20K/60K+,20000 only" name="Bonus"></dip>
 		<dip bits="4" ids="Easy,Hard" name="Difficulty"></dip>
@@ -39,15 +38,15 @@
 		</switches>
 
 	<rom index="1"></rom>
-	<rom index="0" md5="none" zip="arkanoid.zip|arkatayt.zip">
-		<part crc="154e2c6f" name="ic81-v.3f"></part>
-		<part crc="4fa8cefa" name="ic82-w.5f"></part>
-		<part crc="038b74ba" name="a75-03.ic64"></part>
-		<part crc="71fae199" name="a75-04.ic63"></part>
-		<part crc="c76374e2" name="a75-05.ic62"></part>
-		<part crc="0af8b289" name="a75-07.ic24"></part>
-		<part crc="abb002fb" name="a75-08.ic23"></part>
-		<part crc="a7c6c277" name="a75-09.ic22"></part>
+	<rom index="0" zip="arkanoid.zip|arkatayt.zip" md5="None">
+		<part crc="154e2c6f" name="ic81-v.3f"/>
+		<part crc="4fa8cefa" name="ic82-w.5f"/>
+		<part crc="038b74ba" name='a75-03.ic64'/>
+		<part crc="71fae199" name='a75-04.ic63'/>
+		<part crc="c76374e2" name='a75-05.ic62'/>
+		<part crc="0af8b289" name='a75-07.ic24'/>
+		<part crc="abb002fb" name='a75-08.ic23'/>
+		<part crc="a7c6c277" name='a75-09.ic22'/>
 		<patch offset="0x33C2">49</patch>
 		<patch offset="0x33F4">49</patch>
 		<patch offset="0x3437">49</patch>
@@ -64,6 +63,7 @@
 		<patch offset="0x9713">EB</patch>
 		<patch offset="0x9769">AF</patch>
 		<patch offset="0xBDA5">ED</patch>
+		<patch offset="0xBFFF">92</patch>
 	</rom>
 	<rom index="2"></rom>
 	<rom index="3" md5="none">
@@ -73,6 +73,8 @@
 		00 00 C4 DF 00 03 00 00
 		</part>
 	</rom>
+	<rom index="4"></rom>
+
 	<nvram index="4" size="38"/>
 
 	<remark></remark>
