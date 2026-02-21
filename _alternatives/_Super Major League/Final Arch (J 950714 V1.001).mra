@@ -17,7 +17,7 @@
 	</rom>
 	<rom index="3" md5="" zip="finlarch.zip|smleague.zip" address="0x34000000">
 		<interleave output="64">
-			<part crc="4505fa9e" name="finlarch.13" map="01030507" />
+			<part crc="4505fa9e" name="finlarch.13" map="1357" />
 		</interleave>
 		<interleave output="64">
 			<part crc="4505fa9e" name="finlarch.13" map="21436587" />

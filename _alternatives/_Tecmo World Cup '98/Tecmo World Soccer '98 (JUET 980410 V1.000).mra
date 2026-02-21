@@ -23,7 +23,7 @@
 	</rom>
 	<rom index="3" md5="" zip="twsoc98.zip|twcup98.zip" address="0x34000000">
 		<interleave output="64">
-			<part crc="b10451f9" name="epr-20820.ic24" map="01030507" />
+			<part crc="b10451f9" name="epr-20820.ic24" map="1357" />
 		</interleave>
 		<part repeat="0x200000">00</part>
 		<interleave output="64">
