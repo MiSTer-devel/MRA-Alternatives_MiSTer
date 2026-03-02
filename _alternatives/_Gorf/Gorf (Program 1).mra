@@ -39377,10 +39377,12 @@ A7EEC9FDC4073BF1A7E77CC7ECBD4DD4E7E5D510E41BAA15D01082F5EAFF7B0C
 FE05520E98167015A00C420CF8086D0F4915141656170B0C5CFF
 		</part>
 		</rom>
-	<rom index="3"></rom>
-	<rom index="4"></rom>
-
-	<nvram></nvram>
+	<rom index="3">
+		<part>
+                00 00 FF FF FF FF 0F 00 00 00 00 00 00 00 00 00 
+		</part>
+	</rom>
+	<nvram index="4" size="128"/>
 
 	<remark></remark>
 
