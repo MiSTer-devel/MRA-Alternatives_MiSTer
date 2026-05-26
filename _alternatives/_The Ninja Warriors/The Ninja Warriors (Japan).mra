@@ -14,7 +14,21 @@
   <buttons default="A,B,Start" names="Shot,Jump,-,-,-,-,Start,Coin,Pause"/>
 
   <switches default="FF,FF">
-    <!-- DIP switches -->
+    <!-- DSWA (bits 0-7) — MAME ninjawj input, JAPAN_OLD coinage -->
+    <dip bits="0"   ids="No,Yes"                       name="Allow Continue"/>
+    <dip bits="1"   ids="On,Off"                       name="Unused (SW1:2)"/>
+    <dip bits="2"   ids="On,Off"                       name="Service Mode"/>
+    <dip bits="3"   ids="Off,On"                       name="Demo Sounds"/>
+    <dip bits="4,5" ids="2C/3C,2C/1C,1C/2C,1C/1C"      name="Coin A"/>
+    <dip bits="6,7" ids="2C/3C,2C/1C,1C/2C,1C/1C"      name="Coin B"/>
+    <!-- DSWB (bits 8-15) -->
+    <dip bits="8,9" ids="Hardest,Hard,Easy,Medium"     name="Difficulty"/>
+    <dip bits="10"  ids="On,Off"                       name="Unused (SW2:3)"/>
+    <dip bits="11"  ids="On,Off"                       name="Unused (SW2:4)"/>
+    <dip bits="12"  ids="On,Off"                       name="Unused (SW2:5)"/>
+    <dip bits="13"  ids="On,Off"                       name="Unused (SW2:6)"/>
+    <dip bits="14"  ids="On,Off"                       name="Unused (SW2:7)"/>
+    <dip bits="15"  ids="On,Off"                       name="Unused (SW2:8)"/>
   </switches>
 
   <rom index="1">
