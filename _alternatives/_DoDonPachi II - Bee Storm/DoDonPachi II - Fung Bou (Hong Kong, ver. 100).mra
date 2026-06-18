@@ -2,7 +2,7 @@
 	<name>DoDonPachi II - Fung Bou (Hong Kong, ver. 100)</name>
 	<setname>ddp2100hk</setname>
 	<rbf>IGSPGM</rbf>
-	<rotation>vertical</rotation>
+	<rotation>vertical (ccw)</rotation>
 	<mameversion>288</mameversion>
 	<buttons default="B,A,X,Y,Start,Select,L,R" names="A,B,C,D,-,-,Start,Coin,Pause,SS"/>
 	<switches default="ffff">

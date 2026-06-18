@@ -2,7 +2,7 @@
 	<name>Ketsui - Kizuna Jigoku Tachi (2012.06.26 ARRANGE 1.5 VER) (hack)</name>
 	<setname>ketarr15</setname>
 	<rbf>IGSPGM</rbf>
-	<rotation>vertical</rotation>
+	<rotation>vertical (ccw)</rotation>
 	<mameversion>288</mameversion>
 	<buttons default="B,A,X,Y,Start,Select,L,R" names="A,B,C,D,-,-,Start,Coin,Pause,SS"/>
 	<switches default="ffff">

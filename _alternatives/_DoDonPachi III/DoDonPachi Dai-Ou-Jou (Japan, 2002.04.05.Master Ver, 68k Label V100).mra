@@ -2,7 +2,7 @@
 	<name>DoDonPachi Dai-Ou-Jou (Japan, 2002.04.05.Master Ver, 68k Label V100)</name>
 	<setname>ddpdoja</setname>
 	<rbf>IGSPGM</rbf>
-	<rotation>vertical</rotation>
+	<rotation>vertical (ccw)</rotation>
 	<mameversion>288</mameversion>
 	<buttons default="B,A,X,Y,Start,Select,L,R" names="A,B,C,D,-,-,Start,Coin,Pause,SS"/>
 	<switches default="ffff">
