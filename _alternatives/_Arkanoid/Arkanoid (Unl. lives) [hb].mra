@@ -1,9 +1,9 @@
 <misterromdescription>
 	<name>Arkanoid</name>
-	<region>Japan</region>
-	<homebrew>no</homebrew>
+	<region></region>
+	<homebrew>yes</homebrew>
 	<bootleg>no</bootleg>
-	<version></version>
+	<version>Unl. lives</version>
 	<alternative></alternative>
 	<platform></platform>
 	<series></series>
@@ -11,7 +11,7 @@
 	<manufacturer>Taito</manufacturer>
 	<category>Ball and Paddle</category>
 
-	<setname>arkanoidj</setname>
+	<setname>arkanoid</setname>
 	<parent>arkanoid</parent>
 	<mameversion>0220</mameversion>
 	<rbf>arkanoid</rbf>
@@ -27,9 +27,8 @@
 	<num_buttons>0</num_buttons>
 	<button_names></button_names>
 
-	<switches default="81">
-		<dip bits="0" ids="Cocktail,Upright" name="Cabinet type"></dip>
-		<dip bits="1" ids="1c/1cr,1c/2cr" name="Credits"></dip>
+	<switches default="80">
+		<dip bits="0,1" ids="1c/1cr,2c/1cr,1c/2cr,1c/6cr" name="Credits"></dip>
 		<dip bits="2" ids="3,5" name="Lives"></dip>
 		<dip bits="3" ids="20K/60K+,20000 only" name="Bonus"></dip>
 		<dip bits="4" ids="Easy,Hard" name="Difficulty"></dip>
@@ -40,8 +39,8 @@
 
 	<rom index="1"></rom>
 	<rom index="0" md5="none" zip="arkanoid.zip|arkatayt.zip">
-		<part crc="154e2c6f" name="ic81-v.3f"></part>
-		<part crc="4fa8cefa" name="ic82-w.5f"></part>
+		<part crc="154e2c6f" name="arkatayt/ic81-v.3f"></part>
+		<part crc="4fa8cefa" name="arkatayt/ic82-w.5f"></part>
 		<part crc="038b74ba" name="a75-03.ic64"></part>
 		<part crc="71fae199" name="a75-04.ic63"></part>
 		<part crc="c76374e2" name="a75-05.ic62"></part>
@@ -51,7 +50,7 @@
 		<patch offset="0x33C2">49</patch>
 		<patch offset="0x33F4">49</patch>
 		<patch offset="0x3437">49</patch>
-		<patch offset="0x5042">	
+		<patch offset="0x5042">        
 			00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 			00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
 			00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
@@ -64,6 +63,8 @@
 		<patch offset="0x9713">EB</patch>
 		<patch offset="0x9769">AF</patch>
 		<patch offset="0xBDA5">ED</patch>
+		<patch offset="0xBFFF">92</patch>
+		<patch offset="0x9571">00</patch> <!-- unlimited lives /-->
 	</rom>
 	<rom index="2"></rom>
 	<rom index="3" md5="none">
