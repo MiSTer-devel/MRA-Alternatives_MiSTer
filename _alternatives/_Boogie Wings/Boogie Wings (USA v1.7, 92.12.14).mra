@@ -40,55 +40,55 @@
   <rom index="0" zip="boogwing.zip" md5="None">
     <!-- main op_view (1 MB, kl_* criptato) -->
     <interleave output="16">
-      <part name="boogwingu/kl_00.2b" map="10"/>
-      <part name="boogwingu/kl_02.2e" map="01"/>
+      <part name="boogwingu/kl_00.2b" crc="4dc14798" map="10"/>
+      <part name="boogwingu/kl_02.2e" crc="3bb3b0a0" map="01"/>
     </interleave>
     <interleave output="16">
-      <part name="boogwingu/kl_01.4b" map="10"/>
-      <part name="boogwingu/kl_03.4e" map="01"/>
+      <part name="boogwingu/kl_01.4b" crc="d109ba13" map="10"/>
+      <part name="boogwingu/kl_03.4e" crc="fef2a176" map="01"/>
     </interleave>
 
     <!-- audiocpu (64 KB raw) -->
-    <part name="km06.18p"/>
+    <part name="km06.18p" crc="3e8bc4e1"/>
 
     <!-- tiles1 (128 KB, km05/km04 criptato) -->
     <interleave output="16">
-      <part name="km05.9e" map="01"/>
-      <part name="km04.8e" map="10"/>
+      <part name="km05.9e" crc="d10aef95" map="01"/>
+      <part name="km04.8e" crc="329323a8" map="10"/>
     </interleave>
 
     <!-- tiles2 (3 MB: mbd-01 + mbd-00 + mbd-02 espanso) -->
-    <part name="mbd-00.8b"/>
-    <part name="mbd-01.9b"/>
+    <part name="mbd-00.8b" crc="adb20ba9"/>
+    <part name="mbd-01.9b" crc="d7de4f4b"/>
     <interleave output="16">
-      <part name="mbd-02.10e" map="01"/>
+      <part name="mbd-02.10e" crc="b25aa721" map="01"/>
     </interleave>
 
     <!-- tiles3 #1 (2 MB, mbd-03/04) -> ba0 (FG0) -->
-    <part name="mbd-03.13b"/>
-    <part name="mbd-04.14b"/>
+    <part name="mbd-03.13b" crc="cf798f2c"/>
+    <part name="mbd-04.14b" crc="d9764d0b"/>
     <!-- tiles3 #2 (duplicato) -> ba1 (FG1) -->
-    <part name="mbd-03.13b"/>
-    <part name="mbd-04.14b"/>
+    <part name="mbd-03.13b" crc="cf798f2c"/>
+    <part name="mbd-04.14b" crc="d9764d0b"/>
 
     <!-- sprites (8 MB raw) -->
-    <part name="mbd-06.17b"/>
-    <part name="mbd-05.16b"/>
-    <part name="mbd-08.19b"/>
-    <part name="mbd-07.18b"/>
+    <part name="mbd-06.17b" crc="7750847a"/>
+    <part name="mbd-05.16b" crc="1768c66a"/>
+    <part name="mbd-08.19b" crc="f13b1e56"/>
+    <part name="mbd-07.18b" crc="241faac1"/>
 
     <!-- oki1 / oki2 (512 KB raw) -->
-    <part name="mbd-10.17p"/>
-    <part name="mbd-09.16p"/>
+    <part name="mbd-10.17p" crc="f159f76a"/>
+    <part name="mbd-09.16p" crc="f44f2f87"/>
 
     <!-- main data_view (1 MB, kl_* criptato, 2a copia) -->
     <interleave output="16">
-      <part name="boogwingu/kl_00.2b" map="10"/>
-      <part name="boogwingu/kl_02.2e" map="01"/>
+      <part name="boogwingu/kl_00.2b" crc="4dc14798" map="10"/>
+      <part name="boogwingu/kl_02.2e" crc="3bb3b0a0" map="01"/>
     </interleave>
     <interleave output="16">
-      <part name="boogwingu/kl_01.4b" map="10"/>
-      <part name="boogwingu/kl_03.4e" map="01"/>
+      <part name="boogwingu/kl_01.4b" crc="d109ba13" map="10"/>
+      <part name="boogwingu/kl_03.4e" crc="fef2a176" map="01"/>
     </interleave>
   </rom>
 
