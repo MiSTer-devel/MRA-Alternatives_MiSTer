@@ -14,16 +14,16 @@
     <catver>Shooter / Flying Vertical</catver>
 
     <switches default="00,00">
-        <!-- DSWA -->
-        <dip name="Screen Rotation" bits="1" ids="Off,On"/>
-        <dip name="Test Mode" bits="2" ids="Off,On"/>
-        <dip name="Attract Sound" bits="3" ids="On,Off"/>
-        <dip name="Coin A" bits="4,5" ids="1/1,1/2,2/1,2/3"/>
-        <dip name="Coin B" bits="6,7" ids="1/1,1/2,2/1,2/3"/>
-        <!-- DSWB -->
-        <dip name="Difficulty" bits="8,9" ids="Normal,Easy,Hard,Very Hard"/>
+        <!-- DSWA / SW1. MRA bit numbers are zero-based; physical SW1:1 is unused. -->
+        <dip name="Flip Screen" bits="1" ids="Off,On"/>
+        <dip name="Service Mode" bits="2" ids="Off,On"/>
+        <dip name="Demo Sounds" bits="3" ids="On,Off"/>
+        <dip name="Coin A" bits="4,5" ids="2/1,1/1,2/3,1/2" values="2,0,3,1"/>
+        <dip name="Coin B" bits="6,7" ids="2/1,1/1,2/3,1/2" values="2,0,3,1"/>
+        <!-- DSWB / SW2. Physical SW2:8 is unused. -->
+        <dip name="Difficulty" bits="8,9" ids="Easy,Normal,Hard,Very Hard" values="1,0,2,3"/>
         <dip name="Bonus Life" bits="10,11" ids="50k 200k 150k+,70k 270k 200k+,50k Only,100k Only"/>
-        <dip name="Lives" bits="12,13" ids="3,5,4,2"/>
+        <dip name="Lives" bits="12,13" ids="2,3,4,5" values="3,0,2,1"/>
         <dip name="Dip Switch Display" bits="14" ids="Off,On"/>
     </switches>
 
