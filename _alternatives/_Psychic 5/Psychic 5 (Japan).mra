@@ -9,7 +9,7 @@
     <rbf>Psychic5</rbf>
     <about author="Raki" twitter="@RCAVictorCo"></about>
     <resolution>15.63kHz</resolution>
-    <rotation>vertical(ccw)</rotation>
+    <rotation>vertical (ccw)</rotation>
     <players>1</players>
     <joystick>8-way</joystick>
     <special_controls></special_controls>

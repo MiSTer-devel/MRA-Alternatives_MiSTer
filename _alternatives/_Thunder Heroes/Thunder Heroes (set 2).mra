@@ -6,6 +6,7 @@
   <manufacturer>CAVE</manufacturer>
   <category>Fighting</category>
   <rbf>cave</rbf>
+  <rotation>horizontal</rotation>
 
   <!-- ROM data -->
   <rom index="0" zip="theroesa.zip|theroes.zip" md5="none" address="0x30000000">

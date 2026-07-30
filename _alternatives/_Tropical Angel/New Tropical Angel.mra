@@ -18,7 +18,7 @@
   <about></about>
 
   <resolution>15kHz</resolution>
-  <rotation>Horizontal</rotation>
+  <rotation>horizontal</rotation>
   <flip></flip>
 
   <players>2</players>

@@ -9,7 +9,7 @@
     <rbf>SuprLoco</rbf>
     <about author="Raki" twitter="@RCAVictorCo"></about>
     <resolution>15kHz</resolution>
-    <rotation>Horizontal</rotation>
+    <rotation>horizontal</rotation>
     <players>1</players>
     <joystick>4-way</joystick>
     <special_controls></special_controls>

@@ -6,7 +6,7 @@
   <year>1990</year>
   <manufacturer>Seibu Kaihatsu</manufacturer>
   <category>Shoot</category>
-  <rotation>vertical</rotation>
+  <rotation>vertical (ccw)</rotation>
   <resolution>15kHz</resolution>
   <players>2</players>
   <joystick>8-way</joystick>
