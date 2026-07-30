@@ -8,6 +8,7 @@
   <manufacturer>Seta</manufacturer>
   <category>Mahjong</category>
   <rbf>Aleck64</rbf>
+  <rotation>horizontal</rotation>
 
   <buttons names="Mahjong E,Mahjong F,Mahjong G,Mahjong H,Mahjong I,Mahjong J,Mahjong K,Mahjong L,Mahjong M,Mahjong N,Mahjong Kan,Mahjong Pon,Mahjong Chi,Mahjong Reach,Mahjong Ron,Start,Coin,Service,Test" default="A,B,X,Y,L,R"/>
 
