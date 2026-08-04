@@ -7,6 +7,7 @@
 
 	<setname>sonofphx</setname>
 	<parent>repulse</parent>
+	<mameversion>0288</mameversion>
 	<rbf>Kyugo</rbf>
 
 	<resolution>15kHz</resolution>
