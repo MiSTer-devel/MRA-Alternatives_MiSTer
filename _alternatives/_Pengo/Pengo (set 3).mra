@@ -3,7 +3,7 @@
 	<region></region>
 	<homebrew>no</homebrew>
 	<bootleg>no</bootleg>
-	<version>Set 4</version>
+	<version>World, 315-5010 type, set 3</version>
 	<alternative>Pengo</alternative>
 	<platform></platform>
 	<series></series>
@@ -11,9 +11,9 @@
 	<manufacturer>Sega</manufacturer>
 	<category>Maze</category>
 
-	<setname>pengo4</setname>
+	<setname>pengoc</setname>
 	<parent>pengo</parent>
-	<mameversion>0218</mameversion>
+	<mameversion>0289</mameversion>
 	<rbf>pengo</rbf>
 	<about></about>
 
@@ -30,7 +30,7 @@
 	<switches></switches>
 
 	<rom index="1"></rom>
-	<rom index="0" md5="0bc4b923c31bd3e8fb3cc81dd747e6fb" zip="pengo.zip|pengo4.zip">
+	<rom index="0" md5="none" zip="pengo.zip|pengoc.zip">
 		<part crc="68ba25ea" name="ep1738.8"></part>
 		<part crc="41e7b5b3" name="ep1739.7"></part>
 		<part crc="27f05f59" name="ep1740.15"></part>
