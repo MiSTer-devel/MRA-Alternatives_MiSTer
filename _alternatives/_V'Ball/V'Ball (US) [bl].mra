@@ -39,7 +39,7 @@
 		<dip bits="15" name="Demo Sounds" ids="Off,On"/>
 	</switches>
 
-	<rom index="0" zip="vball.zip" md5="none">
+	<rom index="0" zip="vball.zip|vballb.zip" md5="none">
 		<!-- bg roms 64k x 8 -->
 		<part name="13" crc="f26df8e1"/>
 		<part name="14" crc="c9798d0e"/>

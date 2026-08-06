@@ -38,7 +38,7 @@
 		</switches>
 
 	<rom index="1"></rom>
-	<rom index="0" md5="none" zip="dkong3.zip">
+	<rom index="0" md5="none" zip="dkong3.zip|dkong3j.zip">
 		<part crc="38d5f38e" name="dk3c.7b"></part>
 		<part crc="c9134379" name="dk3c.7c"></part>
 		<part crc="d22e2921" name="dk3c.7d"></part>

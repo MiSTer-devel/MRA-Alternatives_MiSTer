@@ -40,7 +40,7 @@
 	<rom index="1">
 		<part>05</part>
 		</rom>
-	<rom index="0" md5="none" zip="pacnpal.zip">
+	<rom index="0" md5="none" zip="pacnpal.zip|pacnchmp.zip">
 		<!-- main CPU -->
 		<part repeat="0x2000"> FF </part>
 		<part crc="20a07d3d" name="pacnchmp/pap3-3.1d"></part>

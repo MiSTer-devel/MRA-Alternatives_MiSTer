@@ -40,7 +40,7 @@
   <rom index="1">
     <part>00</part>
   </rom>
-  <rom index="0" zip="legionna.zip" md5="None">
+  <rom index="0" zip="legionna.zip|legionnaj.zip" md5="None">
     <!-- maincpu 512KB @ 0x000000: ROM_LOAD32_BYTE 4-byte interlace.
          byte[0]=1.u025, byte[1]=2.u024, byte[2]=3.u026, byte[3]=4.u023 (legionnaj).
          Japan: la 4a ROM e' 4.u023 crc 4c385dc7 (nel merged zip sotto legionnaj/). -->

@@ -34,7 +34,7 @@
     MAME ref: dataeast/actfancr.cpp::triothepj
     Layout SDRAM identico al World (vedi Trio The Punch (World).mra).
   -->
-  <rom index="0" zip="triothep.zip" md5="None">
+  <rom index="0" zip="triothep.zip|triothepj.zip" md5="None">
     <!-- ===== H6280 main CPU 256KB @ 0x000000 (Japan-specific) ===== -->
     <part name="triothepj/ff-16.bin" crc="84d7e1b6"/>  <!-- 128KB clone -->
     <part name="triothepj/ff-15.bin" crc="6eada47c"/>  <!-- 64KB  clone -->

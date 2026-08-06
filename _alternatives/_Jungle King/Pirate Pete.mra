@@ -27,7 +27,7 @@
 		<dip bits="24,25" name="Bonus Life" ids="50000,20000,10000,None"/>
 		<dip bits="26,28" name="Difficulty" ids="Hardest,Harder,Hard,Medium,Normal,Easy,Easier,Easiest"/>
 	</switches>
-	<rom index="0" md5="none" zip="junglek.zip" type="merged|nonmerged">
+	<rom index="0" md5="none" zip="junglek.zip|piratpet.zip" type="merged|nonmerged">
 		<!-- Main CPU - Pass 1 (base + bank 0) [0x8000/0x8000] -->
 		<part crc="8287dbc2" name="pp0p_ic.69"/>
 		<part crc="27a90850" name="pp1p_ic.68"/>

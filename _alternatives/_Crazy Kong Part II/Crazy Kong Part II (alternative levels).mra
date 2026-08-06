@@ -30,7 +30,7 @@
 	<switches></switches>
 
 	<rom index="1"></rom>
-	<rom index="0" md5="a489b3b318d3e53b4d837777cc9afeed" type="merged|nonmerged|split" zip="ckongpt2.zip">
+	<rom index="0" md5="a489b3b318d3e53b4d837777cc9afeed" type="merged|nonmerged|split" zip="ckongpt2.zip|ckongpt2b.zip">
 		<!-- maincpu -->
 		<part crc="b27df032" name="7.5d"></part>
 		<patch offset="0x3">03</patch>

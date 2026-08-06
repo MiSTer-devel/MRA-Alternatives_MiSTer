@@ -36,7 +36,7 @@
     <part>00</part>
   </rom>
 
-  <rom index="0" zip="boogwing.zip" md5="None">
+  <rom index="0" zip="boogwing.zip|ragtimea.zip" md5="None">
     <!-- main op_view (1 MB, kh_*-1 criptato) -->
     <interleave output="16">
       <part name="ragtimea/kh_00-1.2b" crc="88f0155a" map="10"/>

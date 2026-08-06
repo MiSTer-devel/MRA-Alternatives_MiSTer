@@ -29,7 +29,7 @@
     <part>00</part>
   </rom>
 
-  <rom index="0" zip="actfancr.zip" md5="None">
+  <rom index="0" zip="actfancr.zip|actfancrj.zip" md5="None">
     <!-- H6280 main CPU 192KB @ 0x000000 (Japan: fd08-1/fd09-1 in subfolder actfancrj/ + "10" da rev1) -->
     <part name="actfancrj/fd08-1.bin" crc="69004b60"/>
     <part name="actfancrj/fd09-1.bin" crc="a455ae3e"/>

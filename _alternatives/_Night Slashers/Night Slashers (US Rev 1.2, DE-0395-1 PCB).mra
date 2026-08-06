@@ -38,7 +38,7 @@
          funzionano; bit1=1 audio HuC6280). -->
     <part>03</part>
   </rom>
-  <rom index="0" zip="nslasher.zip" md5="None">
+  <rom index="0" zip="nslasher.zip|nslasheru.zip" md5="None">
     <!-- ROM main USA (nslasheru): 00.f1 / 01.f2 (decrittate runtime DE156 come
          gli altri set NS: MAME init_nslasher). Interleave dword identico.
          Clone-specifiche -> prefisso setname/ (merged); condivise senza prefisso. -->

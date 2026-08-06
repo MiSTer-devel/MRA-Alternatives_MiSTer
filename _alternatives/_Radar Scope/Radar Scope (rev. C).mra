@@ -37,7 +37,7 @@
 	<rom index="1">
 		<part>03</part>
 	</rom>
-	<rom index="0" md5="4b295564ddde03ac8b9f98475a36caf8" zip="radarscp.zip">
+	<rom index="0" md5="4b295564ddde03ac8b9f98475a36caf8" zip="radarscp.zip|radarscpc.zip">
 		<part crc="40949e0d" name="trs2c5fc"></part>
 		<part crc="afa8c49f" name="trs2c5gc"></part>
 		<part crc="51b8263d" name="trs2c5hc"></part>

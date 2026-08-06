@@ -28,7 +28,7 @@
     <part>00</part>
   </rom>
 
-  <rom index="0" zip="actfancr.zip" md5="None">
+  <rom index="0" zip="actfancr.zip|actfancr2.zip" md5="None">
     <!-- H6280 main CPU 192KB @ 0x000000 (rev 2: fe08-2/fe09-2 in subfolder + "10" da rev1) -->
     <part name="actfancr2/fe08-2.bin" crc="0d36fbfa"/>
     <part name="actfancr2/fe09-2.bin" crc="27ce2bb1"/>

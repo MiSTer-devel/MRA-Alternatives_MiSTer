@@ -38,7 +38,7 @@
   <rom index="3" md5="f68eb6ef7715a07d688b530b7388c958">
     <part>55 00</part>
   </rom>
-  <rom index="0" zip="aleck64.zip" md5="4921d5f2165dee6e2496f4388c4c81da">
+  <rom index="0" zip="srmvs.zip|srmvsa.zip|aleck64.zip" md5="4921d5f2165dee6e2496f4388c4c81da">
     <part name="pifdata.bin" crc="5ec82be9"/>
   </rom>
   <rom index="1" address="0x32000000" zip="srmvsa.zip" md5="none">

@@ -39,7 +39,7 @@
     <part>00</part>
   </rom>
 
-  <rom index="0" zip="darius2.zip" md5="None">
+  <rom index="0" zip="darius2.zip|darius2d.zip" md5="None">
 
     <!-- ==================== Main CPU 68000 (1MB region) ====================
          MAME darius2d_main_map: 0x000000-0x0FFFFF ROM

@@ -37,7 +37,7 @@
     <part>00</part>
   </rom>
 
-  <rom index="0" zip="boogwing.zip" md5="None">
+  <rom index="0" zip="boogwing.zip|boogwingu.zip" md5="None">
     <!-- main op_view (1 MB, kl_* criptato) -->
     <interleave output="16">
       <part name="boogwingu/kl_00.2b" crc="4dc14798" map="10"/>

@@ -22,7 +22,7 @@
 		<dip bits="18,19" name="Game Level" ids="3,2,1,0"/>
 		<dip bits="16,17" name="Hero Count" ids="2,1,5,3"/>
 	</switches>		
-	<rom index="0" md5="none" zip="perfrman.zip" type="merged|nonmerged">
+	<rom index="0" md5="none" zip="perfrman.zip|perfrmanu.zip" type="merged|nonmerged">
 		<part crc="7ad32eea" name="ci07.0"/>
 		<part crc="9d373efa" name="ci108r5.1"/>
 		<part crc="df891ad0" name="ci06.4"/>

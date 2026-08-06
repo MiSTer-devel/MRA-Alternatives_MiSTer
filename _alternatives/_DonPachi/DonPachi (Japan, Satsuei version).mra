@@ -9,7 +9,7 @@
   <rbf>cave</rbf>
 
   <!-- ROM data -->
-  <rom index="0" zip="donpachi.zip" md5="none" address="0x30000000">
+  <rom index="0" zip="donpachi.zip|donpachijs.zip" md5="none" address="0x30000000">
     <!-- prog ROM -->
     <interleave output="16">
       <part name="prg.u29" crc="810dbd42" map="12" />
