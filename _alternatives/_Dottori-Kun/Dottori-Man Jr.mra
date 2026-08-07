@@ -30,7 +30,7 @@
 	<switches></switches>
 
 	<rom index="1"></rom>
-	<rom index="0" md5="954c08ff813bcea4e5901144def9f618" zip="dotrikun.zip">
+	<rom index="0" md5="954c08ff813bcea4e5901144def9f618" zip="dotrikun.zip|dotriman.zip">
 		<part crc="4ba6d2f5" name="dotriman/14479a.mpr"/>
 	</rom>
 	<rom index="2"></rom>

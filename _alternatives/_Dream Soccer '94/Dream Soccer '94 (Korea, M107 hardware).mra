@@ -27,7 +27,7 @@
     </switches>
 
 
-    <rom index="0" zip="dsoccr94.zip" md5="None" address="0x30000000">
+    <rom index="0" zip="dsoccr94.zip|dsoccr94k.zip" md5="None" address="0x30000000">
         <!-- board type -->
         <part>16</part>
 

@@ -46,7 +46,7 @@
 	</switches>
 
 	<rom index="1"/>
-	<rom index="0" md5="41f6ab9f65c1fa9a8349362de0642a00" type="merged" zip="galaga.zip|namco51.zip|namco54.zip">
+	<rom index="0" md5="41f6ab9f65c1fa9a8349362de0642a00" type="merged" zip="galaga.zip|galagao.zip|namco51.zip|namco54.zip">
 		<!-- main cpu -->
                 <part crc="ab036c9f" name="gg1_1b.3p"/>
                 <part crc="d9232240" name="gg1_2b.3m"/>

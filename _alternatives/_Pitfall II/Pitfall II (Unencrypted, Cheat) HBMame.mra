@@ -37,7 +37,7 @@
 	<rom index="1">
 		<part>04</part>
 		</rom>
-	<rom index="0" md5="5d980b519dcd328d21dc2c6ff941f0a0" type="merged|nonmerged|split" zip="pitfall2.zip">
+	<rom index="0" md5="5d980b519dcd328d21dc2c6ff941f0a0" type="merged|nonmerged|split" zip="pitfall2.zip|pitfall2u.zip">
 		<part crc="bcb47ed6" name="pitfall2u/epr-6623.116"></part>
 		<part crc="6e8b09c1" name="pitfall2u/epr-6624a.109"></part>
 		<part crc="dc5484ba" name="pitfall2u/epr-6625.96"></part>

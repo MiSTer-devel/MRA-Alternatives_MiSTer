@@ -25,7 +25,7 @@
 		<dip bits="30" name="Infinite Lives" ids="Yes,No"/>
 		<dip bits="31" name="Coin Slots" ids="Aonly,AandB"/>
 	</switches>
-	<rom index="0" md5="none" zip="junglek.zip" type="merged|nonmerged">
+	<rom index="0" md5="none" zip="junglek.zip|jungleh.zip" type="merged|nonmerged">
 		<!-- Main CPU - Pass 1 (base + bank 0) [0x8000/0x8000] -->
 		<part crc="6bf118d8" name="kn41a"/>
 		<part crc="bade53af" name="kn42.bin"/>

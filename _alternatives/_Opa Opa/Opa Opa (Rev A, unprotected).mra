@@ -39,7 +39,7 @@
 		<dip name="Service Mode" bits="19" ids="On,Off"/>
 	</switches>
 
-	<rom index="0" zip="opaopa.zip" type="merged" md5="ba808106e6351b3da18f529c8a81713c">
+	<rom index="0" zip="opaopa.zip|opaopan.zip" type="merged" md5="ba808106e6351b3da18f529c8a81713c">
 		<!-- banks, size: 0x40000 -->
 		<part crc="15203A42" name="epr-11022.ic5"/>
 		<part crc="B4E83340" name="epr-11021.ic4"/>

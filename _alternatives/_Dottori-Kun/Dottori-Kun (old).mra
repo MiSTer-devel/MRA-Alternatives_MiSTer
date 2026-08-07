@@ -30,7 +30,7 @@
 	<switches></switches>
 
 	<rom index="1"></rom>
-	<rom index="0" md5="c99fd1f37adfce53010de0cb17c74061" zip="dotrikun.zip">
+	<rom index="0" md5="c99fd1f37adfce53010de0cb17c74061" zip="dotrikun.zip|dotrikun2.zip">
 		<part crc="a6aa7fa5" name="dotrikun2/epr-13141.ic2"/>
 	</rom>
 	<rom index="2"></rom>

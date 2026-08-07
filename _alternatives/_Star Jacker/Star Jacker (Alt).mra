@@ -38,7 +38,7 @@
 	<rom index="1">
 		<part>06</part>
 		</rom>
-	<rom index="0" md5="5ada4b1ccbff2b2606af0e37b6b4948c" type="merged|nonmerged|split" zip="starjack.zip">
+	<rom index="0" md5="5ada4b1ccbff2b2606af0e37b6b4948c" type="merged|nonmerged|split" zip="starjack.zip|starjacks.zip">
 		<part crc="59a22a1f" name="starjacks/star_jacker_a1_ic29.129"></part>
 		<part crc="7f4597dc" name="starjacks/star_jacker_a1_ic30.130"></part>
 		<part crc="6074c046" name="starjacks/star_jacker_a1_ic31.131"></part>

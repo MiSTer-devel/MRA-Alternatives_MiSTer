@@ -37,7 +37,7 @@
          (marker EEPROM "XM" per Japan/Overseas invece di "OC" di Korea). NON dai DIP. -->
     <part>01</part>
   </rom>
-  <rom index="0" zip="nslasher.zip" md5="None">
+  <rom index="0" zip="nslasher.zip|nslashers.zip" md5="None">
     <!-- 2026-07-09 decrypt runtime RIATTIVATO (prima luce col bypass provata):
          ROM STOCK mainprg.1f/2f + interleave map= (VALIDATO sul ferro 2026-07-10:
          DIFF=0 vs main_phys_enc.bin offline + boot identico). Niente enc.zip.

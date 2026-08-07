@@ -30,7 +30,7 @@
         <dip bits="15"          name="Cabinet type" ids="upright,cocktail"/>
     </switches>
 
-    <rom index='0' md5="None" type='nonmerged' zip='suprlocoo.zip'>
+    <rom index='0' md5="None" type='nonmerged' zip='suprloco.zip|suprlocoo.zip'>
         <!-- game program 0     0x00000-0x03fff -->
         <part crc="57f514dd" name="epr-5226.37"/>
         <!-- game program 1     0x04000-0x07fff -->

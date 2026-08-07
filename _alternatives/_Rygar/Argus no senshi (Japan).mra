@@ -26,7 +26,7 @@
   </rom>
 
   <!-- ROM data -->
-  <rom index="0" zip="rygar.zip" md5="a6f8c80ce1df99cb40c61fe0b8b63cb0">
+  <rom index="0" zip="rygar.zip|rygarj.zip" md5="a6f8c80ce1df99cb40c61fe0b8b63cb0">
     <!-- main cpu -->
     <part crc="b39698ba" name="rygarj/cpuj_5p.bin" />
     <part crc="3f180979" name="rygarj/cpuj_5m.bin" />

@@ -38,7 +38,7 @@
 		</switches>
 
 	<rom index="1"></rom>
-	<rom index="0" md5="none" zip="arkanoid.zip|arkatayt.zip">
+	<rom index="0" md5="none" zip="arkanoid.zip|arkanoiduo.zip|arkatayt.zip">
 		<part crc="154e2c6f" name="ic81-v.3f"></part>
 		<part crc="4fa8cefa" name="ic82-w.5f"></part>
 		<part crc="038b74ba" name="a75-03.ic64"></part>
