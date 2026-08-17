@@ -1,6 +1,7 @@
 <misterromdescription>
 	<rbf>PsikyoSH2</rbf>
 	<setname>tgm2p</setname>
+	<mameversion>0127</mameversion>
 	<description>Tetris: The Absolute - The Grand Master 2 Plus</description>
 	<rotation>horizontal</rotation>
 	<year>2000</year>
@@ -12,7 +13,7 @@
 		<dip bits="6" name="Debug" ids="On,Off"/>
 	</switches>
 
-	<rom index="0" md5="" zip="tgm2.zip|tgm2p.zip" address="0x30000000">
+	<rom index="0" md5="" zip="tgm2p.zip|tgm2.zip" address="0x30000000">
 		<part repeat="0xC00000">00</part>
 		<interleave output="64">
 			<part crc="d77cff9c" name="81ts_3l.u6" map="125600" />

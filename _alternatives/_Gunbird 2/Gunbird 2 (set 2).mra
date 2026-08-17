@@ -1,6 +1,7 @@
 <misterromdescription>
 	<rbf>PsikyoSH2</rbf>
 	<setname>gunbird2a</setname>
+	<mameversion>0192</mameversion>
 	<description>Gunbird 2 (set 2)</description>
 	<rotation>Vertical (CCW)</rotation>
 	<year>1998</year>
@@ -12,7 +13,7 @@
 		<dip bits="6" name="Debug" ids="On,Off"/>
 	</switches>
 
-	<rom index="0" md5="" zip="gunbird2.zip|gunbird2a.zip" address="0x30000000">
+	<rom index="0" md5="" zip="gunbird2a.zip|gunbird2.zip" address="0x30000000">
 		<interleave output="64">
 			<part crc="5c826bc8" name="0l.u3" map="125600" />
 			<part crc="3df0cb6c" name="0h.u10" map="1256" />

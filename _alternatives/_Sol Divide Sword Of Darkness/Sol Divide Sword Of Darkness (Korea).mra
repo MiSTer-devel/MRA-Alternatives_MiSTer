@@ -1,6 +1,7 @@
 <misterromdescription>
 	<rbf>PsikyoSH2</rbf>
 	<setname>soldividk</setname>
+	<mameversion>0233</mameversion>
 	<description>Sol Divide: Sword Of Darkness (Korea)</description>
 	<rotation>horizontal</rotation>
 	<year>1997</year>
@@ -11,7 +12,7 @@
 		<dip bits="6" name="Debug" ids="On,Off"/>
 	</switches>
 
-	<rom index="0" md5="" zip="soldivid.zip|soldividk.zip" address="0x30000000">
+	<rom index="0" md5="" zip="soldividk.zip|soldivid.zip" address="0x30000000">
 		<part repeat="0x2000000">00</part>
 		<interleave output="64">
 			<part crc="9eb9f269" name="4l.u10" map="216500" />

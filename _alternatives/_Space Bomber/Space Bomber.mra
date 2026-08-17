@@ -1,6 +1,7 @@
 <misterromdescription>
 	<rbf>PsikyoSH2</rbf>
 	<setname>sbombera</setname>
+	<mameversion>0141</mameversion>
 	<description>Space Bomber</description>
 	<rotation>Vertical (CCW)</rotation>
 	<year>1998</year>
@@ -12,7 +13,7 @@
 		<dip bits="6" name="Debug" ids="On,Off"/>
 	</switches>
 
-	<rom index="0" md5="" zip="sbomber.zip|sbombera.zip" address="0x30000000">
+	<rom index="0" md5="" zip="sbombera.zip|sbomber.zip" address="0x30000000">
 		<interleave output="64">
 			<part crc="b7e4ac51" name="0l.u4" map="125600" />
 			<part crc="235e6c27" name="0h.u13" map="1256" />

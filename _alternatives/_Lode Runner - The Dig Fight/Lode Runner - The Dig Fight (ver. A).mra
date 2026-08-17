@@ -1,6 +1,7 @@
 <misterromdescription>
 	<rbf>PsikyoSH2</rbf>
 	<setname>loderndfa</setname>
+	<mameversion>0133</mameversion>
 	<description>Lode Runner - The Dig Fight (ver. A)</description>
 	<rotation>horizontal</rotation>
 	<year>2000</year>
@@ -12,7 +13,7 @@
 		<dip bits="6" name="Debug" ids="On,Off"/>
 	</switches>
 
-	<rom index="0" md5="" zip="loderndf.zip|loderndfa.zip" address="0x30000000">
+	<rom index="0" md5="" zip="loderndfa.zip|loderndf.zip" address="0x30000000">
 		<interleave output="64">
 			<part crc="ccae855d" name="0l.u2" map="125600" />
 			<part crc="7a146c59" name="0h.u11" map="1256" />
