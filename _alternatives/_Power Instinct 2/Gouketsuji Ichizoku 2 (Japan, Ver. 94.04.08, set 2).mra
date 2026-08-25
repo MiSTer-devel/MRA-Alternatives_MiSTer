@@ -1,6 +1,6 @@
 <misterromdescription>
   <name>Gouketsuji Ichizoku 2 (Japan, Ver. 94.04.08, set 2)</name>
-  <mameversion>0275</mameversion>
+  <mameversion>0289</mameversion>
   <setname>pwrinst2ja</setname>
   <year>1994</year>
   <manufacturer>Atlus</manufacturer>
@@ -81,5 +81,5 @@
     <part>0140 00f0 0020 0008 001A 0002 0000 0000</part>
   </rom>
 
-  <buttons names="Button 1,Button 2,Button 3,Button 4,Start,Coin,Pause" default="Y,X,B,A,R,L,Start" />
+  <buttons names="Weak Punch,Weak Kick,Strong Punch,Strong Kick,Start,Coin,Pause,-,-,SS" default="Y,X,B,A,R,L,Start" />
 </misterromdescription>

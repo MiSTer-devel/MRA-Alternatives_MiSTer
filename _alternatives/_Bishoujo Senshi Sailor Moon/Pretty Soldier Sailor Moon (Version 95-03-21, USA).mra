@@ -1,6 +1,6 @@
 <misterromdescription>
   <name>Pretty Soldier Sailor Moon (Version 95/03/21, USA)</name>
-  <mameversion>0275</mameversion>
+  <mameversion>0289</mameversion>
   <setname>sailormnou</setname>
   <year>1995</year>
   <manufacturer>Gazelle (Banpresto license)</manufacturer>
@@ -63,8 +63,21 @@
     <part>03</part>
   </rom>
 
+  <!-- MAME hiscore range: 0x10944f+0x47 -->
+  <rom index="5">
+    <part>00 10 94 4f 00 47 02 05</part>
+  </rom>
+
+  <!-- Generated exact save-state identity; do not hand edit. -->
+  <rom index="4">
+    <part>
+      43 42 49 44 01 00 03 00 5f 04 37 6d 79 b0 17 b8
+      80 00 10 02 01 00 00 00 16 31 de ba f8 04 56 9f
+    </part>
+  </rom>
+
   <!-- NVRAM -->
-  <nvram index="2" size="128" />
+  <nvram index="2" size="392" />
 
   <!-- video timing -->
   <rom index="3">

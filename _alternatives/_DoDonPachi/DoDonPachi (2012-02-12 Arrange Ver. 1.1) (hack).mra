@@ -1,6 +1,6 @@
 <misterromdescription>
-  <name>DoDonPachi (20120212 Arrange Ver. 1.1)</name>
-  <mameversion>0226</mameversion>
+  <name>DoDonPachi (2012/02/12 Arrange Ver. 1.1) (hack)</name>
+  <mameversion>0289</mameversion>
   <setname>ddonpacha</setname>
   <year>2012</year>
   <manufacturer>Hack (trap15)</manufacturer>
@@ -9,7 +9,7 @@
   <rbf>cave</rbf>
 
   <!-- ROM data -->
-  <rom index="0" zip="ddonpach.zip|ddonpacha.zip" md5="none" address="0x30000000">
+  <rom index="0" zip="ddonpacha.zip|ddonpach.zip" md5="none" address="0x30000000">
     <!-- prog ROM -->
     <interleave output="16">
       <part name="arrange_u27.bin" crc="44b899ae" map="01" />
@@ -56,5 +56,5 @@
   <!-- NVRAM -->
   <nvram index="2" size="128" />
 
-  <buttons names="Shots/Laser,Spread/Laser Bomber,Full-Auto,-,Start,Coin,Pause" default="A,B,X,R,L,Start" />
+  <buttons names="Shot/Laser,Bomb,Full-Auto,-,Start,Coin,Pause,-,-,SS" default="A,B,X,R,L,Start" />
 </misterromdescription>

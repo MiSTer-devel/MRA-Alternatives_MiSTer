@@ -1,6 +1,6 @@
 <misterromdescription>
-  <name>ESP Ra.De. (Japan)</name>
-  <mameversion>0226</mameversion>
+  <name>ESP Ra.De. (Japan, 1998 4/21 Master Ver.) (Free Play hack)</name>
+  <mameversion>0289</mameversion>
   <setname>espradej_fp</setname>
   <year>1998</year>
   <manufacturer>CAVE</manufacturer>
@@ -71,5 +71,5 @@
     <!-- NVRAM -->
   <nvram index="2" size="128" />
 
-  <buttons names="Main Shot,Power Shot,Guard Barrier,-,Start,Coin,Pause" default="A,B,X,R,L,Start" />
+  <buttons names="Main Shot,Power Shot,Guard Barrier,-,Start,Coin,Pause,-,-,SS" default="A,B,X,R,L,Start" />
 </misterromdescription>

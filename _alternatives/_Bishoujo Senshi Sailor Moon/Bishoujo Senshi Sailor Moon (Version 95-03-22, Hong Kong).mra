@@ -1,6 +1,6 @@
 <misterromdescription>
   <name>Bishoujo Senshi Sailor Moon (Version 95/03/22, Hong Kong)</name>
-  <mameversion>0275</mameversion>
+  <mameversion>0289</mameversion>
   <setname>sailormnnh</setname>
   <year>1995</year>
   <manufacturer>Gazelle (Banpresto license)</manufacturer>
@@ -63,8 +63,21 @@
     <part>03</part>
   </rom>
 
+  <!-- MAME hiscore range: 0x10944f+0x47 -->
+  <rom index="5">
+    <part>00 10 94 4f 00 47 02 05</part>
+  </rom>
+
+  <!-- Generated exact save-state identity; do not hand edit. -->
+  <rom index="4">
+    <part>
+      43 42 49 44 01 00 03 00 78 6f 42 8a 03 29 b0 02
+      80 00 10 02 01 00 00 00 1c 0d be fa 5c 9b aa 25
+    </part>
+  </rom>
+
   <!-- NVRAM -->
-  <nvram index="2" size="128" />
+  <nvram index="2" size="392" />
 
   <!-- video timing -->
   <rom index="3">

@@ -1,6 +1,6 @@
 <misterromdescription>
   <name>DoDonPachi Trainer (Japan)</name>
-  <mameversion>0226</mameversion>
+  <mameversion>0289</mameversion>
   <setname>ddonpachjt</setname>
   <year>1997</year>
   <manufacturer>CAVE</manufacturer>
@@ -9,7 +9,7 @@
   <rbf>cave</rbf>
 
   <!-- ROM data -->
-  <rom index="0" zip="ddonpach.zip|ddonpachj.zip" md5="none" address="0x30000000">
+  <rom index="0" zip="ddonpachj.zip|ddonpach.zip" md5="none" address="0x30000000">
     <!-- prog ROM -->
     <interleave output="16">
       <part name="u27.bin" crc="2432ff9b" map="01" />
@@ -61,5 +61,8 @@
     <part>01</part>
   </rom>
 
-  <buttons names="Shots/Laser,Spread/Laser Bomber,Full-Auto,Start,Coin,Pause" default="A,B,X,R,L,Start" />
+  <!-- NVRAM -->
+  <nvram index="2" size="128" />
+
+  <buttons names="Shot/Laser,Bomb,Full-Auto,-,Start,Coin,Pause,-,-,SS" default="A,B,X,R,L,Start" />
 </misterromdescription>

@@ -1,19 +1,18 @@
 <misterromdescription>
   <name>Thunder Heroes (set 2)</name>
-  <mameversion>0226</mameversion>
+  <mameversion>0289</mameversion>
   <setname>theroesa</setname>
   <year>2001</year>
   <manufacturer>CAVE</manufacturer>
   <category>Fighting</category>
   <rbf>cave</rbf>
-  <rotation>horizontal</rotation>
 
   <!-- ROM data -->
   <rom index="0" zip="theroesa.zip|theroes.zip" md5="none" address="0x30000000">
     <!-- prog ROM -->
     <interleave output="16">
-      <part name="t-hero-epm1.u0127" crc="09db7195" map="01" />
-      <part name="t-hero-epm0.u0129" crc="2d4e3310" map="10" />
+      <part name="u0127" crc="a2c599a7" map="01" />
+      <part name="u0129" crc="f205a715" map="10" />
     </interleave>
 
     <!-- sound ROM -->
@@ -48,7 +47,7 @@
     <part>0140 00e0 0024 0018 0014 0002 0000 0000</part>
   </rom>
 
-  <buttons names="B0,B1,B2,B3,Start,Coin,Pause" default="A,B,X,Y,R,L,Start" />
+  <buttons names="Punch,Kick,Jump,Special,Start,Coin,Pause,-,-,SS" default="A,B,X,Y,R,L,Start" />
 
   <!-- DIPs -->
   <switches default="ff,ff">

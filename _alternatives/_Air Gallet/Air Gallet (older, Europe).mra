@@ -48,8 +48,21 @@
     <part>02</part>
   </rom>
 
+  <!-- MAME hiscore ranges: 0x100292+0x5a, 0x100200+0x02 -->
+  <rom index="5">
+    <part>00 10 02 92 00 5a 00 00 00 10 02 00 00 02 02 1a</part>
+  </rom>
+
+  <!-- Generated exact save-state identity; do not hand edit. -->
+  <rom index="4">
+    <part>
+      43 42 49 44 01 00 02 00 d9 dc 68 31 58 0d 28 ae
+      80 00 10 01 01 00 00 00 ab ff ec 9e 04 32 09 15
+    </part>
+  </rom>
+
   <!-- NVRAM -->
-  <nvram index="2" size="128" />
+  <nvram index="2" size="392" />
 
   <!-- video timing -->
   <rom index="3">
