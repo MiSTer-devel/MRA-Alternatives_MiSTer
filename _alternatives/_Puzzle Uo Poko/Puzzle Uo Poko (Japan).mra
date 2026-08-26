@@ -40,5 +40,5 @@
   <!-- high-score RAM: start, length, first/last initialization bytes -->
   <rom index="4"><part>00 10 00 38 00 6E 00 20</part></rom>
 
-  <buttons names="-,-,-,-,Start,Coin,Pause,-,-,SS" default="A,B,X,R,L,Start" />
+  <buttons names="-,-,-,-,Start,Coin,Pause,-,-,SS" default=",,,,R,L,Start" />
 </misterromdescription>

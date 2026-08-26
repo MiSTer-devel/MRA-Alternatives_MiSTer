@@ -59,5 +59,5 @@
   <!-- high-score RAM: start, length, first/last initialization bytes -->
   <rom index="4"><part>00 10 16 EA 00 64 00 05 00 10 16 26 00 04 00 06</part></rom>
 
-  <buttons names="Shot/Laser,Bomb,Full-Auto,-,Start,Coin,Pause,-,-,SS" default="A,B,X,R,L,Start" />
+  <buttons names="Shot/Laser,Bomb,Full-Auto,-,Start,Coin,Pause,-,-,SS" default="A,B,X,,R,L,Start" />
 </misterromdescription>
