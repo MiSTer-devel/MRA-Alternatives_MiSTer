@@ -30,7 +30,7 @@
 	<switches></switches>
 
 	<rom index="1"></rom>
-	<rom index="0" md5="676470c55f4dcc5fdc850deb5b572cfb" zip="pleiads.zip|pleiadsb2.zip">
+	<rom index="0" md5="676470c55f4dcc5fdc850deb5b572cfb" zip="pleiadsb2.zip|pleiads.zip">
 		<part crc="fa98cb73" name="ic47.r1"></part>
 		<part crc="b254217c" name="ic48.r2"></part>
 		<part crc="0951829e" name="ic47.bin"></part>

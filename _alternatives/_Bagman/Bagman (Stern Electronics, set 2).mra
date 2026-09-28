@@ -39,7 +39,7 @@
 	<rom index="1">
 		<part>00</part>
 		</rom>
-	<rom index="0" md5="none" zip="bagman.zip|bagmans4.zip">
+	<rom index="0" md5="none" zip="bagmans4.zip|bagman.zip">
 		<part crc="5fb0a1a3" name="a4_9e.bin"></part>
 		<part crc="7871206e" name="a4_9f.bin"></part>
 		<part crc="b2da8b77" name="a4_9j.bin"></part>

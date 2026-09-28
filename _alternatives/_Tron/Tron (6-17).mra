@@ -38,7 +38,7 @@
 	<rom index="1">
 		<part>1</part>
 		</rom>
-	<rom index="0" md5="839c976bad039ba07778080e1764ac0b" zip="tron.zip|tron3.zip">
+	<rom index="0" md5="839c976bad039ba07778080e1764ac0b" zip="tron3.zip|tron.zip">
 		<part crc="fc33afd7" name="scpu_pga.d2"></part>
 		<part crc="7d9e22ac" name="scpu_pgb.d3"></part>
 		<part crc="902011c6" name="scpu_pgc.d4"></part>
