@@ -38,7 +38,7 @@
 	<rom index="1">
 		<part>1</part>
 		</rom>
-	<rom index="0" md5="dc82360b2b38fb5d9902cea8386e4208" zip="tron.zip|tronger.zip">
+	<rom index="0" md5="dc82360b2b38fb5d9902cea8386e4208" zip="tronger.zip|tron.zip">
 		<part crc="ba14603d" name="pro0.d2"></part>
 		<part crc="063a748f" name="scpu_pgb.d3"></part>
 		<part crc="6ca50365" name="scpu_pgc.d4"></part>

@@ -18,7 +18,7 @@
 		<dip bits="6,7" name="Bonus Life" ids="20k 50k 30k+,30k 60k 30k+,40k 70k 30k+,None"></dip>
 	</switches>
 	<buttons names="Jump,Start 1P,Start 2P,Coin,Pause" default="A,Start,Select,R,L" />
-	<rom index="0" zip="mario.zip|marioja.zip" md5="None">
+	<rom index="0" zip="marioja.zip|mario.zip" md5="None">
 		<part crc="797770a3" name="tma1c-a1.7f"/>
 		<part crc="35ef2dc6" name="tma1c-a2.7e"/>
 		<part crc="6e25d1a8" name="tma1c-a1.7d"/>

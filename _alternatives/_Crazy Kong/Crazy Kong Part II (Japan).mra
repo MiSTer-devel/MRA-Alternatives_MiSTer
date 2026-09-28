@@ -30,7 +30,7 @@
 	<switches></switches>
 
 	<rom index="1"></rom>
-	<rom index="0" md5="23f887cae1e07a300820845e67954013" zip="ckongpt2.zip|ckongpt2j.zip">
+	<rom index="0" md5="23f887cae1e07a300820845e67954013" zip="ckongpt2j.zip|ckongpt2.zip">
 		<part crc="b27df032" name="7.5d"></part>
 		<part crc="5dc1aaba" name="8.5e"></part>
 		<part crc="c9054c94" name="9.5h"></part>
